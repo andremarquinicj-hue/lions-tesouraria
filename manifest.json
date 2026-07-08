@@ -1,0 +1,17 @@
+{
+  "name": "Lions Clube - Tesouraria",
+  "short_name": "Tesouraria",
+  "description": "Controle financeiro de contas a pagar e a receber do Lions Clube",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A2E6B",
+  "theme_color": "#0A2E6B",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='110' fill='%230A2E6B'/%3E%3Ctext x='256' y='350' font-size='270' text-anchor='middle' fill='%23E9A21B' font-family='Georgia'%3EL%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
