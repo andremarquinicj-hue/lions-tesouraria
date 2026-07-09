@@ -21,6 +21,7 @@
   --ink:#16233F; --cinza:#5F6B85; --cinza-2:#8A94AB;
   --verde:#147A4D; --verde-bg:#E7F5EE;
   --vermelho:#BF3A3A; --vermelho-bg:#FBEAEA;
+  --ambar:#8A6100; --ambar-bg:#FFF3D6;
   --sombra:0 1px 2px rgba(16,32,64,.05),0 8px 24px -12px rgba(16,32,64,.18);
   --raio:14px;
 }
@@ -48,6 +49,7 @@ h1,h2,h3,.display{font-family:'Archivo',sans-serif}
 .nav-item .ic{width:18px;text-align:center;flex-shrink:0;opacity:.9}
 .nav-item .saldo-mini{margin-left:auto;font-size:11.5px;color:#8FA5CE;font-weight:500}
 .nav-item.ativo .saldo-mini{color:#E9C77E}
+.nav-item .alerta-mini{margin-left:auto;background:#D64545;color:#fff;font-size:10.5px;font-weight:700;border-radius:99px;padding:1px 8px}
 .sidebar-foot{padding:12px 16px;border-top:1px solid rgba(255,255,255,.09);font-size:11.5px;color:#8FA5CE;display:flex;align-items:center;gap:8px}
 .modo-badge{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:99px;font-size:10.5px;font-weight:600;letter-spacing:.04em}
 .modo-nuvem{background:rgba(20,160,100,.22);color:#6FE3AE}
@@ -68,6 +70,8 @@ h1,h2,h3,.display{font-family:'Archivo',sans-serif}
 .btn-ouro:hover{background:var(--dourado-2)}
 .btn-azul{background:var(--azul-2);color:#fff}
 .btn-azul:hover{filter:brightness(1.12)}
+.btn-verde{background:var(--verde);color:#fff}
+.btn-verde:hover{filter:brightness(1.12)}
 .btn-borda{border:1.5px solid var(--linha-forte);background:var(--card);color:var(--ink)}
 .btn-borda:hover{background:var(--azul-claro)}
 .btn-perigo{background:var(--vermelho-bg);color:var(--vermelho)}
@@ -88,13 +92,14 @@ h1,h2,h3,.display{font-family:'Archivo',sans-serif}
 .kpi.destaque .pos{color:#7CE8B4}.kpi.destaque .neg{color:#FF9E9E}
 
 .grid-2{display:grid;grid-template-columns:1.55fr 1fr;gap:14px;margin-bottom:22px}
-.card-titulo{padding:16px 20px 0;font-size:15px;font-weight:700;display:flex;align-items:center;gap:8px}
+.card-titulo{padding:16px 20px 0;font-size:15px;font-weight:700;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .card-corpo{padding:14px 20px 20px}
 .chart-box{position:relative;height:265px}
 
-/* ===== livro caixa (assinatura visual) ===== */
-.livro{background:var(--card);border:1px solid var(--linha);border-radius:var(--raio);box-shadow:var(--sombra);overflow:hidden}
+/* ===== livro caixa ===== */
+.livro{background:var(--card);border:1px solid var(--linha);border-radius:var(--raio);box-shadow:var(--sombra);overflow:hidden;margin-bottom:22px}
 .livro-head{padding:18px 22px;display:flex;align-items:center;gap:14px;border-bottom:2px solid var(--azul);flex-wrap:wrap}
+.livro-head.neutra{border-bottom-color:var(--linha-forte)}
 .livro-head .faixa{width:5px;align-self:stretch;border-radius:4px}
 .livro-head h3{font-size:17px}
 .livro-head .desc{font-size:12.5px;color:var(--cinza)}
@@ -106,7 +111,7 @@ table.caderno{width:100%;border-collapse:collapse;min-width:680px}
 .caderno th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--cinza);font-weight:700;text-align:left;padding:11px 14px;background:var(--azul-claro);border-bottom:1px solid var(--linha-forte)}
 .caderno th.num,.caderno td.vnum{text-align:right}
 .caderno td{padding:11px 14px;border-bottom:1px solid var(--linha);font-size:14px;vertical-align:middle}
-.caderno tbody tr:hover{background:#F8FAFE;cursor:pointer}
+.caderno tbody tr.clicavel:hover{background:#F8FAFE;cursor:pointer}
 .caderno .data{white-space:nowrap;color:var(--cinza);font-size:13px}
 .caderno .desc-l{font-weight:500}
 .caderno .forma-tag{display:inline-block;font-size:11px;font-weight:600;padding:2.5px 8px;border-radius:6px;background:var(--azul-claro);color:var(--azul-2);margin-left:8px;white-space:nowrap}
@@ -117,6 +122,20 @@ table.caderno{width:100%;border-collapse:collapse;min-width:680px}
 .caderno tr.abertura td{color:var(--cinza);font-style:italic;background:#FAFBFD}
 .vazio{padding:44px 20px;text-align:center;color:var(--cinza)}
 .vazio b{display:block;color:var(--ink);margin-bottom:5px;font-size:15px}
+
+/* ===== chips de status ===== */
+.chip{display:inline-block;padding:3px 10px;border-radius:99px;font-size:11.5px;font-weight:700;white-space:nowrap}
+.chip-venc{background:var(--vermelho-bg);color:var(--vermelho)}
+.chip-hoje{background:var(--ambar-bg);color:var(--ambar)}
+.chip-prox{background:var(--ambar-bg);color:var(--ambar)}
+.chip-fut{background:var(--azul-claro);color:var(--azul-2)}
+.chip-ok{background:var(--verde-bg);color:var(--verde)}
+.chip-rec{background:var(--verde-bg);color:var(--verde)}
+.chip-pag{background:var(--vermelho-bg);color:var(--vermelho)}
+
+/* ===== barra de adimplência ===== */
+.barra{height:9px;background:var(--linha);border-radius:99px;overflow:hidden;flex:1;min-width:120px}
+.barra i{display:block;height:100%;background:var(--verde);border-radius:99px;transition:width .3s}
 
 /* ===== filtros / formulários ===== */
 .linha-acoes{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap}
@@ -136,6 +155,7 @@ table.caderno{width:100%;border-collapse:collapse;min-width:680px}
 .modal h3{font-size:18px;margin-bottom:16px}
 .modal-acoes{display:flex;gap:10px;margin-top:18px}
 .modal-acoes .btn{flex:1;justify-content:center}
+.erro-pin{color:var(--vermelho);font-size:13px;margin-bottom:10px}
 
 /* ===== relatório ===== */
 .rel-controles{display:flex;gap:10px;align-items:end;flex-wrap:wrap;margin-bottom:20px}
@@ -161,6 +181,9 @@ table.rel{width:100%;border-collapse:collapse;font-size:13.5px}
 .conta-cfg{display:grid;grid-template-columns:44px 1fr 150px;gap:10px;align-items:center;padding:12px 0;border-bottom:1px solid var(--linha)}
 .conta-cfg input[type=color]{width:40px;height:40px;border:none;border-radius:9px;padding:0;background:none;cursor:pointer}
 .conta-cfg input[type=text],.conta-cfg input[type=number]{padding:9px 11px;border:1.5px solid var(--linha-forte);border-radius:8px;width:100%}
+.socio-cfg{display:grid;grid-template-columns:1fr 130px 84px 40px;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid var(--linha)}
+.socio-cfg input{padding:9px 11px;border:1.5px solid var(--linha-forte);border-radius:8px;width:100%}
+.socio-cfg label.chk{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--cinza);cursor:pointer}
 
 /* ===== auth ===== */
 .tela-auth{min-height:100vh;display:grid;place-items:center;background:linear-gradient(160deg,var(--azul) 0%,#081F4A 70%);padding:20px}
@@ -169,7 +192,6 @@ table.rel{width:100%;border-collapse:collapse;font-size:13.5px}
 .caixa-auth h2{font-size:20px;margin-bottom:6px}
 .caixa-auth p{font-size:13.5px;color:var(--cinza);margin-bottom:20px}
 .caixa-auth input{width:100%;padding:13px;border:1.5px solid var(--linha-forte);border-radius:10px;text-align:center;font-size:22px;letter-spacing:.4em;margin-bottom:14px}
-.erro-pin{color:var(--vermelho);font-size:13px;margin-bottom:10px}
 
 /* ===== responsivo ===== */
 @media (max-width: 920px){
@@ -181,6 +203,7 @@ table.rel{width:100%;border-collapse:collapse;font-size:13.5px}
   .conteudo{padding:16px 14px 80px}
   .folha{padding:24px 18px}
   .escurece{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:35}
+  .socio-cfg{grid-template-columns:1fr 100px 70px 34px}
 }
 
 /* ===== impressão ===== */
@@ -205,13 +228,7 @@ import htm from 'https://esm.sh/htm@3.1.1';
 const html = htm.bind(h);
 
 /* ============================================================
-   CONFIGURAÇÃO DO FIREBASE (opcional)
-   ------------------------------------------------------------
-   1. Crie um projeto em https://console.firebase.google.com
-   2. Ative o Firestore Database
-   3. Em "Configurações do projeto → Seus apps → Web", copie o
-      objeto de configuração e cole abaixo no lugar de `null`.
-   Sem isso, o sistema funciona 100% em modo local (localStorage).
+   CONFIGURAÇÃO DO FIREBASE
    ============================================================ */
 const FIREBASE_CONFIG = {
   apiKey: "AIzaSyA6Bq1BfHEprfwW7shruaJ8YPuVu270Pq0",
@@ -242,53 +259,75 @@ function contasPadrao(){
   ];
 }
 function configPadrao(){
-  return { nomeClube:'Lions Clube', contas: contasPadrao(), pinHash: null, pinDefinido:false };
+  return { nomeClube:'Lions Clube', contas: contasPadrao(), pinHash: null, pinDefinido:false,
+           socios:[], valorMensalidade:0, contaMensalidades:'c1' };
 }
 
 /* ================= camada de dados ================= */
-const LS_CFG='lions_cfg_v1', LS_LAN='lions_lan_v1';
+const LS_CFG='lions_cfg_v1', LS_LAN='lions_lan_v1', LS_CMP='lions_cmp_v1', LS_MEN='lions_men_v1';
+const novoId = p => p + Date.now() + Math.random().toString(36).slice(2,7);
 
 function criarBackend(onData){
   if (db) {
-    let cfg=null, lan=[], prontoCfg=false, prontoLan=false;
-    const emitir=()=>{ if(prontoCfg&&prontoLan) onData({config:cfg, lancamentos:lan, modo:'nuvem'}); };
+    let cfg=null, lan=[], cmp=[], men=[];
+    let pr={c:false,l:false,p:false,m:false};
+    const emitir=()=>{ if(pr.c&&pr.l&&pr.p&&pr.m) onData({config:cfg, lancamentos:lan, compromissos:cmp, mensalidades:men, modo:'nuvem'}); };
     db.collection('lions').doc('config').onSnapshot(s=>{
       if(s.exists){ cfg=s.data(); } else { cfg=configPadrao(); db.collection('lions').doc('config').set(cfg); }
-      prontoCfg=true; emitir();
+      pr.c=true; emitir();
     });
-    db.collection('lions_lancamentos').onSnapshot(s=>{
-      lan=s.docs.map(d=>({id:d.id, ...d.data()})); prontoLan=true; emitir();
-    });
+    db.collection('lions_lancamentos').onSnapshot(s=>{ lan=s.docs.map(d=>({id:d.id, ...d.data()})); pr.l=true; emitir(); });
+    db.collection('lions_compromissos').onSnapshot(s=>{ cmp=s.docs.map(d=>({id:d.id, ...d.data()})); pr.p=true; emitir(); });
+    db.collection('lions_mensalidades').onSnapshot(s=>{ men=s.docs.map(d=>({id:d.id, ...d.data()})); pr.m=true; emitir(); });
     return {
       modo:'nuvem',
       salvarConfig:c=>db.collection('lions').doc('config').set(c),
-      addLanc:l=>db.collection('lions_lancamentos').add(l),
+      addLanc:async l=>{ const r=await db.collection('lions_lancamentos').add(l); return r.id; },
       editLanc:(id,l)=>db.collection('lions_lancamentos').doc(id).set(l),
       delLanc:id=>db.collection('lions_lancamentos').doc(id).delete(),
-      importar:async (cfg,lans)=>{
-        await db.collection('lions').doc('config').set(cfg);
-        const batch=db.batch();
-        lans.forEach(l=>{ const {id,...resto}=l; batch.set(db.collection('lions_lancamentos').doc(id||undefined), resto); });
-        await batch.commit();
+      addComp:async c=>{ const r=await db.collection('lions_compromissos').add(c); return r.id; },
+      editComp:(id,c)=>db.collection('lions_compromissos').doc(id).set(c),
+      delComp:id=>db.collection('lions_compromissos').doc(id).delete(),
+      addMens:async m=>{ const r=await db.collection('lions_mensalidades').add(m); return r.id; },
+      delMens:id=>db.collection('lions_mensalidades').doc(id).delete(),
+      importar:async (c,ls,cs,ms)=>{
+        await db.collection('lions').doc('config').set(c);
+        const gravar=async(col,items)=>{
+          const batch=db.batch();
+          (items||[]).forEach(it=>{ const {id,...resto}=it; const ref=id?db.collection(col).doc(id):db.collection(col).doc(); batch.set(ref,resto); });
+          await batch.commit();
+        };
+        await gravar('lions_lancamentos',ls);
+        await gravar('lions_compromissos',cs);
+        await gravar('lions_mensalidades',ms);
       }
     };
   }
   // modo local
   let cfg = JSON.parse(localStorage.getItem(LS_CFG)||'null') || configPadrao();
   let lan = JSON.parse(localStorage.getItem(LS_LAN)||'[]');
+  let cmp = JSON.parse(localStorage.getItem(LS_CMP)||'[]');
+  let men = JSON.parse(localStorage.getItem(LS_MEN)||'[]');
   const persistir=()=>{
     localStorage.setItem(LS_CFG, JSON.stringify(cfg));
     localStorage.setItem(LS_LAN, JSON.stringify(lan));
-    onData({config:cfg, lancamentos:lan, modo:'local'});
+    localStorage.setItem(LS_CMP, JSON.stringify(cmp));
+    localStorage.setItem(LS_MEN, JSON.stringify(men));
+    onData({config:cfg, lancamentos:lan, compromissos:cmp, mensalidades:men, modo:'local'});
   };
   setTimeout(persistir,0);
   return {
     modo:'local',
     salvarConfig:c=>{cfg=c; persistir();},
-    addLanc:l=>{lan=[...lan,{...l,id:'l'+Date.now()+Math.random().toString(36).slice(2,7)}]; persistir();},
+    addLanc:async l=>{const id=novoId('l'); lan=[...lan,{...l,id}]; persistir(); return id;},
     editLanc:(id,l)=>{lan=lan.map(x=>x.id===id?{...l,id}:x); persistir();},
     delLanc:id=>{lan=lan.filter(x=>x.id!==id); persistir();},
-    importar:async(c,ls)=>{cfg=c; lan=ls; persistir();}
+    addComp:async c=>{const id=novoId('p'); cmp=[...cmp,{...c,id}]; persistir(); return id;},
+    editComp:(id,c)=>{cmp=cmp.map(x=>x.id===id?{...c,id}:x); persistir();},
+    delComp:id=>{cmp=cmp.filter(x=>x.id!==id); persistir();},
+    addMens:async m=>{const id=novoId('m'); men=[...men,{...m,id}]; persistir(); return id;},
+    delMens:id=>{men=men.filter(x=>x.id!==id); persistir();},
+    importar:async(c,ls,cs,ms)=>{cfg=c; lan=ls||[]; cmp=cs||[]; men=ms||[]; persistir();}
   };
 }
 
@@ -299,12 +338,18 @@ const hoje = () => new Date().toISOString().slice(0,10);
 const mesAtual = () => new Date().toISOString().slice(0,7);
 const MESES = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
 const nomeMes = ym => { const [a,m]=ym.split('-'); return `${MESES[+m-1]} de ${a}`; };
-
+const diffDias = venc => Math.round((new Date(venc+'T12:00')-new Date(hoje()+'T12:00'))/86400000);
+function addMeses(ymd, n){
+  const [a,m,d]=ymd.split('-').map(Number);
+  const alvo=new Date(a, m-1+n, 1);
+  const ultimo=new Date(alvo.getFullYear(), alvo.getMonth()+1, 0).getDate();
+  const dia=Math.min(d, ultimo);
+  return `${alvo.getFullYear()}-${String(alvo.getMonth()+1).padStart(2,'0')}-${String(dia).padStart(2,'0')}`;
+}
 async function sha256(txt){
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(txt));
   return [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,'0')).join('');
 }
-
 function ordenar(lans){
   return [...lans].sort((a,b)=> a.data===b.data ? (a.criadoEm||0)-(b.criadoEm||0) : (a.data<b.data?-1:1));
 }
@@ -322,7 +367,14 @@ function saldoConta(conta, lans, ateData){
   }
   return s;
 }
-
+function chipVencimento(c){
+  if(c.status==='pago') return html`<span class="chip chip-ok">Pago ${c.pagoEm?('em '+fmtData(c.pagoEm)):''}</span>`;
+  const d = diffDias(c.vencimento);
+  if(d<0) return html`<span class="chip chip-venc">Vencido há ${-d} dia${-d>1?'s':''}</span>`;
+  if(d===0) return html`<span class="chip chip-hoje">Vence hoje</span>`;
+  if(d<=7) return html`<span class="chip chip-prox">Vence em ${d} dia${d>1?'s':''}</span>`;
+  return html`<span class="chip chip-fut">${fmtData(c.vencimento)}</span>`;
+}
 function baixarArquivo(nome, conteudo, tipo='text/csv;charset=utf-8'){
   const blob = new Blob(['\uFEFF'+conteudo], {type:tipo});
   const a = document.createElement('a');
@@ -387,7 +439,7 @@ function GraficoContas({config, lancamentos}){
   return html`<div class="chart-box"><canvas ref=${ref}></canvas></div>`;
 }
 
-/* ================= modal de lançamento ================= */
+/* ================= modal: lançamento ================= */
 function ModalLancamento({config, backend, fechar, contaInicial, editar}){
   const [data, setData] = useState(editar?.data || hoje());
   const [contaId, setContaId] = useState(editar?.contaId || contaInicial || config.contas[0].id);
@@ -444,16 +496,397 @@ function ModalLancamento({config, backend, fechar, contaInicial, editar}){
     </div>`;
 }
 
+/* ================= modal: compromisso (conta a vencer) ================= */
+function ModalCompromisso({config, backend, fechar, editar}){
+  const [vencimento, setVencimento] = useState(editar?.vencimento || hoje());
+  const [contaId, setContaId] = useState(editar?.contaId || config.contas[0].id);
+  const [tipo, setTipo] = useState(editar?.tipo || 'pagar');
+  const [forma, setForma] = useState(editar?.forma || 'Boleto');
+  const [descricao, setDescricao] = useState(editar?.descricao || '');
+  const [valor, setValor] = useState(editar?.valor ?? '');
+  const [repetir, setRepetir] = useState(1);
+  const [erro, setErro] = useState('');
+
+  const salvar = async () => {
+    const v = parseFloat(valor);
+    if(!descricao.trim()){ setErro('Informe a descrição.'); return; }
+    if(!v || v<=0){ setErro('Informe um valor maior que zero.'); return; }
+    if(editar){
+      backend.editComp(editar.id, {...editar, vencimento, contaId, tipo, forma, descricao:descricao.trim(), valor:v});
+    } else {
+      const n = Math.max(1, +repetir);
+      for(let i=0;i<n;i++){
+        await backend.addComp({ vencimento: addMeses(vencimento,i), contaId, tipo, forma,
+          descricao: descricao.trim() + (n>1?` (${i+1}/${n})`:''), valor:v, status:'aberto', criadoEm: Date.now()+i });
+      }
+    }
+    fechar();
+  };
+  const excluir = () => {
+    if(confirm('Excluir este compromisso?')){ backend.delComp(editar.id); fechar(); }
+  };
+
+  return html`
+    <div class="fundo-modal" onClick=${e=>{if(e.target===e.currentTarget)fechar();}}>
+      <div class="modal">
+        <h3>${editar?'Editar compromisso':'Nova conta a vencer'}</h3>
+        <div class="toggle-tipo">
+          <button class=${tipo==='receber'?'on-cre':''} onClick=${()=>setTipo('receber')}>↑ A receber</button>
+          <button class=${tipo==='pagar'?'on-deb':''} onClick=${()=>setTipo('pagar')}>↓ A pagar</button>
+        </div>
+        <div class="duo">
+          <div class="campo"><label>Vencimento</label><input type="date" value=${vencimento} onInput=${e=>setVencimento(e.target.value)} /></div>
+          <div class="campo"><label>Valor (R$)</label><input type="number" step="0.01" min="0" inputmode="decimal" placeholder="0,00" value=${valor} onInput=${e=>setValor(e.target.value)} /></div>
+        </div>
+        <div class="campo"><label>Conta</label>
+          <select value=${contaId} onChange=${e=>setContaId(e.target.value)}>
+            ${config.contas.map(c=>html`<option value=${c.id}>${c.nome}</option>`)}
+          </select>
+        </div>
+        <div class="campo"><label>Forma prevista</label>
+          <select value=${forma} onChange=${e=>setForma(e.target.value)}>
+            ${FORMAS.map(f=>html`<option value=${f}>${f}</option>`)}
+          </select>
+        </div>
+        <div class="campo"><label>Descrição</label>
+          <input type="text" placeholder=${tipo==='pagar'?'Ex.: Boleto energia da sede':'Ex.: Patrocínio jantar beneficente'} value=${descricao} onInput=${e=>setDescricao(e.target.value)} />
+        </div>
+        ${!editar && html`
+          <div class="campo"><label>Repetir mensalmente</label>
+            <select value=${repetir} onChange=${e=>setRepetir(e.target.value)}>
+              <option value="1">Não repete (só este mês)</option>
+              ${[2,3,4,5,6,7,8,9,10,11,12].map(n=>html`<option value=${n}>${n} meses</option>`)}
+            </select>
+          </div>`}
+        ${erro && html`<div class="erro-pin">${erro}</div>`}
+        <div class="modal-acoes">
+          ${editar && html`<button class="btn btn-perigo" onClick=${excluir}>Excluir</button>`}
+          <button class="btn btn-borda" onClick=${fechar}>Cancelar</button>
+          <button class="btn btn-ouro" onClick=${salvar}>${editar?'Salvar':'Agendar'}</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+/* ================= modal: dar baixa ================= */
+function ModalBaixa({comp, config, backend, fechar}){
+  const [dataPag, setDataPag] = useState(hoje());
+  const [forma, setForma] = useState(comp.forma || 'Boleto');
+  const conta = config.contas.find(c=>c.id===comp.contaId);
+
+  const confirmar = async () => {
+    const lancId = await backend.addLanc({
+      data: dataPag, contaId: comp.contaId,
+      tipo: comp.tipo==='receber' ? 'credito' : 'debito',
+      forma, descricao: comp.descricao, valor: comp.valor, criadoEm: Date.now()
+    });
+    backend.editComp(comp.id, {...comp, status:'pago', pagoEm:dataPag, lancamentoId:lancId});
+    fechar();
+  };
+
+  return html`
+    <div class="fundo-modal" onClick=${e=>{if(e.target===e.currentTarget)fechar();}}>
+      <div class="modal">
+        <h3>Dar baixa — ${comp.tipo==='receber'?'recebimento':'pagamento'}</h3>
+        <p style="font-size:14px;color:var(--cinza);margin-bottom:14px">
+          <b style="color:var(--ink)">${comp.descricao}</b><br/>
+          ${fmt(comp.valor)} · Conta ${conta?.nome||''} · venc. ${fmtData(comp.vencimento)}
+        </p>
+        <div class="duo">
+          <div class="campo"><label>Data do ${comp.tipo==='receber'?'recebimento':'pagamento'}</label>
+            <input type="date" value=${dataPag} onInput=${e=>setDataPag(e.target.value)} /></div>
+          <div class="campo"><label>Forma</label>
+            <select value=${forma} onChange=${e=>setForma(e.target.value)}>
+              ${FORMAS.map(f=>html`<option value=${f}>${f}</option>`)}
+            </select></div>
+        </div>
+        <p style="font-size:12.5px;color:var(--cinza)">Ao confirmar, o lançamento entra automaticamente no livro caixa da conta.</p>
+        <div class="modal-acoes">
+          <button class="btn btn-borda" onClick=${fechar}>Cancelar</button>
+          <button class="btn btn-verde" onClick=${confirmar}>Confirmar baixa</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+/* ================= página: contas a vencer ================= */
+function PaginaVencimentos({config, backend, compromissos, abrirComp, abrirBaixa}){
+  const [filtro, setFiltro] = useState('abertos');
+  const mapa = Object.fromEntries(config.contas.map(c=>[c.id,c]));
+  const lista = [...compromissos]
+    .filter(c=> filtro==='todos' ? true : filtro==='abertos' ? c.status==='aberto' : c.status==='pago')
+    .sort((a,b)=> a.vencimento<b.vencimento?-1:1);
+  const abertos = compromissos.filter(c=>c.status==='aberto');
+  const em30 = abertos.filter(c=>{const d=diffDias(c.vencimento); return d<=30;});
+  const aPagar30 = em30.filter(c=>c.tipo==='pagar').reduce((s,c)=>s+c.valor,0);
+  const aReceber30 = em30.filter(c=>c.tipo==='receber').reduce((s,c)=>s+c.valor,0);
+  const vencidos = abertos.filter(c=>diffDias(c.vencimento)<0);
+
+  const desfazer = c => {
+    if(!confirm('Desfazer a baixa? O lançamento correspondente será removido do livro caixa.')) return;
+    if(c.lancamentoId) backend.delLanc(c.lancamentoId);
+    const {pagoEm, lancamentoId, ...resto} = c;
+    backend.editComp(c.id, {...resto, status:'aberto'});
+  };
+
+  return html`
+    <div>
+      <div class="grid-cards">
+        <div class="card kpi">
+          <div class="rotulo"><span style="color:var(--vermelho)">●</span> A pagar (30 dias)</div>
+          <div class="valor num neg">${fmt(aPagar30)}</div>
+          <div class="extra">${em30.filter(c=>c.tipo==='pagar').length} compromissos</div>
+        </div>
+        <div class="card kpi">
+          <div class="rotulo"><span style="color:var(--verde)">●</span> A receber (30 dias)</div>
+          <div class="valor num pos">${fmt(aReceber30)}</div>
+          <div class="extra">${em30.filter(c=>c.tipo==='receber').length} previstos</div>
+        </div>
+        <div class="card kpi">
+          <div class="rotulo">⚠ Vencidos em aberto</div>
+          <div class="valor num ${vencidos.length?'neg':''}">${vencidos.length}</div>
+          <div class="extra">${vencidos.length? fmt(vencidos.reduce((s,c)=>s+c.valor,0))+' pendentes':'tudo em dia 👏'}</div>
+        </div>
+      </div>
+
+      <div class="linha-acoes nao-imprime">
+        <div class="campo" style="margin:0">
+          <label>Mostrar</label>
+          <select value=${filtro} onChange=${e=>setFiltro(e.target.value)}>
+            <option value="abertos">Em aberto</option>
+            <option value="pagos">Baixados</option>
+            <option value="todos">Todos</option>
+          </select>
+        </div>
+        <div class="spacer"></div>
+        <button class="btn btn-ouro" style="align-self:end" onClick=${()=>abrirComp(null)}>+ Nova conta a vencer</button>
+      </div>
+
+      <div class="livro">
+        ${lista.length===0 ? html`
+          <div class="vazio"><b>Nenhum compromisso ${filtro==='abertos'?'em aberto':filtro==='pagos'?'baixado':''}</b>Agende boletos e recebimentos futuros para acompanhar os vencimentos.</div>
+        ` : html`
+          <div class="tabela-wrap"><table class="caderno">
+            <thead><tr><th>Vencimento</th><th>Descrição</th><th>Conta</th><th>Tipo</th><th class="num">Valor</th><th>Status</th><th class="nao-imprime"></th></tr></thead>
+            <tbody>
+              ${lista.map(c=>html`
+                <tr>
+                  <td class="data num">${fmtData(c.vencimento)}</td>
+                  <td class="desc-l">${c.descricao}<span class="forma-tag">${c.forma}</span></td>
+                  <td><span class="forma-tag" style=${`background:${(mapa[c.contaId]?.cor||'#123F8F')}18;color:${mapa[c.contaId]?.cor||'#123F8F'};margin-left:0`}>${mapa[c.contaId]?.nome||'—'}</span></td>
+                  <td>${c.tipo==='receber'?html`<span class="chip chip-rec">Receber</span>`:html`<span class="chip chip-pag">Pagar</span>`}</td>
+                  <td class="vnum num" style="font-weight:600">${fmt(c.valor)}</td>
+                  <td>${chipVencimento(c)}</td>
+                  <td class="nao-imprime" style="white-space:nowrap;text-align:right">
+                    ${c.status==='aberto' ? html`
+                      <button class="btn btn-verde btn-mini" onClick=${()=>abrirBaixa(c)}>Dar baixa</button>
+                      <button class="btn btn-borda btn-mini" onClick=${()=>abrirComp(c)} title="Editar">✎</button>
+                    ` : html`
+                      <button class="btn btn-borda btn-mini" onClick=${()=>desfazer(c)}>Desfazer</button>
+                    `}
+                  </td>
+                </tr>`)}
+            </tbody>
+          </table></div>
+        `}
+      </div>
+    </div>`;
+}
+
+/* ================= página: mensalidades ================= */
+function ModalPagMensalidade({socio, mes, config, backend, fechar}){
+  const [data, setData] = useState(hoje());
+  const [forma, setForma] = useState('PIX');
+  const [valor, setValor] = useState(socio.valor || config.valorMensalidade || '');
+  const [contaId, setContaId] = useState(config.contaMensalidades || 'c1');
+  const [erro, setErro] = useState('');
+
+  const confirmar = async () => {
+    const v = parseFloat(valor);
+    if(!v || v<=0){ setErro('Informe o valor da mensalidade.'); return; }
+    const [a,m] = mes.split('-');
+    const lancId = await backend.addLanc({
+      data, contaId, tipo:'credito', forma,
+      descricao:`Mensalidade ${socio.nome} — ${MESES[+m-1]}/${a}`, valor:v, criadoEm:Date.now()
+    });
+    await backend.addMens({ socioId:socio.id, competencia:mes, valor:v, data, forma, lancamentoId:lancId, criadoEm:Date.now() });
+    fechar();
+  };
+
+  return html`
+    <div class="fundo-modal" onClick=${e=>{if(e.target===e.currentTarget)fechar();}}>
+      <div class="modal">
+        <h3>Receber mensalidade</h3>
+        <p style="font-size:14px;margin-bottom:14px"><b>${socio.nome}</b> · competência ${nomeMes(mes)}</p>
+        <div class="duo">
+          <div class="campo"><label>Data do pagamento</label><input type="date" value=${data} onInput=${e=>setData(e.target.value)} /></div>
+          <div class="campo"><label>Valor (R$)</label><input type="number" step="0.01" min="0" value=${valor} onInput=${e=>setValor(e.target.value)} /></div>
+        </div>
+        <div class="duo">
+          <div class="campo"><label>Forma</label>
+            <select value=${forma} onChange=${e=>setForma(e.target.value)}>
+              ${FORMAS.map(f=>html`<option value=${f}>${f}</option>`)}
+            </select></div>
+          <div class="campo"><label>Conta que recebe</label>
+            <select value=${contaId} onChange=${e=>setContaId(e.target.value)}>
+              ${config.contas.map(c=>html`<option value=${c.id}>${c.nome}</option>`)}
+            </select></div>
+        </div>
+        ${erro && html`<div class="erro-pin">${erro}</div>`}
+        <p style="font-size:12.5px;color:var(--cinza)">O recebimento entra automaticamente no livro caixa como entrada.</p>
+        <div class="modal-acoes">
+          <button class="btn btn-borda" onClick=${fechar}>Cancelar</button>
+          <button class="btn btn-verde" onClick=${confirmar}>Confirmar recebimento</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+function PaginaMensalidades({config, backend, mensalidades}){
+  const [mes, setMes] = useState(mesAtual());
+  const [modalPag, setModalPag] = useState(null);
+  const [gerenciar, setGerenciar] = useState(false);
+  const [socios, setSocios] = useState((config.socios||[]).map(s=>({...s})));
+  const [valorPadrao, setValorPadrao] = useState(config.valorMensalidade||0);
+  const [contaMens, setContaMens] = useState(config.contaMensalidades||'c1');
+  const [msg, setMsg] = useState('');
+
+  useEffect(()=>{ setSocios((config.socios||[]).map(s=>({...s}))); }, [config]);
+
+  const ativos = (config.socios||[]).filter(s=>s.ativo!==false);
+  const pagosDoMes = mensalidades.filter(m=>m.competencia===mes);
+  const mapaPag = Object.fromEntries(pagosDoMes.map(m=>[m.socioId,m]));
+  const previsto = ativos.reduce((s,x)=>s+(parseFloat(x.valor)||parseFloat(config.valorMensalidade)||0),0);
+  const recebido = pagosDoMes.reduce((s,m)=>s+m.valor,0);
+  const qtdPagos = ativos.filter(s=>mapaPag[s.id]).length;
+  const adimpl = ativos.length? Math.round(qtdPagos/ativos.length*100) : 0;
+
+  const desfazer = reg => {
+    if(!confirm('Desfazer este recebimento? O lançamento sai do livro caixa.')) return;
+    if(reg.lancamentoId) backend.delLanc(reg.lancamentoId);
+    backend.delMens(reg.id);
+  };
+  const mudarSocio = (i,campo,v)=> setSocios(socios.map((s,idx)=>idx===i?{...s,[campo]:v}:s));
+  const addSocio = ()=> setSocios([...socios, {id:novoId('s'), nome:'', valor:'', ativo:true}]);
+  const rmSocio = i => {
+    const s = socios[i];
+    if(mensalidades.some(m=>m.socioId===s.id)){
+      alert('Este sócio tem pagamentos registrados. Em vez de excluir, desmarque "Ativo" para preservar o histórico.'); return;
+    }
+    setSocios(socios.filter((_,idx)=>idx!==i));
+  };
+  const salvarSocios = ()=>{
+    const limpos = socios.filter(s=>s.nome.trim()).map(s=>({...s, nome:s.nome.trim(), valor:parseFloat(s.valor)||0}));
+    backend.salvarConfig({...config, socios:limpos, valorMensalidade:parseFloat(valorPadrao)||0, contaMensalidades:contaMens});
+    setMsg('Quadro de sócios salvo.'); setTimeout(()=>setMsg(''),2500);
+  };
+
+  return html`
+    <div>
+      <div class="grid-cards">
+        <div class="card kpi destaque">
+          <div class="rotulo">Adimplência — ${nomeMes(mes)}</div>
+          <div class="valor num">${adimpl}%</div>
+          <div class="extra">${qtdPagos} de ${ativos.length} sócios pagaram</div>
+        </div>
+        <div class="card kpi">
+          <div class="rotulo">Previsto no mês</div>
+          <div class="valor num">${fmt(previsto)}</div>
+          <div class="extra">${ativos.length} sócios ativos</div>
+        </div>
+        <div class="card kpi">
+          <div class="rotulo"><span style="color:var(--verde)">●</span> Recebido</div>
+          <div class="valor num pos">${fmt(recebido)}</div>
+          <div class="extra">${previsto>0? 'faltam '+fmt(Math.max(0,previsto-recebido)) : '—'}</div>
+        </div>
+      </div>
+
+      <div class="linha-acoes nao-imprime">
+        <div class="campo" style="margin:0">
+          <label>Competência</label>
+          <input type="month" value=${mes} onInput=${e=>setMes(e.target.value)} />
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;flex:1;min-width:180px;align-self:end;padding-bottom:4px">
+          <div class="barra"><i style=${`width:${adimpl}%`}></i></div>
+          <span class="num" style="font-size:13px;font-weight:700;color:var(--verde)">${adimpl}%</span>
+        </div>
+        <button class="btn btn-borda" style="align-self:end" onClick=${()=>setGerenciar(!gerenciar)}>${gerenciar?'Fechar cadastro':'⚙ Gerenciar sócios'}</button>
+      </div>
+
+      ${gerenciar && html`
+        <div class="card" style="padding:22px;margin-bottom:22px">
+          <h3 style="margin-bottom:4px">Quadro de sócios</h3>
+          <p style="font-size:12.5px;color:var(--cinza);margin-bottom:12px">Deixe o valor em branco para usar o valor padrão. Sócios inativos saem da cobrança mas mantêm o histórico.</p>
+          <div class="duo" style="margin-bottom:10px">
+            <div class="campo"><label>Valor padrão da mensalidade (R$)</label>
+              <input type="number" step="0.01" value=${valorPadrao} onInput=${e=>setValorPadrao(e.target.value)} /></div>
+            <div class="campo"><label>Conta que recebe as mensalidades</label>
+              <select value=${contaMens} onChange=${e=>setContaMens(e.target.value)}>
+                ${config.contas.map(c=>html`<option value=${c.id}>${c.nome}</option>`)}
+              </select></div>
+          </div>
+          ${socios.map((s,i)=>html`
+            <div class="socio-cfg">
+              <input type="text" placeholder="Nome do sócio" value=${s.nome} onInput=${e=>mudarSocio(i,'nome',e.target.value)} />
+              <input type="number" step="0.01" placeholder="Valor (padrão)" value=${s.valor} onInput=${e=>mudarSocio(i,'valor',e.target.value)} />
+              <label class="chk"><input type="checkbox" checked=${s.ativo!==false} onChange=${e=>mudarSocio(i,'ativo',e.target.checked)} /> Ativo</label>
+              <button class="btn btn-perigo btn-mini" onClick=${()=>rmSocio(i)} title="Remover">✕</button>
+            </div>`)}
+          <div style="display:flex;gap:10px;margin-top:14px">
+            <button class="btn btn-borda" onClick=${addSocio}>+ Adicionar sócio</button>
+            <button class="btn btn-ouro" onClick=${salvarSocios}>Salvar quadro de sócios</button>
+          </div>
+          ${msg && html`<p style="margin-top:10px;font-weight:600;color:var(--azul-2)">${msg}</p>`}
+        </div>`}
+
+      <div class="livro">
+        ${ativos.length===0 ? html`
+          <div class="vazio"><b>Nenhum sócio cadastrado</b>Clique em "⚙ Gerenciar sócios" para montar o quadro social do clube.</div>
+        ` : html`
+          <div class="tabela-wrap"><table class="caderno">
+            <thead><tr><th>Sócio</th><th class="num">Mensalidade</th><th>Situação em ${nomeMes(mes)}</th><th class="nao-imprime"></th></tr></thead>
+            <tbody>
+              ${ativos.map(s=>{
+                const reg = mapaPag[s.id];
+                const val = parseFloat(s.valor)||parseFloat(config.valorMensalidade)||0;
+                return html`
+                <tr>
+                  <td class="desc-l">${s.nome}</td>
+                  <td class="vnum num">${fmt(reg? reg.valor : val)}</td>
+                  <td>${reg
+                    ? html`<span class="chip chip-ok">Pago em ${fmtData(reg.data)} · ${reg.forma}</span>`
+                    : html`<span class="chip chip-venc">Pendente</span>`}</td>
+                  <td class="nao-imprime" style="text-align:right;white-space:nowrap">
+                    ${reg
+                      ? html`<button class="btn btn-borda btn-mini" onClick=${()=>desfazer(reg)}>Desfazer</button>`
+                      : html`<button class="btn btn-verde btn-mini" onClick=${()=>setModalPag(s)}>Receber</button>`}
+                  </td>
+                </tr>`;})}
+            </tbody>
+          </table></div>
+        `}
+      </div>
+
+      ${modalPag && html`<${ModalPagMensalidade} socio=${modalPag} mes=${mes} config=${config} backend=${backend} fechar=${()=>setModalPag(null)} />`}
+    </div>`;
+}
+
 /* ================= dashboard ================= */
-function Dashboard({config, lancamentos, abrirModal}){
+function Dashboard({config, lancamentos, compromissos, abrirModal, abrirBaixa, irPara}){
   const mes = mesAtual();
   const doMes = lancamentos.filter(l=>l.data.startsWith(mes));
   const entradas = doMes.filter(l=>l.tipo==='credito').reduce((s,l)=>s+l.valor,0);
   const saidas = doMes.filter(l=>l.tipo==='debito').reduce((s,l)=>s+l.valor,0);
   const saldoTotal = config.contas.reduce((s,c)=>s+saldoConta(c,lancamentos),0);
   const resultado = entradas - saidas;
-  const recentes = ordenar(lancamentos).slice(-8).reverse();
+  const recentes = ordenar(lancamentos).slice(-6).reverse();
   const mapa = Object.fromEntries(config.contas.map(c=>[c.id,c]));
+
+  const abertos = compromissos.filter(c=>c.status==='aberto').sort((a,b)=>a.vencimento<b.vencimento?-1:1);
+  const alerta = abertos.filter(c=>diffDias(c.vencimento)<=15).slice(0,6);
+  const em30 = abertos.filter(c=>diffDias(c.vencimento)<=30);
+  const aPagar30 = em30.filter(c=>c.tipo==='pagar').reduce((s,c)=>s+c.valor,0);
+  const aReceber30 = em30.filter(c=>c.tipo==='receber').reduce((s,c)=>s+c.valor,0);
 
   return html`
     <div>
@@ -461,7 +894,7 @@ function Dashboard({config, lancamentos, abrirModal}){
         <div class="card kpi destaque">
           <div class="rotulo">Saldo geral do clube</div>
           <div class="valor num">${fmt(saldoTotal)}</div>
-          <div class="extra">${config.contas.length} contas somadas</div>
+          <div class="extra">Previsão 30 dias: ${fmt(saldoTotal + aReceber30 - aPagar30)}</div>
         </div>
         <div class="card kpi">
           <div class="rotulo"><span style="color:var(--verde)">●</span> Entradas do mês</div>
@@ -480,6 +913,30 @@ function Dashboard({config, lancamentos, abrirModal}){
         </div>
       </div>
 
+      <div class="livro">
+        <div class="livro-head neutra">
+          <h3>⏰ Próximos vencimentos</h3>
+          <span style="font-size:12.5px;color:var(--cinza)">30 dias: <b class="num" style="color:var(--vermelho)">${fmt(aPagar30)}</b> a pagar · <b class="num" style="color:var(--verde)">${fmt(aReceber30)}</b> a receber</span>
+          <div class="spacer"></div>
+          <button class="btn btn-borda btn-mini nao-imprime" onClick=${()=>irPara('vencimentos')}>Ver todos</button>
+        </div>
+        ${alerta.length===0 ? html`
+          <div class="vazio" style="padding:26px 20px"><b>Nada vencendo nos próximos 15 dias 👏</b>Agende boletos futuros em Contas a vencer.</div>
+        ` : html`
+          <div class="tabela-wrap"><table class="caderno">
+            <tbody>
+              ${alerta.map(c=>html`
+                <tr>
+                  <td style="width:130px">${chipVencimento(c)}</td>
+                  <td class="desc-l">${c.descricao}<span class="forma-tag" style=${`background:${(mapa[c.contaId]?.cor||'#123F8F')}18;color:${mapa[c.contaId]?.cor||'#123F8F'}`}>${mapa[c.contaId]?.nome||''}</span></td>
+                  <td class="vnum num" style=${`font-weight:700;color:${c.tipo==='pagar'?'var(--vermelho)':'var(--verde)'}`}>${c.tipo==='pagar'?'−':'+'} ${fmt(c.valor)}</td>
+                  <td class="nao-imprime" style="text-align:right;width:110px"><button class="btn btn-verde btn-mini" onClick=${()=>abrirBaixa(c)}>Dar baixa</button></td>
+                </tr>`)}
+            </tbody>
+          </table></div>
+        `}
+      </div>
+
       <div class="grid-2">
         <div class="card">
           <div class="card-titulo">Entradas × Saídas — últimos 6 meses</div>
@@ -492,7 +949,7 @@ function Dashboard({config, lancamentos, abrirModal}){
       </div>
 
       <div class="livro">
-        <div class="livro-head" style="border-bottom-color:var(--linha-forte)">
+        <div class="livro-head neutra">
           <h3>Últimos lançamentos</h3>
           <div class="spacer"></div>
           <button class="btn btn-ouro btn-mini nao-imprime" onClick=${()=>abrirModal(null)}>+ Novo lançamento</button>
@@ -504,9 +961,9 @@ function Dashboard({config, lancamentos, abrirModal}){
             <thead><tr><th>Data</th><th>Conta</th><th>Descrição</th><th class="num">Débito</th><th class="num">Crédito</th></tr></thead>
             <tbody>
               ${recentes.map(l=>html`
-                <tr onClick=${()=>abrirModal(null,l)}>
+                <tr class="clicavel" onClick=${()=>abrirModal(null,l)}>
                   <td class="data num">${fmtData(l.data)}</td>
-                  <td><span class="forma-tag" style=${`background:${(mapa[l.contaId]?.cor||'#123F8F')}18;color:${mapa[l.contaId]?.cor||'#123F8F'}`}>${mapa[l.contaId]?.nome||'—'}</span></td>
+                  <td><span class="forma-tag" style=${`background:${(mapa[l.contaId]?.cor||'#123F8F')}18;color:${mapa[l.contaId]?.cor||'#123F8F'};margin-left:0`}>${mapa[l.contaId]?.nome||'—'}</span></td>
                   <td class="desc-l">${l.descricao}<span class="forma-tag">${l.forma}</span></td>
                   <td class="vnum num deb">${l.tipo==='debito'?fmt(l.valor):''}</td>
                   <td class="vnum num cre">${l.tipo==='credito'?fmt(l.valor):''}</td>
@@ -552,7 +1009,7 @@ function PaginaConta({conta, lancamentos, abrirModal}){
           </div>
         </div>
         ${visiveis.length===0 ? html`
-          <div class="vazio"><b>${filtroMes?'Nenhum lançamento neste mês':'Livro caixa em branco'}</b>Clique em “+ Novo lançamento” para registrar.</div>
+          <div class="vazio"><b>${filtroMes?'Nenhum lançamento neste mês':'Livro caixa em branco'}</b>Clique em "+ Novo lançamento" para registrar.</div>
         ` : html`
           <div class="tabela-wrap"><table class="caderno">
             <thead><tr>
@@ -566,7 +1023,7 @@ function PaginaConta({conta, lancamentos, abrirModal}){
                   <td class="vnum num sal">${fmt(conta.saldoInicial||0)}</td>
                 </tr>`}
               ${visiveis.map(l=>html`
-                <tr onClick=${()=>abrirModal(conta.id, l)} title="Clique para editar">
+                <tr class="clicavel" onClick=${()=>abrirModal(conta.id, l)} title="Clique para editar">
                   <td class="data num">${fmtData(l.data)}</td>
                   <td class="desc-l">${l.descricao}<span class="forma-tag">${l.forma}</span></td>
                   <td class="vnum num deb">${l.tipo==='debito'?fmt(l.valor):''}</td>
@@ -587,14 +1044,17 @@ function PaginaConta({conta, lancamentos, abrirModal}){
 }
 
 /* ================= relatório mensal ================= */
-function Relatorio({config, lancamentos}){
+function Relatorio({config, lancamentos, compromissos, mensalidades}){
   const [mes, setMes] = useState(mesAtual());
   const [detalhado, setDetalhado] = useState(true);
 
   const fimMesAnterior = useMemo(()=>{
     const [a,m] = mes.split('-').map(Number);
-    const d = new Date(a, m-1, 0); // último dia do mês anterior
-    return d.toISOString().slice(0,10);
+    return new Date(a, m-1, 0).toISOString().slice(0,10);
+  },[mes]);
+  const fimDoMes = useMemo(()=>{
+    const [a,m] = mes.split('-').map(Number);
+    return new Date(a, m, 0).toISOString().slice(0,10);
   },[mes]);
 
   const dados = config.contas.map(c=>{
@@ -608,6 +1068,20 @@ function Relatorio({config, lancamentos}){
   const tSai = dados.reduce((s,d)=>s+d.sai,0);
   const tAnt = dados.reduce((s,d)=>s+d.anterior,0);
   const tFin = dados.reduce((s,d)=>s+d.final,0);
+
+  // mensalidades
+  const ativos = (config.socios||[]).filter(s=>s.ativo!==false);
+  const pagosDoMes = mensalidades.filter(m=>m.competencia===mes);
+  const idsPagos = new Set(pagosDoMes.map(m=>m.socioId));
+  const previstoMens = ativos.reduce((s,x)=>s+(parseFloat(x.valor)||parseFloat(config.valorMensalidade)||0),0);
+  const recebidoMens = pagosDoMes.reduce((s,m)=>s+m.valor,0);
+  const adimpl = ativos.length? Math.round(ativos.filter(s=>idsPagos.has(s.id)).length/ativos.length*100) : 0;
+  const pendentes = ativos.filter(s=>!idsPagos.has(s.id)).map(s=>s.nome);
+
+  // compromissos em aberto até o fim do mês
+  const mapaConta = Object.fromEntries(config.contas.map(c=>[c.id,c.nome]));
+  const pendComp = compromissos.filter(c=>c.status==='aberto' && c.vencimento<=fimDoMes)
+    .sort((a,b)=>a.vencimento<b.vencimento?-1:1);
 
   const exportarCSV = () => {
     const doMes = lancamentos.filter(l=>l.data.startsWith(mes));
@@ -665,6 +1139,41 @@ function Relatorio({config, lancamentos}){
           ${' '}(${(tEnt-tSai)>=0?'superávit':'déficit'}).
         </p>
 
+        ${ativos.length>0 && html`
+          <h4>Mensalidades dos sócios — ${nomeMes(mes)}</h4>
+          <table class="rel">
+            <tbody>
+              <tr><td>Sócios ativos</td><td class="vnum num">${ativos.length}</td></tr>
+              <tr><td>Previsto</td><td class="vnum num">${fmt(previstoMens)}</td></tr>
+              <tr><td>Recebido</td><td class="vnum num" style="color:var(--verde)">${fmt(recebidoMens)}</td></tr>
+              <tr class="total"><td>Adimplência</td><td class="vnum num">${adimpl}%</td></tr>
+            </tbody>
+          </table>
+          ${pendentes.length>0 && html`
+            <p style="font-size:12.5px;color:var(--cinza);margin-top:8px">Pendentes (${pendentes.length}): ${pendentes.join(', ')}.</p>`}
+        `}
+
+        ${pendComp.length>0 && html`
+          <h4>Compromissos em aberto ao fim do período</h4>
+          <table class="rel">
+            <thead><tr><th>Vencimento</th><th>Descrição</th><th>Conta</th><th>Tipo</th><th class="num">Valor</th></tr></thead>
+            <tbody>
+              ${pendComp.map(c=>html`
+                <tr>
+                  <td class="num" style="white-space:nowrap">${fmtData(c.vencimento)}</td>
+                  <td>${c.descricao}</td>
+                  <td>${mapaConta[c.contaId]||''}</td>
+                  <td>${c.tipo==='receber'?'A receber':'A pagar'}</td>
+                  <td class="vnum num" style=${`color:${c.tipo==='pagar'?'var(--vermelho)':'var(--verde)'}`}>${fmt(c.valor)}</td>
+                </tr>`)}
+              <tr class="total">
+                <td colspan="4">Saldo líquido dos compromissos</td>
+                <td class="vnum num">${fmt(pendComp.reduce((s,c)=>s+(c.tipo==='receber'?c.valor:-c.valor),0))}</td>
+              </tr>
+            </tbody>
+          </table>
+        `}
+
         ${detalhado && dados.filter(d=>d.doMes.length>0).map(d=>html`
           <div>
             <h4>Extrato — Conta ${d.conta.nome}</h4>
@@ -698,7 +1207,7 @@ function Relatorio({config, lancamentos}){
 }
 
 /* ================= configurações ================= */
-function Configuracoes({config, backend, lancamentos}){
+function Configuracoes({config, backend, lancamentos, compromissos, mensalidades}){
   const [nome, setNome] = useState(config.nomeClube);
   const [contas, setContas] = useState(config.contas.map(c=>({...c})));
   const [pin1, setPin1] = useState('');
@@ -711,8 +1220,7 @@ function Configuracoes({config, backend, lancamentos}){
     setMsg('Configurações salvas.'); setTimeout(()=>setMsg(''),2500);
   };
   const mudarConta = (i, campo, v) => {
-    const nova = contas.map((c,idx)=> idx===i ? {...c, [campo]: campo==='saldoInicial'? (parseFloat(v)||0) : v} : c);
-    setContas(nova);
+    setContas(contas.map((c,idx)=> idx===i ? {...c, [campo]: campo==='saldoInicial'? (parseFloat(v)||0) : v} : c));
   };
   const salvarPin = async () => {
     if(pin1.length<4){ setMsg('O PIN deve ter pelo menos 4 dígitos.'); return; }
@@ -727,17 +1235,18 @@ function Configuracoes({config, backend, lancamentos}){
     }
   };
   const exportarBackup = () => {
-    baixarArquivo(`lions-backup-${hoje()}.json`, JSON.stringify({config, lancamentos}, null, 2), 'application/json');
+    baixarArquivo(`lions-backup-${hoje()}.json`,
+      JSON.stringify({config, lancamentos, compromissos, mensalidades}, null, 2), 'application/json');
   };
   const importarBackup = e => {
     const f = e.target.files[0]; if(!f) return;
     const r = new FileReader();
     r.onload = async () => {
       try{
-        const {config:c, lancamentos:ls} = JSON.parse(r.result);
+        const {config:c, lancamentos:ls, compromissos:cs, mensalidades:ms} = JSON.parse(r.result);
         if(!c?.contas || !Array.isArray(ls)) throw new Error();
         if(confirm(`Importar backup com ${ls.length} lançamentos? Os dados atuais serão substituídos.`)){
-          await backend.importar(c, ls); setMsg('Backup importado.');
+          await backend.importar(c, ls, cs||[], ms||[]); setMsg('Backup importado.');
         }
       }catch{ setMsg('Arquivo de backup inválido.'); }
     };
@@ -783,7 +1292,7 @@ function Configuracoes({config, backend, lancamentos}){
 
       <div class="card" style="padding:22px">
         <h3 style="margin-bottom:6px">Dados</h3>
-        <p style="font-size:13px;color:var(--cinza);margin-bottom:14px">Exporte um backup completo em JSON (guarde com o tesoureiro) ou o extrato geral em CSV para abrir no Excel.</p>
+        <p style="font-size:13px;color:var(--cinza);margin-bottom:14px">Exporte um backup completo em JSON (inclui lançamentos, contas a vencer e mensalidades) ou o extrato geral em CSV para o Excel.</p>
         <div style="display:flex;gap:10px;flex-wrap:wrap">
           <button class="btn btn-borda" onClick=${exportarBackup}>⬇ Backup completo (JSON)</button>
           <button class="btn btn-borda" onClick=${()=>baixarArquivo(`lions-extrato-geral.csv`, gerarCSV(lancamentos, config.contas))}>⬇ Extrato geral (CSV)</button>
@@ -845,31 +1354,40 @@ function App(){
   const [tela, setTela] = useState('dashboard');
   const [menuAberto, setMenuAberto] = useState(false);
   const [liberado, setLiberado] = useState(false);
-  const [modal, setModal] = useState(null); // {contaId, editar}
+  const [modalLanc, setModalLanc] = useState(null);   // {contaId, editar}
+  const [modalComp, setModalComp] = useState(null);   // {editar} | {editar:null}
+  const [modalBaixa, setModalBaixa] = useState(null); // compromisso
 
-  useEffect(()=>{
-    const be = criarBackend(d=>setEstado(d));
-    setBackend(be);
-  },[]);
+  useEffect(()=>{ setBackend(criarBackend(d=>setEstado(d))); },[]);
 
   if(!estado || !estado.config || !backend){
     return html`<div class="tela-auth"><div style="color:#9FB2D6;font-family:'Archivo';font-size:16px">Carregando tesouraria…</div></div>`;
   }
-  const {config, lancamentos, modo} = estado;
+  const {config, lancamentos, compromissos, mensalidades, modo} = estado;
 
   if(config.pinHash && !liberado) return html`<${TelaPin} config=${config} backend=${backend} liberar=${()=>setLiberado(true)} />`;
   if(!config.pinDefinido && !liberado) return html`<${TelaPin} config=${config} backend=${backend} liberar=${()=>setLiberado(true)} />`;
 
-  const abrirModal = (contaId, editar=null) => setModal({contaId, editar});
+  const abrirModal = (contaId, editar=null) => setModalLanc({contaId, editar});
+  const abrirComp = (editar=null) => setModalComp({editar});
+  const abrirBaixa = comp => setModalBaixa(comp);
   const contaAtiva = tela.startsWith('conta:') ? config.contas.find(c=>c.id===tela.slice(6)) : null;
+
+  const vencidosCount = compromissos.filter(c=>c.status==='aberto' && diffDias(c.vencimento)<0).length;
+  const pendMensCount = (()=>{
+    const ativos=(config.socios||[]).filter(s=>s.ativo!==false);
+    const pagos=new Set(mensalidades.filter(m=>m.competencia===mesAtual()).map(m=>m.socioId));
+    return ativos.filter(s=>!pagos.has(s.id)).length;
+  })();
 
   const titulos = {
     dashboard:['Dashboard','Visão geral das finanças do clube'],
+    vencimentos:['Contas a vencer','Compromissos a pagar e a receber'],
+    mensalidades:['Mensalidades','Controle de contribuições dos sócios'],
     relatorio:['Resumo mensal','Prestação de contas para a diretoria'],
     config:['Configurações','Contas, segurança e backup'],
   };
   const [titulo, sub] = contaAtiva ? [`Conta ${contaAtiva.nome}`, 'Livro caixa — débito, crédito e saldo'] : (titulos[tela]||['','']);
-
   const irPara = t => { setTela(t); setMenuAberto(false); };
 
   return html`
@@ -889,6 +1407,14 @@ function App(){
               <span class="saldo-mini num">${fmt(saldoConta(c,lancamentos)).replace('R$ ','')}</span>
             </button>`)}
           <div class="nav-label">Gestão</div>
+          <button class=${'nav-item'+(tela==='vencimentos'?' ativo':'')} onClick=${()=>irPara('vencimentos')}>
+            <span class="ic">⏰</span> Contas a vencer
+            ${vencidosCount>0 && html`<span class="alerta-mini">${vencidosCount}</span>`}
+          </button>
+          <button class=${'nav-item'+(tela==='mensalidades'?' ativo':'')} onClick=${()=>irPara('mensalidades')}>
+            <span class="ic">👥</span> Mensalidades
+            ${pendMensCount>0 && html`<span class="alerta-mini" style="background:#B4831B">${pendMensCount}</span>`}
+          </button>
           <button class=${'nav-item'+(tela==='relatorio'?' ativo':'')} onClick=${()=>irPara('relatorio')}><span class="ic">▤</span> Resumo mensal</button>
           <button class=${'nav-item'+(tela==='config'?' ativo':'')} onClick=${()=>irPara('config')}><span class="ic">⚙</span> Configurações</button>
         </nav>
@@ -902,18 +1428,29 @@ function App(){
           <button class="hamb" onClick=${()=>setMenuAberto(true)}>☰</button>
           <div><h2>${titulo}</h2><div class="sub">${sub}</div></div>
           <div class="spacer"></div>
-          <button class="btn btn-ouro btn-mini nao-imprime" onClick=${()=>abrirModal(contaAtiva?.id||null)}>+ Lançamento</button>
+          ${tela==='vencimentos'
+            ? html`<button class="btn btn-ouro btn-mini nao-imprime" onClick=${()=>abrirComp(null)}>+ Conta a vencer</button>`
+            : html`<button class="btn btn-ouro btn-mini nao-imprime" onClick=${()=>abrirModal(contaAtiva?.id||null)}>+ Lançamento</button>`}
         </div>
         <div class="conteudo">
-          ${tela==='dashboard' && html`<${Dashboard} config=${config} lancamentos=${lancamentos} abrirModal=${abrirModal} />`}
+          ${tela==='dashboard' && html`<${Dashboard} config=${config} lancamentos=${lancamentos} compromissos=${compromissos}
+            abrirModal=${abrirModal} abrirBaixa=${abrirBaixa} irPara=${irPara} />`}
           ${contaAtiva && html`<${PaginaConta} conta=${contaAtiva} lancamentos=${lancamentos} abrirModal=${abrirModal} />`}
-          ${tela==='relatorio' && html`<${Relatorio} config=${config} lancamentos=${lancamentos} />`}
-          ${tela==='config' && html`<${Configuracoes} config=${config} backend=${backend} lancamentos=${lancamentos} />`}
+          ${tela==='vencimentos' && html`<${PaginaVencimentos} config=${config} backend=${backend} compromissos=${compromissos}
+            abrirComp=${abrirComp} abrirBaixa=${abrirBaixa} />`}
+          ${tela==='mensalidades' && html`<${PaginaMensalidades} config=${config} backend=${backend} mensalidades=${mensalidades} />`}
+          ${tela==='relatorio' && html`<${Relatorio} config=${config} lancamentos=${lancamentos}
+            compromissos=${compromissos} mensalidades=${mensalidades} />`}
+          ${tela==='config' && html`<${Configuracoes} config=${config} backend=${backend} lancamentos=${lancamentos}
+            compromissos=${compromissos} mensalidades=${mensalidades} />`}
         </div>
       </div>
 
-      ${modal && html`<${ModalLancamento} config=${config} backend=${backend}
-        contaInicial=${modal.contaId} editar=${modal.editar} fechar=${()=>setModal(null)} />`}
+      ${modalLanc && html`<${ModalLancamento} config=${config} backend=${backend}
+        contaInicial=${modalLanc.contaId} editar=${modalLanc.editar} fechar=${()=>setModalLanc(null)} />`}
+      ${modalComp && html`<${ModalCompromisso} config=${config} backend=${backend}
+        editar=${modalComp.editar} fechar=${()=>setModalComp(null)} />`}
+      ${modalBaixa && html`<${ModalBaixa} comp=${modalBaixa} config=${config} backend=${backend} fechar=${()=>setModalBaixa(null)} />`}
     </div>`;
 }
 

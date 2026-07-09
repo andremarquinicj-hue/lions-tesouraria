@@ -41,23 +41,30 @@ async function main() {
   const cfgDoc = await buscarJSON(`${BASE}/lions/config?key=${API_KEY}`);
   const config = converterCampos(cfgDoc.fields || {});
 
-  // 2. Lançamentos (coleção lions_lancamentos, com paginação)
-  let lancamentos = [];
-  let pageToken = '';
-  do {
-    const url = `${BASE}/lions_lancamentos?pageSize=300&key=${API_KEY}` +
-      (pageToken ? `&pageToken=${pageToken}` : '');
-    const resp = await buscarJSON(url);
-    for (const doc of resp.documents || []) {
-      const id = doc.name.split('/').pop();
-      lancamentos.push({ id, ...converterCampos(doc.fields || {}) });
-    }
-    pageToken = resp.nextPageToken || '';
-  } while (pageToken);
+  // 2. Coleções (com paginação)
+  async function baixarColecao(nome) {
+    const itens = [];
+    let pageToken = '';
+    do {
+      const url = `${BASE}/${nome}?pageSize=300&key=${API_KEY}` +
+        (pageToken ? `&pageToken=${pageToken}` : '');
+      const resp = await buscarJSON(url);
+      for (const doc of resp.documents || []) {
+        const id = doc.name.split('/').pop();
+        itens.push({ id, ...converterCampos(doc.fields || {}) });
+      }
+      pageToken = resp.nextPageToken || '';
+    } while (pageToken);
+    return itens;
+  }
+  const lancamentos = await baixarColecao('lions_lancamentos');
+  const compromissos = await baixarColecao('lions_compromissos');
+  const mensalidades = await baixarColecao('lions_mensalidades');
 
   // 3. Grava o backup do dia + um "mais-recente" fixo
   const hoje = new Date().toISOString().slice(0, 10);
-  const conteudo = JSON.stringify({ geradoEm: new Date().toISOString(), config, lancamentos }, null, 2);
+  const conteudo = JSON.stringify(
+    { geradoEm: new Date().toISOString(), config, lancamentos, compromissos, mensalidades }, null, 2);
   fs.mkdirSync('backups', { recursive: true });
   fs.writeFileSync(path.join('backups', `backup-${hoje}.json`), conteudo);
   fs.writeFileSync(path.join('backups', 'mais-recente.json'), conteudo);
@@ -69,7 +76,7 @@ async function main() {
     if (m && m[1] < limite) fs.unlinkSync(path.join('backups', arq));
   }
 
-  console.log(`✅ Backup concluído: ${lancamentos.length} lançamentos salvos em backups/backup-${hoje}.json`);
+  console.log(`✅ Backup concluído: ${lancamentos.length} lançamentos, ${compromissos.length} compromissos e ${mensalidades.length} mensalidades em backups/backup-${hoje}.json`);
 }
 
 main().catch(e => { console.error('❌ Falha no backup:', e.message); process.exit(1); });
