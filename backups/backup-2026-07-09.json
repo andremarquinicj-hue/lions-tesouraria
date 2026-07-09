@@ -1,0 +1,53 @@
+{
+  "geradoEm": "2026-07-09T15:22:16.169Z",
+  "config": {
+    "nomeClube": "Lions Clube",
+    "pinHash": "d034a904e224b629947dac2110cf9900b655e6934aa735d5144f92a3399785fc",
+    "pinDefinido": true,
+    "contas": [
+      {
+        "desc": "Mensalidades e despesas administrativas",
+        "saldoInicial": 0,
+        "cor": "#123F8F",
+        "id": "c1",
+        "nome": "Administrativa"
+      },
+      {
+        "id": "c2",
+        "nome": "Campanhas",
+        "desc": "Arrecadações e gastos de campanhas",
+        "cor": "#0E7C86",
+        "saldoInicial": 0
+      },
+      {
+        "id": "c3",
+        "nome": "Eventos",
+        "desc": "Jantares, festivais e promoções",
+        "cor": "#8E44AD",
+        "saldoInicial": 0
+      },
+      {
+        "id": "c4",
+        "nome": "Ações Sociais",
+        "desc": "Doações e projetos sociais",
+        "saldoInicial": 0,
+        "cor": "#147A4D"
+      },
+      {
+        "id": "c5",
+        "nome": "Sede",
+        "desc": "Manutenção e melhorias da sede",
+        "cor": "#B4690E",
+        "saldoInicial": 0
+      },
+      {
+        "id": "c6",
+        "nome": "Fundo de Reserva",
+        "desc": "Reserva financeira do clube",
+        "saldoInicial": 0,
+        "cor": "#5A5F73"
+      }
+    ]
+  },
+  "lancamentos": []
+}
