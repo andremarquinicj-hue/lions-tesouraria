@@ -1,0 +1,4836 @@
+{
+  "geradoEm": "2026-10-30T12:20:18.447Z",
+  "config": {
+    "pinDefinido": true,
+    "contaMensalidades": "c1",
+    "socios": [
+      {
+        "id": "s1783611962887d5a83",
+        "nome": "Catrine",
+        "valor": 0,
+        "ativo": false
+      },
+      {
+        "nome": "André",
+        "ativo": false,
+        "valor": 0,
+        "id": "s1783612080549bujob"
+      }
+    ],
+    "valorMensalidade": 100,
+    "contas": [
+      {
+        "id": "c1",
+        "desc": "",
+        "saldoInicial": 46654.94,
+        "cor": "#123F8F",
+        "nome": "Sicredi Campanha 79163-6"
+      },
+      {
+        "cor": "#0E7C86",
+        "desc": "",
+        "saldoInicial": 2522,
+        "id": "c2",
+        "nome": "Sicredi Eventos 79168-7"
+      },
+      {
+        "id": "c3",
+        "nome": "Sicredi Administrativa 79160-1",
+        "desc": "",
+        "saldoInicial": 7016.56,
+        "cor": "#8E44AD"
+      },
+      {
+        "desc": "",
+        "id": "c4",
+        "saldoInicial": 20978.36,
+        "cor": "#147A4D",
+        "nome": "Santander ADM 13000719-4"
+      },
+      {
+        "nome": "Santander Domadoras 002431-9",
+        "id": "c5",
+        "cor": "#B4690E",
+        "desc": "",
+        "saldoInicial": 6760.76
+      },
+      {
+        "id": "c6",
+        "nome": "Santander Leo Clube 13002303-3",
+        "saldoInicial": 571.86,
+        "cor": "#5A5F73",
+        "desc": ""
+      }
+    ],
+    "pinHash": "d034a904e224b629947dac2110cf9900b655e6934aa735d5144f92a3399785fc",
+    "nomeClube": "Lions Clube"
+  },
+  "lancamentos": [
+    {
+      "id": "0Di6RBATSa5GfRk6rru6",
+      "forma": "PIX",
+      "data": "2026-08-11",
+      "tipo": "credito",
+      "valor": 60,
+      "criadoEm": 1788285722819,
+      "contaId": "c5",
+      "descricao": "Recebimento pix"
+    },
+    {
+      "id": "0FG1M1Iz86zYGmyuoyAM",
+      "contaId": "c3",
+      "criadoEm": 1790189433327,
+      "valor": 500,
+      "descricao": "Pagamento Antonio Claudio Tofanelli",
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-09-15"
+    },
+    {
+      "id": "0HyxWCqVOeqAQlinYxTd",
+      "valor": 100,
+      "data": "2026-07-03",
+      "tipo": "credito",
+      "descricao": "Recebimento Davi Garcia Filho",
+      "forma": "PIX",
+      "criadoEm": 1784148666768,
+      "contaId": "c2"
+    },
+    {
+      "id": "0K5uHEmo6ifgEk9nVZzj",
+      "contaId": "c3",
+      "tipo": "debito",
+      "data": "2026-09-11",
+      "criadoEm": 1790189352227,
+      "forma": "Outro",
+      "descricao": "Tarifa",
+      "valor": 8.73
+    },
+    {
+      "id": "0ZnfAhRSZz3LX4MwCoIQ",
+      "descricao": "Recebimento Paulo de Figueiredo",
+      "data": "2026-07-07",
+      "tipo": "credito",
+      "criadoEm": 1784149040251,
+      "contaId": "c2",
+      "forma": "PIX",
+      "valor": 100
+    },
+    {
+      "id": "0dQtm6VgX3HhbXbvqY51",
+      "valor": 2475,
+      "forma": "PIX",
+      "criadoEm": 1785867233382,
+      "contaId": "c3",
+      "tipo": "debito",
+      "data": "2026-07-31",
+      "descricao": "Repasse para conta Campanha (doação Guariba)"
+    },
+    {
+      "id": "0i8vpbzQ830FnnHPpKbt",
+      "data": "2026-09-28",
+      "tipo": "debito",
+      "criadoEm": 1790626260949,
+      "forma": "PIX",
+      "descricao": "Pagamento baguetes e café Ong Fenix",
+      "valor": 318,
+      "contaId": "c3"
+    },
+    {
+      "id": "0mIstU8cvdT0pm8ngUS1",
+      "valor": 1794,
+      "forma": "PIX",
+      "descricao": "Recebimento Rogério Pinto Ferreira",
+      "contaId": "c2",
+      "tipo": "credito",
+      "data": "2026-09-10",
+      "criadoEm": 1790278995048
+    },
+    {
+      "id": "0qi4s7yCsJE7XHaF8yaq",
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-09-25",
+      "criadoEm": 1790627044357,
+      "valor": 28500,
+      "contaId": "c4",
+      "descricao": "Pix entre contas Lions"
+    },
+    {
+      "id": "0rtvC6zUvJJL9tR7FhP7",
+      "contaId": "c5",
+      "forma": "Outro",
+      "criadoEm": 1785876019958,
+      "data": "2026-07-24",
+      "tipo": "credito",
+      "valor": 4000,
+      "descricao": "Resgate CDB"
+    },
+    {
+      "id": "0scGumgMFqHLg7W85MbZ",
+      "contaId": "c1",
+      "forma": "PIX",
+      "criadoEm": 1788282555985,
+      "valor": 305.5,
+      "tipo": "debito",
+      "data": "2026-08-14",
+      "descricao": "Pix Marketplace"
+    },
+    {
+      "id": "1BZU34Zuw7OmWUlLq4u2",
+      "forma": "PIX",
+      "data": "2026-07-24",
+      "tipo": "debito",
+      "criadoEm": 1784919187864,
+      "valor": 494.7,
+      "contaId": "c1",
+      "descricao": "Pagamento doação arroz"
+    },
+    {
+      "id": "1FvA1W3oUGpgQThD04tm",
+      "forma": "PIX",
+      "descricao": "Recebimento Sandro Carvalho",
+      "tipo": "credito",
+      "data": "2026-07-27",
+      "criadoEm": 1785868390546,
+      "contaId": "c2",
+      "valor": 237
+    },
+    {
+      "id": "1HxvMZFhthNOaylyCSgP",
+      "data": "2026-09-01",
+      "tipo": "debito",
+      "contaId": "c3",
+      "forma": "PIX",
+      "criadoEm": 1790188582783,
+      "valor": 700,
+      "descricao": "Pagamento organização/limpeza salão festiva 21/08"
+    },
+    {
+      "id": "1JqMH5EBs2fxe1i64bPg",
+      "forma": "Outro",
+      "criadoEm": 1785875964129,
+      "contaId": "c5",
+      "data": "2026-07-10",
+      "tipo": "debito",
+      "valor": 177.75,
+      "descricao": "Tarifa Mensalidade"
+    },
+    {
+      "id": "1P85WMbM6Hq5CbWUTPUx",
+      "contaId": "c2",
+      "valor": 20,
+      "criadoEm": 1788283461400,
+      "descricao": "Tarifa Cesta",
+      "forma": "Outro",
+      "data": "2026-08-10",
+      "tipo": "debito"
+    },
+    {
+      "id": "1VxLj6vh7gV1cSLNdCJQ",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-08-28",
+      "valor": 1794,
+      "contaId": "c3",
+      "criadoEm": 1788276240712,
+      "descricao": "Recebimento pix Imero"
+    },
+    {
+      "id": "1XiRpUfg9rpbcOWS58NR",
+      "criadoEm": 1784659161449,
+      "data": "2026-07-16",
+      "tipo": "credito",
+      "descricao": "Recebimento Jose Francisco",
+      "forma": "PIX",
+      "valor": 300,
+      "contaId": "c2"
+    },
+    {
+      "id": "1a95vvWQKOeKnxIBXW7G",
+      "descricao": "Pagamento pix Dinah (espeto festa)",
+      "criadoEm": 1784147352906,
+      "data": "2026-07-01",
+      "tipo": "debito",
+      "forma": "PIX",
+      "valor": 600,
+      "contaId": "c1"
+    },
+    {
+      "id": "1cy3qRKVmC2a339KWI90",
+      "valor": 300,
+      "criadoEm": 1784302662673,
+      "forma": "PIX",
+      "data": "2026-07-01",
+      "tipo": "credito",
+      "descricao": "Recebimento Pix Florivaldo Benedito",
+      "contaId": "c3"
+    },
+    {
+      "id": "1gcUt4ICYbzUdqN0T4t5",
+      "contaId": "c2",
+      "data": "2026-09-14",
+      "tipo": "credito",
+      "forma": "PIX",
+      "criadoEm": 1790279350813,
+      "descricao": "Recebimento Antonio Alceu",
+      "valor": 1794
+    },
+    {
+      "id": "1jpqaQBDkqL7Hh27PMSV",
+      "data": "2026-07-06",
+      "tipo": "credito",
+      "forma": "PIX",
+      "valor": 100,
+      "contaId": "c2",
+      "descricao": "Recebimento Eric Padula",
+      "criadoEm": 1784148898719
+    },
+    {
+      "id": "24K9vzXotVPlWnxnpGMx",
+      "criadoEm": 1784147446444,
+      "valor": 20,
+      "forma": "Outro",
+      "data": "2026-07-10",
+      "tipo": "debito",
+      "contaId": "c1",
+      "descricao": "Tarifa cesta"
+    },
+    {
+      "id": "2AGlzGR3N3PBFqLX3xup",
+      "valor": 3410.57,
+      "descricao": "Transferência entre contas Lions",
+      "forma": "Transferência",
+      "criadoEm": 1785867690860,
+      "contaId": "c1",
+      "data": "2026-07-24",
+      "tipo": "credito"
+    },
+    {
+      "id": "2CI3znZFGrOaPsbtjteN",
+      "descricao": "Recebimento Sistel Fibra",
+      "contaId": "c2",
+      "valor": 3300,
+      "criadoEm": 1790279153095,
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "2OaTMpTyxaXk1DQmHDPL",
+      "valor": 788.14,
+      "forma": "Boleto",
+      "criadoEm": 1785874858232,
+      "contaId": "c4",
+      "data": "2026-07-15",
+      "tipo": "debito",
+      "descricao": "Pagamento guia ISS"
+    },
+    {
+      "id": "2S66FCMGsLr5bQT13atu",
+      "forma": "PIX",
+      "data": "2026-08-18",
+      "tipo": "debito",
+      "valor": 5750,
+      "criadoEm": 1788282764649,
+      "contaId": "c1",
+      "descricao": "Pagamento doação Cever (saldo final)"
+    },
+    {
+      "id": "2TJgFflnphAlBmi61Sic",
+      "contaId": "c3",
+      "criadoEm": 1790626191575,
+      "valor": 270,
+      "descricao": "Recebimento Ronald Eduardo",
+      "data": "2026-09-25",
+      "tipo": "credito",
+      "forma": "PIX"
+    },
+    {
+      "id": "2UVfRELIf57Ln5F2WwAc",
+      "valor": 9.9,
+      "forma": "PIX",
+      "descricao": "Tarifa pix",
+      "contaId": "c4",
+      "criadoEm": 1790605257903,
+      "tipo": "debito",
+      "data": "2026-09-22"
+    },
+    {
+      "id": "2tRPUptBlWJKzwD7cLei",
+      "contaId": "c2",
+      "valor": 500,
+      "criadoEm": 1790278729235,
+      "forma": "PIX",
+      "descricao": "Pix entre contas Lions",
+      "tipo": "credito",
+      "data": "2026-09-04"
+    },
+    {
+      "id": "2vtdqgTYv4dRrN3CgHGC",
+      "criadoEm": 1790279085130,
+      "descricao": "Recebimento Alexandre Sallum",
+      "contaId": "c2",
+      "data": "2026-09-10",
+      "tipo": "credito",
+      "valor": 598,
+      "forma": "PIX"
+    },
+    {
+      "id": "2yi5ddLpKN713vUPHp3t",
+      "valor": 290,
+      "contaId": "c3",
+      "forma": "PIX",
+      "criadoEm": 1790626062295,
+      "descricao": "Pagamento decoração visita governador",
+      "data": "2026-09-25",
+      "tipo": "debito"
+    },
+    {
+      "id": "34KyS1edSvcNju1HRUHr",
+      "forma": "PIX",
+      "data": "2026-09-04",
+      "tipo": "debito",
+      "criadoEm": 1790605088924,
+      "valor": 500,
+      "contaId": "c4",
+      "descricao": "Pix entre contas Lions"
+    },
+    {
+      "id": "3IwSMjZ9LfzYiS66IHXN",
+      "descricao": "Recebimento Marcos Antonio Label",
+      "contaId": "c2",
+      "criadoEm": 1784148623379,
+      "valor": 100,
+      "forma": "PIX",
+      "data": "2026-07-03",
+      "tipo": "credito"
+    },
+    {
+      "id": "3Jz6QSBD7gZBDjxfaVd3",
+      "contaId": "c2",
+      "data": "2026-07-21",
+      "tipo": "debito",
+      "valor": 3000,
+      "criadoEm": 1784659849093,
+      "forma": "PIX",
+      "descricao": "Pagamento Limpeza Barraca Quitute"
+    },
+    {
+      "id": "3WBVpsSJCOBr9ncGKHou",
+      "contaId": "c3",
+      "criadoEm": 1790189239502,
+      "descricao": "Recebimento Paulo Cesar Polachin",
+      "valor": 1794,
+      "data": "2026-09-09",
+      "tipo": "credito",
+      "forma": "PIX"
+    },
+    {
+      "id": "3eCW3tC0pSzlGzw4ruts",
+      "criadoEm": 1790189015244,
+      "tipo": "credito",
+      "data": "2026-09-04",
+      "valor": 930,
+      "descricao": "Recebimento de boleto",
+      "contaId": "c3",
+      "forma": "Boleto"
+    },
+    {
+      "id": "3mKziS8MlKITIE7J0HDX",
+      "descricao": "Recebimento de pix diversos",
+      "contaId": "c5",
+      "criadoEm": 1790605769315,
+      "forma": "PIX",
+      "valor": 120,
+      "data": "2026-09-14",
+      "tipo": "credito"
+    },
+    {
+      "id": "3pB8wSWJmeXvTnzEMFsR",
+      "data": "2026-09-10",
+      "tipo": "debito",
+      "forma": "Outro",
+      "descricao": "Tarifa cesta",
+      "valor": 29,
+      "criadoEm": 1790279069080,
+      "contaId": "c2"
+    },
+    {
+      "id": "3wYmC9QbhxlG2cvdp432",
+      "descricao": "Saque dinheiro",
+      "contaId": "c3",
+      "criadoEm": 1788275209000,
+      "tipo": "debito",
+      "data": "2026-08-11",
+      "forma": "Dinheiro",
+      "valor": 1621
+    },
+    {
+      "id": "3zahx956WwmeL4KOMFjA",
+      "valor": 509.75,
+      "forma": "PIX",
+      "contaId": "c3",
+      "criadoEm": 1788281575563,
+      "descricao": "Pagamento bebidas destiladas festival 21/08",
+      "tipo": "debito",
+      "data": "2026-08-28"
+    },
+    {
+      "id": "4L9YQwKpu2eu3mpXuvRr",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-08-11",
+      "valor": 30,
+      "criadoEm": 1788285796866,
+      "contaId": "c5",
+      "descricao": "Recebimento pix"
+    },
+    {
+      "id": "4Nd912umu1ATwgzXOAQY",
+      "forma": "PIX",
+      "data": "2026-07-02",
+      "tipo": "credito",
+      "valor": 100,
+      "descricao": "Recebimento Tecilio Gabriel",
+      "contaId": "c2",
+      "criadoEm": 1784148182325
+    },
+    {
+      "id": "4RA6tagBqZFDpguPXM9T",
+      "valor": 598,
+      "forma": "PIX",
+      "criadoEm": 1790279262854,
+      "descricao": "Recebimento Marcelo Ottoni",
+      "contaId": "c2",
+      "tipo": "credito",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "4yRtmFaLggaSn7lMrAmD",
+      "forma": "Boleto",
+      "valor": 8275,
+      "data": "2026-07-14",
+      "tipo": "credito",
+      "contaId": "c3",
+      "criadoEm": 1784303082927,
+      "descricao": "Recebimento de boleto"
+    },
+    {
+      "id": "5K00Zd4GxLTUDOvtpqO5",
+      "contaId": "c3",
+      "forma": "Outro",
+      "descricao": "Tarifa Cesta",
+      "data": "2026-07-10",
+      "tipo": "debito",
+      "criadoEm": 1784302995399,
+      "valor": 20
+    },
+    {
+      "id": "5Mv6qlo5OCWa3Y4zM1m4",
+      "descricao": "Recebimento de boleto",
+      "tipo": "credito",
+      "data": "2026-09-24",
+      "criadoEm": 1790625858152,
+      "contaId": "c3",
+      "forma": "Boleto",
+      "valor": 465
+    },
+    {
+      "id": "5YRQRmlh7QOd331pJWQm",
+      "forma": "PIX",
+      "criadoEm": 1785867859061,
+      "data": "2026-07-31",
+      "tipo": "credito",
+      "descricao": "Recebimento Imero Padula",
+      "valor": 10,
+      "contaId": "c1"
+    },
+    {
+      "id": "5rCnFBqCkLNzQs1Xlw2S",
+      "contaId": "c3",
+      "valor": 196,
+      "descricao": "Pagamento de boleto internet",
+      "forma": "Boleto",
+      "criadoEm": 1784834548066,
+      "tipo": "debito",
+      "data": "2026-07-23"
+    },
+    {
+      "id": "5zFykicVwRWYUongnuju",
+      "contaId": "c1",
+      "valor": 930,
+      "criadoEm": 1790277961572,
+      "forma": "PIX",
+      "descricao": "Pagamento doação pão Vila Vicentina Agosto",
+      "tipo": "debito",
+      "data": "2026-09-01"
+    },
+    {
+      "id": "6AgU73BaxmtVBOKwGRrF",
+      "contaId": "c4",
+      "descricao": "Recebimento pix",
+      "criadoEm": 1785875097176,
+      "valor": 100,
+      "forma": "PIX",
+      "data": "2026-08-03",
+      "tipo": "credito"
+    },
+    {
+      "id": "6GFqcILXGpjuF0GZFokr",
+      "contaId": "c3",
+      "tipo": "credito",
+      "data": "2026-07-27",
+      "criadoEm": 1785866441921,
+      "forma": "Boleto",
+      "descricao": "Recebimento de boleto",
+      "valor": 515
+    },
+    {
+      "id": "6NHRLjiiIyUSB8FqVFEt",
+      "valor": 2500,
+      "descricao": "Cheque pagamento energia",
+      "criadoEm": 1785874377649,
+      "forma": "Cheque",
+      "data": "2026-07-03",
+      "tipo": "debito",
+      "contaId": "c4"
+    },
+    {
+      "id": "6OCsSaMNkjKy8jGjJZJw",
+      "contaId": "c3",
+      "valor": 14.55,
+      "forma": "Outro",
+      "criadoEm": 1788275051917,
+      "data": "2026-08-10",
+      "descricao": "Tarifa baixa títulos",
+      "tipo": "debito"
+    },
+    {
+      "id": "6qk3oxu7dqAlN3RQbfAQ",
+      "contaId": "c3",
+      "criadoEm": 1784302732154,
+      "descricao": "Pagamento Flores jantar",
+      "valor": 195,
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-07-03"
+    },
+    {
+      "id": "6sdTBS17Tp2YmI1NCYBZ",
+      "valor": 100,
+      "contaId": "c3",
+      "descricao": "Recebimento Antonio Carlos Ijanc",
+      "tipo": "credito",
+      "data": "2026-07-27",
+      "forma": "PIX",
+      "criadoEm": 1785866780400
+    },
+    {
+      "id": "6vafLwMGCHxRuaJ8V8BX",
+      "criadoEm": 1788282160022,
+      "descricao": "Pagamento doação ABC, Recanto e Caridade fé",
+      "contaId": "c1",
+      "valor": 1404.75,
+      "tipo": "debito",
+      "data": "2026-08-04",
+      "forma": "PIX"
+    },
+    {
+      "id": "75bmfVeC2fflt7jEgSc1",
+      "criadoEm": 1785876043610,
+      "valor": 482.3,
+      "descricao": "Resgate CDB",
+      "forma": "Outro",
+      "data": "2026-07-24",
+      "contaId": "c5",
+      "tipo": "credito"
+    },
+    {
+      "id": "77uzULfV21wQMrxcEhMY",
+      "contaId": "c3",
+      "descricao": "Recebimento Ciniro Aparecido",
+      "valor": 140,
+      "criadoEm": 1790188707931,
+      "data": "2026-09-02",
+      "tipo": "credito",
+      "forma": "PIX"
+    },
+    {
+      "id": "7Nyik9uYsMoWRWlhivWR",
+      "criadoEm": 1785875812311,
+      "descricao": "Pagamento Helena Ijanc",
+      "contaId": "c5",
+      "data": "2026-07-01",
+      "tipo": "debito",
+      "valor": 1644,
+      "forma": "PIX"
+    },
+    {
+      "id": "7VaRqFoEmJn5hSrJpFXp",
+      "descricao": "Pagamento ISS",
+      "data": "2026-09-15",
+      "tipo": "debito",
+      "valor": 75.62,
+      "contaId": "c3",
+      "forma": "Boleto",
+      "criadoEm": 1790189493844
+    },
+    {
+      "id": "7cWz7IIY6UaEsfKBd51w",
+      "forma": "Boleto",
+      "tipo": "credito",
+      "data": "2026-07-10",
+      "valor": 910,
+      "contaId": "c3",
+      "criadoEm": 1784302968458,
+      "descricao": "Recebimento de boleto"
+    },
+    {
+      "id": "7pHKlBXIwEaWMLWS6TDY",
+      "valor": 13313.67,
+      "criadoEm": 1788285203908,
+      "forma": "Transferência",
+      "tipo": "credito",
+      "data": "2026-08-31",
+      "contaId": "c4",
+      "descricao": "Transferência entre contas Lions"
+    },
+    {
+      "id": "7zS5Hw5TijOOe1BlM2Sx",
+      "criadoEm": 1785868094690,
+      "contaId": "c1",
+      "descricao": "Pagamento doações Guariba",
+      "valor": 75,
+      "data": "2026-07-31",
+      "tipo": "debito",
+      "forma": "PIX"
+    },
+    {
+      "id": "80Tgm2Pt1KH58CCv0e3l",
+      "forma": "PIX",
+      "contaId": "c2",
+      "criadoEm": 1790278900503,
+      "data": "2026-09-09",
+      "tipo": "debito",
+      "valor": 19723.5,
+      "descricao": "Pagamento evento noite Italiana saldo final"
+    },
+    {
+      "id": "84VqIrTGlCQX9o25Qb3a",
+      "descricao": "Recebimento Eldino Zeli",
+      "data": "2026-09-08",
+      "tipo": "credito",
+      "forma": "PIX",
+      "criadoEm": 1790278773892,
+      "contaId": "c2",
+      "valor": 1794
+    },
+    {
+      "id": "85qIdteQFFXTWdijABdV",
+      "contaId": "c4",
+      "descricao": "Débito SAAEJ",
+      "valor": 121.77,
+      "criadoEm": 1788284645501,
+      "forma": "Débito automático",
+      "data": "2026-08-20",
+      "tipo": "debito"
+    },
+    {
+      "id": "8OkVC66g6tQQEu7r2Zy3",
+      "criadoEm": 1784834370316,
+      "valor": 400,
+      "descricao": "Doação batata Florianopolis",
+      "forma": "Transferência",
+      "tipo": "debito",
+      "data": "2026-07-23",
+      "contaId": "c3"
+    },
+    {
+      "id": "8Pvvk6x7YIf7mAGB4aip",
+      "criadoEm": 1790605791422,
+      "valor": 1000,
+      "descricao": "Pagamento Valeria Cristina Xavier",
+      "data": "2026-09-18",
+      "tipo": "debito",
+      "forma": "PIX",
+      "contaId": "c5"
+    },
+    {
+      "id": "8TcSa9kwyveAf5D8zEdo",
+      "data": "2026-07-01",
+      "descricao": "Recebimento Gustavo Luis dos Santos",
+      "tipo": "credito",
+      "criadoEm": 1784147603709,
+      "forma": "PIX",
+      "contaId": "c2",
+      "valor": 100
+    },
+    {
+      "id": "8cEDL6rGwp38UsfyfzNT",
+      "descricao": "Recebimento pix",
+      "valor": 500,
+      "criadoEm": 1790605034544,
+      "forma": "PIX",
+      "contaId": "c4",
+      "tipo": "credito",
+      "data": "2026-09-03"
+    },
+    {
+      "id": "8fYeTFDKhL51LDiFM4jK",
+      "valor": 1794,
+      "forma": "PIX",
+      "contaId": "c2",
+      "criadoEm": 1790279283405,
+      "data": "2026-09-11",
+      "tipo": "credito",
+      "descricao": "Recebimento Roberto Antonio"
+    },
+    {
+      "id": "8qBiQjggHZhrNGz3xhGq",
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-07-15",
+      "valor": 980,
+      "criadoEm": 1784307660854,
+      "contaId": "c3",
+      "descricao": "Pagamento Pix Elaine Cristina Felipe"
+    },
+    {
+      "id": "8wWMZPedszd1aSOZ1AsT",
+      "data": "2026-07-07",
+      "tipo": "debito",
+      "descricao": "Tarifa de cobrança de títulos",
+      "forma": "Outro",
+      "contaId": "c3",
+      "valor": 157.14,
+      "criadoEm": 1784302898854
+    },
+    {
+      "id": "9AyO8wkfkKAylgqpm6S5",
+      "forma": "PIX",
+      "contaId": "c3",
+      "descricao": "Recebimento Simone dos Santos",
+      "criadoEm": 1790626153075,
+      "data": "2026-09-25",
+      "tipo": "credito",
+      "valor": 540
+    },
+    {
+      "id": "9FCDRCFVa363mbZSDRny",
+      "data": "2026-09-22",
+      "tipo": "credito",
+      "forma": "Transferência",
+      "criadoEm": 1790280181528,
+      "valor": 1495,
+      "contaId": "c2",
+      "descricao": "Tranferência entre contas Lions"
+    },
+    {
+      "id": "9FnuoBlOGFuOQFj6gFnZ",
+      "criadoEm": 1788282325361,
+      "data": "2026-08-05",
+      "tipo": "debito",
+      "forma": "PIX",
+      "descricao": "Pagamento compra de 2 Melvin Jones",
+      "valor": 10234,
+      "contaId": "c1"
+    },
+    {
+      "id": "9JACYU71R0JrKbLvrrim",
+      "contaId": "c6",
+      "forma": "PIX",
+      "data": "2026-09-08",
+      "tipo": "debito",
+      "valor": 159.99,
+      "descricao": "Pagamento Daniele Marques Lopes",
+      "criadoEm": 1790604605647
+    },
+    {
+      "id": "9KiQgoghoWiOfqBDAhtc",
+      "criadoEm": 1785868317695,
+      "contaId": "c2",
+      "data": "2026-07-24",
+      "tipo": "credito",
+      "descricao": "Estorno TED",
+      "forma": "Outro",
+      "valor": 3410.57
+    },
+    {
+      "id": "9OMSlvnHGAvpXOyZEk1Q",
+      "contaId": "c4",
+      "criadoEm": 1788284001812,
+      "descricao": "Pix Wellington Luiz dos Santos",
+      "tipo": "debito",
+      "data": "2026-08-06",
+      "forma": "PIX",
+      "valor": 520
+    },
+    {
+      "id": "9SRBBpYUXWccKaPXg33c",
+      "criadoEm": 1784302923560,
+      "valor": 455,
+      "contaId": "c3",
+      "forma": "Boleto",
+      "tipo": "credito",
+      "data": "2026-07-08",
+      "descricao": "Recebimento de boleto"
+    },
+    {
+      "id": "9khxohuJWHpXBMNYRfxC",
+      "valor": 6782.6,
+      "criadoEm": 1790627005884,
+      "tipo": "credito",
+      "data": "2026-09-24",
+      "forma": "Outro",
+      "descricao": "Resgate CDB",
+      "contaId": "c4"
+    },
+    {
+      "id": "9vWGOfyOdRBEd0RQC4V3",
+      "forma": "Boleto",
+      "descricao": "Recebimento boleto",
+      "data": "2026-08-20",
+      "tipo": "credito",
+      "contaId": "c3",
+      "valor": 385,
+      "criadoEm": 1788275560414
+    },
+    {
+      "id": "A9Ew6iBxkywubiclHv5u",
+      "descricao": "Recebimento de boleto",
+      "data": "2026-07-28",
+      "tipo": "credito",
+      "valor": 695,
+      "forma": "Boleto",
+      "criadoEm": 1785867008479,
+      "contaId": "c3"
+    },
+    {
+      "id": "AafJ2Ra9ZBbbVOJ6j5et",
+      "tipo": "credito",
+      "data": "2026-07-03",
+      "descricao": "Cheque devolvido",
+      "criadoEm": 1785874397860,
+      "forma": "Cheque",
+      "contaId": "c4",
+      "valor": 2500
+    },
+    {
+      "id": "AmMlUIfc1REw9qfdKQvH",
+      "contaId": "c3",
+      "valor": 270,
+      "criadoEm": 1790626133196,
+      "forma": "PIX",
+      "descricao": "Pix entre contas Lions",
+      "tipo": "credito",
+      "data": "2026-09-25"
+    },
+    {
+      "id": "Aq0ikNFARDnEsRlIaDu5",
+      "valor": 455,
+      "descricao": "Recebimento boleto",
+      "criadoEm": 1784302693498,
+      "forma": "Boleto",
+      "data": "2026-07-03",
+      "tipo": "credito",
+      "contaId": "c3"
+    },
+    {
+      "id": "BA1oCEDymdZBKdZIsugQ",
+      "valor": 100,
+      "forma": "PIX",
+      "criadoEm": 1784148524911,
+      "descricao": "Recebimento Alcides da Rocha",
+      "data": "2026-07-03",
+      "tipo": "credito",
+      "contaId": "c2"
+    },
+    {
+      "id": "BBnL1h3ynIH1K1hdWUwx",
+      "contaId": "c3",
+      "criadoEm": 1788275711798,
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-08-21",
+      "valor": 300,
+      "descricao": "Recebimento pix Lions"
+    },
+    {
+      "id": "BCFi85741rPCN8agFUW5",
+      "criadoEm": 1784659877240,
+      "descricao": "Pagamento conexões gás quitute",
+      "tipo": "debito",
+      "data": "2026-07-21",
+      "valor": 708.24,
+      "forma": "PIX",
+      "contaId": "c2"
+    },
+    {
+      "id": "BFAjAVragmuiAYNiW4Nu",
+      "forma": "Outro",
+      "descricao": "Tarifa Cesta",
+      "valor": 20,
+      "tipo": "debito",
+      "data": "2026-08-10",
+      "criadoEm": 1788282373484,
+      "contaId": "c1"
+    },
+    {
+      "id": "BULrg4tBuyc9vC2aLOoh",
+      "descricao": "Pagamento assadeiras quitute",
+      "criadoEm": 1784149185134,
+      "contaId": "c2",
+      "tipo": "debito",
+      "valor": 640,
+      "data": "2026-07-13",
+      "forma": "PIX"
+    },
+    {
+      "id": "BVcuNwxu56XCJUNeHqLC",
+      "data": "2026-07-03",
+      "tipo": "debito",
+      "descricao": "Pagamento LimpeBem",
+      "forma": "PIX",
+      "contaId": "c4",
+      "valor": 531.25,
+      "criadoEm": 1785874294694
+    },
+    {
+      "id": "BVixSwgBI9rREolaNDKB",
+      "valor": 1400,
+      "forma": "PIX",
+      "contaId": "c5",
+      "tipo": "debito",
+      "descricao": "Pagamento Joaquim Batista",
+      "data": "2026-09-22",
+      "criadoEm": 1790605891213
+    },
+    {
+      "id": "BdugVlW38vu5OBwUb12X",
+      "forma": "Outro",
+      "contaId": "c3",
+      "tipo": "debito",
+      "valor": 14.55,
+      "data": "2026-07-17",
+      "criadoEm": 1784660860692,
+      "descricao": "Tarifa de baixa de títulos"
+    },
+    {
+      "id": "BmHAOKFEDamNG2FQ4gmx",
+      "data": "2026-09-01",
+      "tipo": "credito",
+      "forma": "PIX",
+      "valor": 70,
+      "criadoEm": 1790188529363,
+      "contaId": "c3",
+      "descricao": "Recebimento Sandra Mara Maia"
+    },
+    {
+      "id": "BtRGO21e1uWoL1DxQezz",
+      "criadoEm": 1788274714923,
+      "data": "2026-08-05",
+      "tipo": "debito",
+      "contaId": "c3",
+      "forma": "Débito automático",
+      "descricao": "Débito CPFL",
+      "valor": 293.57
+    },
+    {
+      "id": "BzUz61j4gOIeDIz21Zpb",
+      "forma": "Boleto",
+      "tipo": "credito",
+      "data": "2026-07-21",
+      "valor": 455,
+      "criadoEm": 1784660895970,
+      "contaId": "c3",
+      "descricao": "Recebimento de boleto"
+    },
+    {
+      "id": "CLXtpyKX676ZSTNLLwu2",
+      "data": "2026-08-18",
+      "tipo": "debito",
+      "criadoEm": 1788284579339,
+      "forma": "PIX",
+      "contaId": "c4",
+      "descricao": "Pagamento manutenção em ar condicionados",
+      "valor": 3576.63
+    },
+    {
+      "id": "CgnaATGobI9za7fArxzE",
+      "forma": "Outro",
+      "data": "2026-09-23",
+      "tipo": "debito",
+      "valor": 9.9,
+      "descricao": "Tarifa",
+      "contaId": "c5",
+      "criadoEm": 1790605978891
+    },
+    {
+      "id": "CsLBOwTd7drUSena5Wnb",
+      "descricao": "Tarifa",
+      "data": "2026-09-03",
+      "tipo": "debito",
+      "criadoEm": 1790188998457,
+      "contaId": "c3",
+      "forma": "Outro",
+      "valor": 157.14
+    },
+    {
+      "id": "CzThQa5D85CXe12SWYtF",
+      "data": "2026-07-31",
+      "tipo": "debito",
+      "descricao": "Pagamento show de prêmio março",
+      "forma": "PIX",
+      "contaId": "c2",
+      "valor": 1000,
+      "criadoEm": 1785868602273
+    },
+    {
+      "id": "D2yb8B0yslu1ffLLnhdl",
+      "criadoEm": 1784307631423,
+      "descricao": "Pagamento Vapt Vupt saldo NF 0385",
+      "data": "2026-07-15",
+      "tipo": "debito",
+      "contaId": "c3",
+      "forma": "PIX",
+      "valor": 105
+    },
+    {
+      "id": "DJ483xltJMBaFKhpM0Pb",
+      "descricao": "Pagamento doação prótese perna (saldo final)",
+      "forma": "PIX",
+      "contaId": "c1",
+      "criadoEm": 1788282799834,
+      "tipo": "debito",
+      "data": "2026-08-24",
+      "valor": 2980
+    },
+    {
+      "id": "DRfWXDlIPtvFexxM4jqz",
+      "criadoEm": 1790604677012,
+      "data": "2026-09-15",
+      "tipo": "debito",
+      "descricao": "Pagamento Miguel Francisco Oliveira",
+      "forma": "PIX",
+      "contaId": "c6",
+      "valor": 576
+    },
+    {
+      "id": "DZ0CwP9oiVO4qdFVImna",
+      "criadoEm": 1790279198590,
+      "valor": 2300,
+      "data": "2026-09-11",
+      "tipo": "credito",
+      "contaId": "c2",
+      "descricao": "Recebimento Jose Francisco",
+      "forma": "PIX"
+    },
+    {
+      "id": "DeEDukHa6OuNjz7KB4Nk",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-09-17",
+      "valor": 600,
+      "criadoEm": 1790280103038,
+      "descricao": "Recebimento Gustavo Luis dos Santos",
+      "contaId": "c2"
+    },
+    {
+      "id": "DjvwtfWjCR9Mveisp0LI",
+      "descricao": "Recebimento de boleto",
+      "criadoEm": 1790189217139,
+      "tipo": "credito",
+      "data": "2026-09-09",
+      "forma": "Boleto",
+      "contaId": "c3",
+      "valor": 930
+    },
+    {
+      "id": "DnUx006z7Akxz5yoVxr7",
+      "forma": "PIX",
+      "data": "2026-08-24",
+      "tipo": "debito",
+      "valor": 86,
+      "contaId": "c3",
+      "criadoEm": 1788275954878,
+      "descricao": "Pagamento papelaria Mariana e Mauro"
+    },
+    {
+      "id": "DsrJaOfKt79vLNhOBrV3",
+      "data": "2026-07-07",
+      "tipo": "credito",
+      "descricao": "Recebimento pix",
+      "contaId": "c4",
+      "forma": "PIX",
+      "criadoEm": 1785874614757,
+      "valor": 100
+    },
+    {
+      "id": "E7lPy3ZOs5wCF4ealRcz",
+      "descricao": "Pix Jacqueline Louise Rabello",
+      "criadoEm": 1788285639465,
+      "forma": "PIX",
+      "contaId": "c5",
+      "data": "2026-08-07",
+      "tipo": "debito",
+      "valor": 299
+    },
+    {
+      "id": "EGtTzl0S0Im9zgHF2IYE",
+      "valor": 5000,
+      "descricao": "Mutua Roberto Martucci",
+      "forma": "PIX",
+      "criadoEm": 1784660776192,
+      "contaId": "c3",
+      "data": "2026-07-15",
+      "tipo": "debito"
+    },
+    {
+      "id": "EKyXv7rUgEQdQ4JCC7jM",
+      "forma": "Boleto",
+      "data": "2026-09-14",
+      "tipo": "credito",
+      "descricao": "Recebimento de boleto",
+      "valor": 465,
+      "criadoEm": 1790189371146,
+      "contaId": "c3"
+    },
+    {
+      "id": "ENCCbVe2mE4vx8XnkYRw",
+      "contaId": "c2",
+      "valor": 1200,
+      "forma": "PIX",
+      "criadoEm": 1790279821272,
+      "descricao": "Recebimento Marcos Antonio",
+      "data": "2026-09-14",
+      "tipo": "credito"
+    },
+    {
+      "id": "EWCjWJrHyCiidpv30e2k",
+      "descricao": "Recebimento pix Lions",
+      "valor": 1794,
+      "criadoEm": 1788283638236,
+      "forma": "PIX",
+      "contaId": "c2",
+      "tipo": "credito",
+      "data": "2026-08-28"
+    },
+    {
+      "id": "EXoCZBEUpa1237h5s3b1",
+      "contaId": "c4",
+      "forma": "PIX",
+      "tipo": "debito",
+      "descricao": "Pagamento Aliete Paula Rodrigues",
+      "data": "2026-09-01",
+      "valor": 38,
+      "criadoEm": 1790604941561
+    },
+    {
+      "id": "EyS4M4gmmDbqhOFDSSxV",
+      "contaId": "c3",
+      "criadoEm": 1788275093863,
+      "forma": "Débito automático",
+      "tipo": "debito",
+      "data": "2026-08-11",
+      "valor": 184.55,
+      "descricao": "Débito CPFL"
+    },
+    {
+      "id": "FJmNGJNLxFUD6QpgCjZu",
+      "valor": 5,
+      "forma": "Outro",
+      "tipo": "debito",
+      "data": "2026-08-24",
+      "contaId": "c3",
+      "descricao": "Complemento debito placa solar",
+      "criadoEm": 1788275929485
+    },
+    {
+      "id": "FNFnHcvyHTpRx9KNAUAi",
+      "data": "2026-07-27",
+      "tipo": "credito",
+      "valor": 50,
+      "criadoEm": 1785866989543,
+      "forma": "PIX",
+      "descricao": "Recebimento Alfredo Jachetto",
+      "contaId": "c3"
+    },
+    {
+      "id": "Fte4upazkFzle84HEnpE",
+      "descricao": "Pagamento doação Cever (parcial)",
+      "criadoEm": 1788282691773,
+      "valor": 1600,
+      "tipo": "debito",
+      "data": "2026-08-18",
+      "forma": "PIX",
+      "contaId": "c1"
+    },
+    {
+      "id": "G57mvTL0ahVi5jfgw7vt",
+      "valor": 5600,
+      "forma": "PIX",
+      "criadoEm": 1790626592205,
+      "contaId": "c6",
+      "descricao": "Pix entre contas Lions",
+      "data": "2026-09-25",
+      "tipo": "debito"
+    },
+    {
+      "id": "GSkCOXpaLvZzHJaUCked",
+      "valor": 100,
+      "criadoEm": 1790625951058,
+      "contaId": "c3",
+      "forma": "PIX",
+      "descricao": "Pagamento bolacha visita governador",
+      "data": "2026-09-24",
+      "tipo": "debito"
+    },
+    {
+      "id": "GXEtZpR8GMvKJfN7uwpl",
+      "contaId": "c3",
+      "tipo": "credito",
+      "data": "2026-08-13",
+      "valor": 9670,
+      "criadoEm": 1788275251867,
+      "forma": "Boleto",
+      "descricao": "Recebimento boleto"
+    },
+    {
+      "id": "Gbpa5pQHgNWxvLYnLurc",
+      "criadoEm": 1788283535887,
+      "descricao": "Recebimento pix Luciano da Silva",
+      "contaId": "c2",
+      "valor": 1794,
+      "tipo": "credito",
+      "data": "2026-08-24",
+      "forma": "PIX"
+    },
+    {
+      "id": "Gg3uISx5LjP8szI9e8FK",
+      "descricao": "Recebimento pix Imeve",
+      "contaId": "c2",
+      "valor": 1000,
+      "criadoEm": 1788283481817,
+      "forma": "PIX",
+      "data": "2026-08-18",
+      "tipo": "credito"
+    },
+    {
+      "id": "Gk8VeOZtEQbVD1NybLHI",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-07-27",
+      "valor": 100,
+      "contaId": "c3",
+      "criadoEm": 1785866588301,
+      "descricao": "Recebimento Rafael da Silva Ijanc"
+    },
+    {
+      "id": "GyOYU3RpK6tKGCQ31ryh",
+      "valor": 1395,
+      "criadoEm": 1784302587773,
+      "forma": "Boleto",
+      "contaId": "c3",
+      "descricao": "Recebimento boleto",
+      "data": "2026-07-01",
+      "tipo": "credito"
+    },
+    {
+      "id": "HCYsNAytXcEWlJzZubn0",
+      "data": "2026-07-02",
+      "tipo": "credito",
+      "criadoEm": 1784147865414,
+      "contaId": "c2",
+      "forma": "PIX",
+      "descricao": "Recebimento Helenita Sonia R",
+      "valor": 100
+    },
+    {
+      "id": "HIL75d59K9aXlo9zgE1C",
+      "criadoEm": 1788286012604,
+      "valor": 5000,
+      "contaId": "c6",
+      "forma": "Transferência",
+      "descricao": "Transferência entre contas Lions",
+      "tipo": "credito",
+      "data": "2026-08-31"
+    },
+    {
+      "id": "HIZseB2lfRQYaymu3G6S",
+      "contaId": "c3",
+      "valor": 1500,
+      "criadoEm": 1784302845671,
+      "data": "2026-07-07",
+      "tipo": "debito",
+      "descricao": "Cheque depósito campanha",
+      "forma": "Cheque"
+    },
+    {
+      "id": "HNPuENIChzCwHJvgvjig",
+      "contaId": "c3",
+      "criadoEm": 1790189553203,
+      "valor": 1395,
+      "descricao": "Recebimento de boleto",
+      "data": "2026-09-16",
+      "tipo": "credito",
+      "forma": "Boleto"
+    },
+    {
+      "id": "HcuItR4gOlzsMKFPbruN",
+      "contaId": "c3",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-07-28",
+      "valor": 25,
+      "criadoEm": 1785867131830,
+      "descricao": "Recebimento Oswaldo Pereira"
+    },
+    {
+      "id": "HmILBBmYGCpA1gXZ94DB",
+      "criadoEm": 1785870882385,
+      "valor": 616.13,
+      "contaId": "c6",
+      "forma": "PIX",
+      "descricao": "Recebimento Pix",
+      "tipo": "credito",
+      "data": "2026-07-23"
+    },
+    {
+      "id": "HmKicjUd0TPEMMGrQOKF",
+      "valor": 500,
+      "forma": "PIX",
+      "descricao": "Pagamento locação estacionamento para reuniões",
+      "contaId": "c3",
+      "tipo": "debito",
+      "data": "2026-08-20",
+      "criadoEm": 1788275599942
+    },
+    {
+      "id": "I9UBrup9WQjhHGOLzoq4",
+      "descricao": "Recebimento Rodrigo Kuboyama",
+      "contaId": "c2",
+      "criadoEm": 1784149152146,
+      "tipo": "credito",
+      "data": "2026-07-13",
+      "forma": "PIX",
+      "valor": 100
+    },
+    {
+      "id": "IKPqwY9VJsswQG9G3iqW",
+      "descricao": "Notas Quitute Fritura",
+      "contaId": "c2",
+      "valor": 634.17,
+      "criadoEm": 1784149216599,
+      "data": "2026-07-15",
+      "tipo": "debito",
+      "forma": "PIX"
+    },
+    {
+      "id": "ITB1LWk1rfaxRTB1jxnP",
+      "tipo": "credito",
+      "data": "2026-07-16",
+      "forma": "Boleto",
+      "criadoEm": 1784660798771,
+      "contaId": "c3",
+      "descricao": "Recebimento boleto",
+      "valor": 2275
+    },
+    {
+      "id": "InUxK2CoveMheopjSrFh",
+      "descricao": "Recebimento Waldemir Turcato",
+      "criadoEm": 1784147679531,
+      "valor": 100,
+      "tipo": "credito",
+      "data": "2026-07-01",
+      "contaId": "c2",
+      "forma": "PIX"
+    },
+    {
+      "id": "InxCgdUeby4aVHIGHwCZ",
+      "criadoEm": 1788275438525,
+      "descricao": "Recebimento boleto",
+      "contaId": "c3",
+      "valor": 890,
+      "tipo": "credito",
+      "data": "2026-08-18",
+      "forma": "Boleto"
+    },
+    {
+      "id": "IpJclOfAxgYqmFoWIlML",
+      "valor": 150,
+      "tipo": "credito",
+      "data": "2026-08-10",
+      "forma": "PIX",
+      "contaId": "c5",
+      "descricao": "Recebimento pix",
+      "criadoEm": 1788285710129
+    },
+    {
+      "id": "Iy1Tu8vSMyzzeGu8diIG",
+      "criadoEm": 1790279660532,
+      "valor": 450,
+      "data": "2026-09-14",
+      "tipo": "debito",
+      "descricao": "Pagamento Marccas Comunicação",
+      "contaId": "c2",
+      "forma": "PIX"
+    },
+    {
+      "id": "J22auAgyu3eSVpsKksVn",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-07-02",
+      "valor": 100,
+      "criadoEm": 1784148248167,
+      "contaId": "c2",
+      "descricao": "Recebimento Adhemar Marin Porcio"
+    },
+    {
+      "id": "JGXYpkp2k2319oEC0pZz",
+      "criadoEm": 1785874260354,
+      "valor": 1700,
+      "descricao": "Pagamento PB Comercio de Materiais para Construção",
+      "forma": "PIX",
+      "contaId": "c4",
+      "data": "2026-07-03",
+      "tipo": "debito"
+    },
+    {
+      "id": "JIyPTfaUVBMW3KyqeNBh",
+      "contaId": "c2",
+      "forma": "PIX",
+      "data": "2026-09-14",
+      "tipo": "debito",
+      "valor": 350,
+      "descricao": "Pagamento Cantinho do verde",
+      "criadoEm": 1790279737846
+    },
+    {
+      "id": "JMSOouSWh6mpVkrLTYkX",
+      "descricao": "Débito CPFL",
+      "criadoEm": 1784303045510,
+      "valor": 160.86,
+      "data": "2026-07-13",
+      "tipo": "debito",
+      "contaId": "c3",
+      "forma": "Débito automático"
+    },
+    {
+      "id": "JSbbx35uik3g00pkfmhT",
+      "forma": "Transferência",
+      "tipo": "debito",
+      "data": "2026-09-03",
+      "descricao": "Transferência entre contas Lions",
+      "valor": 1500,
+      "criadoEm": 1790188978095,
+      "contaId": "c3"
+    },
+    {
+      "id": "JUGARcaxfsPHPJhkoV19",
+      "criadoEm": 1784148441466,
+      "contaId": "c2",
+      "descricao": "Recebimento Juliano B Lazaretti",
+      "valor": 100,
+      "data": "2026-07-03",
+      "tipo": "credito",
+      "forma": "PIX"
+    },
+    {
+      "id": "Jb201UvUYZH36ql0k6L5",
+      "valor": 70,
+      "forma": "PIX",
+      "descricao": "Recebimento Pix Andressa Pereira",
+      "criadoEm": 1784660827644,
+      "contaId": "c3",
+      "data": "2026-07-16",
+      "tipo": "credito"
+    },
+    {
+      "id": "Ji5hSTE9zuNnl6zhqUTA",
+      "valor": 5985.49,
+      "criadoEm": 1785874588561,
+      "forma": "Cheque",
+      "contaId": "c4",
+      "data": "2026-07-06",
+      "tipo": "credito",
+      "descricao": "Cheque devolvido"
+    },
+    {
+      "id": "Jp3SkREbriUIZB4oRVRC",
+      "valor": 1794,
+      "descricao": "Recebimento pix Ligia de Stefani",
+      "forma": "PIX",
+      "criadoEm": 1788283510902,
+      "contaId": "c2",
+      "tipo": "credito",
+      "data": "2026-08-19"
+    },
+    {
+      "id": "JtMNP2dH91qLqLazzVZd",
+      "valor": 5985.49,
+      "descricao": "Cheque emitido compra forno",
+      "forma": "Cheque",
+      "criadoEm": 1785874571088,
+      "contaId": "c4",
+      "tipo": "debito",
+      "data": "2026-07-06"
+    },
+    {
+      "id": "Ju7n86GMOMfuApu8wgbD",
+      "criadoEm": 1790278120754,
+      "descricao": "Recebimento Imero Padula",
+      "contaId": "c1",
+      "valor": 10,
+      "data": "2026-09-01",
+      "tipo": "credito",
+      "forma": "PIX"
+    },
+    {
+      "id": "K02n2VWK3uu46zZ1BjcQ",
+      "valor": 260,
+      "criadoEm": 1788275336834,
+      "forma": "PIX",
+      "descricao": "Pagamento vigilância 07 e 11 de agosto",
+      "tipo": "debito",
+      "contaId": "c3",
+      "data": "2026-08-17"
+    },
+    {
+      "id": "K7UxwTNm92NTg7WuPCQ5",
+      "descricao": "depósito cheque (repasse conta administrativa)",
+      "criadoEm": 1784147392693,
+      "valor": 5985.49,
+      "contaId": "c1",
+      "forma": "Cheque",
+      "tipo": "credito",
+      "data": "2026-07-06"
+    },
+    {
+      "id": "KIRyJviZv0s14rVVyJmH",
+      "data": "2026-09-21",
+      "tipo": "credito",
+      "criadoEm": 1790280156018,
+      "descricao": "Transferência entre contas Lions",
+      "valor": 1794,
+      "forma": "Transferência",
+      "contaId": "c2"
+    },
+    {
+      "id": "KJNRTkS67oW1tuglV4j9",
+      "forma": "PIX",
+      "contaId": "c3",
+      "valor": 100,
+      "tipo": "credito",
+      "data": "2026-07-27",
+      "criadoEm": 1785866662674,
+      "descricao": "Recebimento Thiago Silveira"
+    },
+    {
+      "id": "KPDmDLcL40fAqoKK7WIe",
+      "descricao": "Pagamento cesta Olga",
+      "criadoEm": 1788274521556,
+      "forma": "PIX",
+      "data": "2026-08-04",
+      "tipo": "debito",
+      "valor": 185,
+      "contaId": "c3"
+    },
+    {
+      "id": "KQ06XP4iM85EQrPbZ9ny",
+      "descricao": "Recebimento Marcio Machado Cera",
+      "forma": "PIX",
+      "criadoEm": 1784148305864,
+      "valor": 280,
+      "tipo": "credito",
+      "data": "2026-07-02",
+      "contaId": "c2"
+    },
+    {
+      "id": "KVREFEM8mSTw6SBv4CRh",
+      "data": "2026-09-08",
+      "tipo": "debito",
+      "descricao": "Pagamento reunião administrativa 04/09/2026",
+      "contaId": "c3",
+      "criadoEm": 1790189132190,
+      "forma": "PIX",
+      "valor": 140
+    },
+    {
+      "id": "KWPNtNfOnRDWm1h3l3U5",
+      "valor": 1425,
+      "descricao": "Recebimento de boleto",
+      "criadoEm": 1784302945239,
+      "forma": "Boleto",
+      "contaId": "c3",
+      "data": "2026-07-09",
+      "tipo": "credito"
+    },
+    {
+      "id": "KYtvixmpXoBKtcmfWP0g",
+      "forma": "PIX",
+      "descricao": "Recebimento Paulo Henrique",
+      "criadoEm": 1790279617348,
+      "data": "2026-09-14",
+      "valor": 1800,
+      "tipo": "credito",
+      "contaId": "c2"
+    },
+    {
+      "id": "Ksfs5iBM92Gh6lXlhUFr",
+      "forma": "Boleto",
+      "contaId": "c3",
+      "data": "2026-07-23",
+      "tipo": "debito",
+      "valor": 6986.83,
+      "criadoEm": 1784834661629,
+      "descricao": "Pagamento taxa internacional Lions Clube"
+    },
+    {
+      "id": "L5dJ3yIiDdhxXbl31bHm",
+      "forma": "PIX",
+      "data": "2026-07-01",
+      "tipo": "credito",
+      "valor": 100,
+      "descricao": "Recebimento José Avelino Moreto",
+      "contaId": "c2",
+      "criadoEm": 1784147563581
+    },
+    {
+      "id": "L6YDJCUQ7X3ImHtWQNjN",
+      "valor": 1000,
+      "forma": "PIX",
+      "descricao": "Pagamento Elaine Cristina Felipe",
+      "tipo": "debito",
+      "data": "2026-09-01",
+      "contaId": "c4",
+      "criadoEm": 1790604853008
+    },
+    {
+      "id": "LErZxXodDtyHvKNEnycq",
+      "criadoEm": 1788283677274,
+      "forma": "PIX",
+      "data": "2026-08-28",
+      "tipo": "credito",
+      "valor": 500,
+      "descricao": "Recebimento pix Cunha e Gonsalves",
+      "contaId": "c2"
+    },
+    {
+      "id": "LOQhDnlDnRPGLIzpNNp2",
+      "criadoEm": 1790188670763,
+      "descricao": "Pagamento despesas cartórios e honorários",
+      "valor": 477.04,
+      "data": "2026-09-01",
+      "tipo": "debito",
+      "forma": "PIX",
+      "contaId": "c3"
+    },
+    {
+      "id": "LQ2T7c6QdHVU5aSRPxi6",
+      "contaId": "c2",
+      "criadoEm": 1784659902684,
+      "valor": 500,
+      "data": "2026-07-21",
+      "tipo": "debito",
+      "descricao": "Pagamento bebidas quitute",
+      "forma": "PIX"
+    },
+    {
+      "id": "LTwfVhRopVmkbd0MWWvB",
+      "forma": "Outro",
+      "contaId": "c5",
+      "data": "2026-09-24",
+      "tipo": "credito",
+      "criadoEm": 1790626781206,
+      "valor": 2873.2,
+      "descricao": "Resgate CDB"
+    },
+    {
+      "id": "LdE3CRkhpn0cqOhesq4K",
+      "valor": 181.5,
+      "data": "2026-08-17",
+      "tipo": "debito",
+      "contaId": "c3",
+      "forma": "PIX",
+      "criadoEm": 1788275419002,
+      "descricao": "Pagamento farofa quitute"
+    },
+    {
+      "id": "LdSwVLRDU6PC5awTRgsB",
+      "valor": 770,
+      "descricao": "Recebimento de boleto",
+      "forma": "Boleto",
+      "criadoEm": 1788275027016,
+      "data": "2026-08-10",
+      "tipo": "credito",
+      "contaId": "c3"
+    },
+    {
+      "id": "LhNlS63I4QtJzA89YTaG",
+      "contaId": "c2",
+      "descricao": "Recebimento Carlos Leonardo",
+      "valor": 100,
+      "criadoEm": 1784147782859,
+      "forma": "PIX",
+      "data": "2026-07-01",
+      "tipo": "credito"
+    },
+    {
+      "id": "LmdM7yXpMqskSLfLzCFz",
+      "criadoEm": 1784659378813,
+      "valor": 1676,
+      "contaId": "c2",
+      "forma": "PIX",
+      "descricao": "Pagamento requeijão quitute",
+      "tipo": "debito",
+      "data": "2026-07-20"
+    },
+    {
+      "id": "LouvoqmeLqNG27ZT7ez2",
+      "descricao": "Pagamento lavagem toalhas",
+      "contaId": "c3",
+      "valor": 160,
+      "criadoEm": 1784307602652,
+      "data": "2026-07-15",
+      "tipo": "debito",
+      "forma": "PIX"
+    },
+    {
+      "id": "LrPV9tBepFGKY5dtN2N4",
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-09-18",
+      "valor": 980,
+      "criadoEm": 1790189648114,
+      "contaId": "c3",
+      "descricao": "Pagamento decoração festiva de posse"
+    },
+    {
+      "id": "LylxaU6cDjSf2GuNk1iO",
+      "tipo": "credito",
+      "data": "2026-07-27",
+      "contaId": "c3",
+      "forma": "PIX",
+      "valor": 100,
+      "criadoEm": 1785866853548,
+      "descricao": "Recebimento Rosangela Tomazina"
+    },
+    {
+      "id": "M5eMHtAIOKFlFyami4ce",
+      "tipo": "credito",
+      "descricao": "Recebimento pix",
+      "data": "2026-08-18",
+      "contaId": "c5",
+      "criadoEm": 1788285890725,
+      "forma": "PIX",
+      "valor": 150
+    },
+    {
+      "id": "M7qqkuwHvXT0KvyrUxuP",
+      "valor": 1500,
+      "descricao": "Pagamento Decoração barraca quitute",
+      "forma": "PIX",
+      "contaId": "c2",
+      "criadoEm": 1784659794960,
+      "tipo": "debito",
+      "data": "2026-07-21"
+    },
+    {
+      "id": "M94SzlQtSqykOCOiNopa",
+      "descricao": "Recebimento Guilherme Candeloro",
+      "contaId": "c2",
+      "valor": 100,
+      "forma": "PIX",
+      "criadoEm": 1784148601929,
+      "data": "2026-07-03",
+      "tipo": "credito"
+    },
+    {
+      "id": "My9Y5UsG79zeWE3GgUsL",
+      "data": "2026-09-08",
+      "tipo": "debito",
+      "contaId": "c1",
+      "descricao": "Pagamento cesta básica Juliano",
+      "forma": "PIX",
+      "criadoEm": 1790278209158,
+      "valor": 240.11
+    },
+    {
+      "id": "NECjrGuS324Ulj5FNJh0",
+      "contaId": "c1",
+      "forma": "PIX",
+      "data": "2026-07-31",
+      "tipo": "credito",
+      "valor": 2475,
+      "criadoEm": 1785867972256,
+      "descricao": "Recebimento conta Administrativa para doação Guariba"
+    },
+    {
+      "id": "NXZ4x2ZQtXY3Mus2F0Ey",
+      "valor": 57411.5,
+      "descricao": "Transferência entre contas Lions",
+      "contaId": "c5",
+      "criadoEm": 1790605676437,
+      "forma": "Transferência",
+      "data": "2026-09-02",
+      "tipo": "credito"
+    },
+    {
+      "id": "NaAj4v8pIttp7uWreEPy",
+      "tipo": "credito",
+      "data": "2026-07-20",
+      "descricao": "Recebimento de boleto",
+      "forma": "Boleto",
+      "valor": 455,
+      "criadoEm": 1784660882116,
+      "contaId": "c3"
+    },
+    {
+      "id": "Npj5KfUHPEDtlZpYdeqI",
+      "data": "2026-07-24",
+      "tipo": "debito",
+      "contaId": "c5",
+      "forma": "PIX",
+      "valor": 686.28,
+      "criadoEm": 1785876069688,
+      "descricao": "Pagamento Petty"
+    },
+    {
+      "id": "Nrr2yqUCN1u8BQIGkGRN",
+      "data": "2026-07-07",
+      "tipo": "credito",
+      "descricao": "Recebimento Adriano de Carvalho",
+      "criadoEm": 1784149020517,
+      "forma": "PIX",
+      "contaId": "c2",
+      "valor": 1500
+    },
+    {
+      "id": "NvHz1fyRScicfUJmW9LZ",
+      "forma": "PIX",
+      "data": "2026-09-25",
+      "tipo": "credito",
+      "descricao": "Recebimento Elidio Yuquitochy",
+      "valor": 270,
+      "contaId": "c3",
+      "criadoEm": 1790626173369
+    },
+    {
+      "id": "O2B05kZOMldlDkopbNAy",
+      "criadoEm": 1785867076190,
+      "data": "2026-07-28",
+      "tipo": "credito",
+      "valor": 100,
+      "descricao": "Recebimento Arthur Eduardo",
+      "forma": "PIX",
+      "contaId": "c3"
+    },
+    {
+      "id": "O3P935U0nbvixt4PIkR8",
+      "forma": "PIX",
+      "data": "2026-09-22",
+      "tipo": "debito",
+      "valor": 1000,
+      "descricao": "Pagamento Creche Maria do Carmo",
+      "contaId": "c5",
+      "criadoEm": 1790605916051
+    },
+    {
+      "id": "O8Wdx3B7EdI0LXjZxON9",
+      "contaId": "c5",
+      "descricao": "Tarifa",
+      "valor": 237,
+      "criadoEm": 1790605721356,
+      "tipo": "debito",
+      "data": "2026-09-10",
+      "forma": "Outro"
+    },
+    {
+      "id": "OJbG8eIDPqFLlMqmXWjW",
+      "contaId": "c3",
+      "criadoEm": 1790189391646,
+      "descricao": "Recebimento de boleto",
+      "valor": 13455,
+      "forma": "Boleto",
+      "data": "2026-09-15",
+      "tipo": "credito"
+    },
+    {
+      "id": "OKTbnSeS5LiW813y4qEs",
+      "forma": "Boleto",
+      "tipo": "credito",
+      "data": "2026-08-27",
+      "valor": 445,
+      "criadoEm": 1788276200461,
+      "contaId": "c3",
+      "descricao": "Recebimento boleto"
+    },
+    {
+      "id": "OROUb4amTJ8LihCmFAyB",
+      "descricao": "Pagamento doações ar condicionado Educandário",
+      "criadoEm": 1788282433950,
+      "contaId": "c1",
+      "valor": 2500,
+      "tipo": "debito",
+      "data": "2026-08-10",
+      "forma": "PIX"
+    },
+    {
+      "id": "OZRQdVD8zTbjhG1f9uzA",
+      "data": "2026-07-10",
+      "tipo": "debito",
+      "forma": "Outro",
+      "valor": 20,
+      "criadoEm": 1784149090856,
+      "descricao": "Tarifa Cesta",
+      "contaId": "c2"
+    },
+    {
+      "id": "OrjvElbPjoKgPJADQob6",
+      "contaId": "c3",
+      "valor": 210,
+      "forma": "PIX",
+      "data": "2026-09-25",
+      "tipo": "debito",
+      "criadoEm": 1790626085724,
+      "descricao": "Pagamento suco visita governador"
+    },
+    {
+      "id": "P5B2xNaU6jZLZYwZ2SXu",
+      "forma": "Boleto",
+      "valor": 890,
+      "tipo": "credito",
+      "data": "2026-08-12",
+      "descricao": "Recebimento boleto",
+      "criadoEm": 1788275232615,
+      "contaId": "c3"
+    },
+    {
+      "id": "P9MtZG9lK9OqhAXvQqHn",
+      "contaId": "c2",
+      "valor": 1196,
+      "criadoEm": 1790280079855,
+      "tipo": "credito",
+      "data": "2026-09-16",
+      "descricao": "Recebimento Flavia Gagliardi",
+      "forma": "PIX"
+    },
+    {
+      "id": "PAnZJLgNrfBXxy3AzVSO",
+      "valor": 80.04,
+      "tipo": "debito",
+      "data": "2026-07-23",
+      "criadoEm": 1784834701115,
+      "descricao": "Pagamento Darf",
+      "contaId": "c3",
+      "forma": "Boleto"
+    },
+    {
+      "id": "PUNHEvLq09wbgEITf0WP",
+      "valor": 3925.85,
+      "criadoEm": 1788282284104,
+      "forma": "PIX",
+      "descricao": "Pagamento doações para Guariba",
+      "data": "2026-08-04",
+      "tipo": "debito",
+      "contaId": "c1"
+    },
+    {
+      "id": "PxDMmoxzyG2wvkj1Q5VH",
+      "contaId": "c3",
+      "descricao": "Pagamento Taxa Distrital Lions",
+      "criadoEm": 1788274992264,
+      "valor": 12002.95,
+      "tipo": "debito",
+      "data": "2026-08-07",
+      "forma": "Boleto"
+    },
+    {
+      "id": "Q1Ahg9pELqYbbJETJwnV",
+      "valor": 400,
+      "forma": "Transferência",
+      "contaId": "c2",
+      "descricao": "Transferência entre contas Lions",
+      "criadoEm": 1784835125944,
+      "tipo": "credito",
+      "data": "2026-07-23"
+    },
+    {
+      "id": "QAkYP0GGfZ70bwlTSF3E",
+      "data": "2026-07-06",
+      "tipo": "credito",
+      "forma": "PIX",
+      "contaId": "c2",
+      "criadoEm": 1784148784316,
+      "descricao": "Recebimento Cristina Goncalves",
+      "valor": 100
+    },
+    {
+      "id": "QMqE1B4kG3SW0h1fPyXh",
+      "criadoEm": 1785874969338,
+      "valor": 870,
+      "forma": "PIX",
+      "descricao": "Pagamento pintura carrinhos de sorvete com adesivo",
+      "data": "2026-07-24",
+      "tipo": "debito",
+      "contaId": "c4"
+    },
+    {
+      "id": "QOHqqZIRg4OtWyRO2XeM",
+      "criadoEm": 1784148998302,
+      "valor": 300,
+      "contaId": "c2",
+      "forma": "PIX",
+      "descricao": "Recebimento Imero Joao Padula Filho",
+      "tipo": "credito",
+      "data": "2026-07-07"
+    },
+    {
+      "id": "QPen5iB1ZAfVf7IRFyEm",
+      "forma": "PIX",
+      "data": "2026-09-08",
+      "tipo": "debito",
+      "descricao": "Pagamento cesta Olga (nfs 51888 e 52078)",
+      "criadoEm": 1790189168037,
+      "valor": 215,
+      "contaId": "c3"
+    },
+    {
+      "id": "QSqwzgqnDmOdznfzZ7wr",
+      "forma": "PIX",
+      "valor": 500,
+      "criadoEm": 1785868663638,
+      "tipo": "debito",
+      "data": "2026-07-31",
+      "contaId": "c2",
+      "descricao": "Repasse conta campanha para doação Guariba"
+    },
+    {
+      "id": "QkKxdjEJmNBvR247aC2f",
+      "contaId": "c6",
+      "descricao": "Tarifa Mensalidade Julho",
+      "valor": 237,
+      "criadoEm": 1788285984068,
+      "tipo": "debito",
+      "data": "2026-08-10",
+      "forma": "Outro"
+    },
+    {
+      "id": "QmojcsH4pIsO0zhglhIy",
+      "forma": "PIX",
+      "data": "2026-09-11",
+      "tipo": "credito",
+      "valor": 1794,
+      "contaId": "c2",
+      "criadoEm": 1790279107427,
+      "descricao": "Recebimento Luciano Amorin Bianco"
+    },
+    {
+      "id": "QuYaZ5qfW4uHmxWSw0yX",
+      "descricao": "Pix entre contas Lions",
+      "forma": "PIX",
+      "data": "2026-09-02",
+      "tipo": "debito",
+      "contaId": "c6",
+      "valor": 4738.38,
+      "criadoEm": 1790604520479
+    },
+    {
+      "id": "QxlhTcnnMpiuw9oMeJ9g",
+      "descricao": "Recebimento Jose M Dias Guimaraes",
+      "criadoEm": 1785868480517,
+      "contaId": "c2",
+      "valor": 300,
+      "data": "2026-07-27",
+      "tipo": "credito",
+      "forma": "PIX"
+    },
+    {
+      "id": "RD3rx7Zoc34YVxsp5lmk",
+      "criadoEm": 1785867104251,
+      "contaId": "c3",
+      "descricao": "Recebimento Gustavo Luis dos Santos",
+      "valor": 100,
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-07-28"
+    },
+    {
+      "id": "RieCaHgIaDQXpdPLjZxZ",
+      "valor": 13926,
+      "contaId": "c2",
+      "forma": "PIX",
+      "descricao": "Pagamento bacon quitute",
+      "criadoEm": 1784659617334,
+      "data": "2026-07-21",
+      "tipo": "debito"
+    },
+    {
+      "id": "RmhMpov6uvQhC2jFaGXn",
+      "tipo": "debito",
+      "data": "2026-07-22",
+      "forma": "PIX",
+      "valor": 78,
+      "contaId": "c2",
+      "criadoEm": 1784834898778,
+      "descricao": "Pagamento salgado sem glúten"
+    },
+    {
+      "id": "RrfzNMj6xLckJMoWDAQx",
+      "criadoEm": 1790605936298,
+      "valor": 8000,
+      "descricao": "Pix entre contas Lions",
+      "forma": "PIX",
+      "contaId": "c5",
+      "data": "2026-09-22",
+      "tipo": "debito"
+    },
+    {
+      "id": "Ru1iuVfy5SoWuLVTAb5S",
+      "descricao": "Recebimento Jose Carlos Lucas",
+      "criadoEm": 1788274742019,
+      "valor": 435,
+      "contaId": "c3",
+      "tipo": "credito",
+      "data": "2026-08-05",
+      "forma": "PIX"
+    },
+    {
+      "id": "RyQNAJd9QCFBjbNrsbCB",
+      "valor": 237,
+      "forma": "Outro",
+      "data": "2026-07-10",
+      "tipo": "debito",
+      "criadoEm": 1785874645710,
+      "contaId": "c4",
+      "descricao": "Tarifa mensalidade"
+    },
+    {
+      "id": "S1R1XvFSDEEU9cbC3frk",
+      "contaId": "c2",
+      "descricao": "Depósito cheque",
+      "criadoEm": 1785868547206,
+      "data": "2026-07-29",
+      "tipo": "credito",
+      "valor": 1000,
+      "forma": "Cheque"
+    },
+    {
+      "id": "S9V3zPTU0JtgtM2tcfNv",
+      "contaId": "c2",
+      "valor": 1800,
+      "criadoEm": 1790279846141,
+      "descricao": "Recebimento Andrigo Barboza",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-09-14"
+    },
+    {
+      "id": "SRNJsgzeqfY2jKpWor9A",
+      "criadoEm": 1784148280834,
+      "valor": 100,
+      "tipo": "credito",
+      "data": "2026-07-02",
+      "descricao": "Recebimento World Eventos",
+      "forma": "PIX",
+      "contaId": "c2"
+    },
+    {
+      "id": "SfD8E2sGiFrd1o3EzrkD",
+      "valor": 100,
+      "forma": "PIX",
+      "criadoEm": 1784149124609,
+      "data": "2026-07-13",
+      "tipo": "credito",
+      "descricao": "Recebimento Alexandre Sallum",
+      "contaId": "c2"
+    },
+    {
+      "id": "SfkachAagne8KB3XHn4C",
+      "contaId": "c2",
+      "valor": 200,
+      "descricao": "Recebimento Nanci Aparecida",
+      "forma": "PIX",
+      "data": "2026-07-01",
+      "tipo": "credito",
+      "criadoEm": 1784147812794
+    },
+    {
+      "id": "SjZAogshdGvvuLptykqu",
+      "contaId": "c2",
+      "valor": 897,
+      "forma": "PIX",
+      "criadoEm": 1790279588809,
+      "tipo": "credito",
+      "data": "2026-09-14",
+      "descricao": "Recebimento Carlos Henrique"
+    },
+    {
+      "id": "THtBqCPQOgcVAjQAPLaf",
+      "valor": 1346,
+      "descricao": "Pagamento Quinta do João",
+      "criadoEm": 1790280010493,
+      "forma": "PIX",
+      "contaId": "c2",
+      "data": "2026-09-14",
+      "tipo": "debito"
+    },
+    {
+      "id": "TI52tXQkpzCDddAmG5EZ",
+      "data": "2026-07-27",
+      "tipo": "credito",
+      "descricao": "Recebimento Refrigerar",
+      "forma": "PIX",
+      "criadoEm": 1785866531376,
+      "valor": 100,
+      "contaId": "c3"
+    },
+    {
+      "id": "TMEXreTV7ZPstboU1SB4",
+      "contaId": "c3",
+      "data": "2026-07-27",
+      "tipo": "credito",
+      "descricao": "Recebimento Alexandre Sallum",
+      "criadoEm": 1785866760786,
+      "forma": "PIX",
+      "valor": 100
+    },
+    {
+      "id": "TQmXYaZMYsFHBQYUvAfd",
+      "descricao": "Pagamento Darf",
+      "contaId": "c3",
+      "valor": 60.96,
+      "forma": "Boleto",
+      "data": "2026-09-24",
+      "criadoEm": 1790625981650,
+      "tipo": "debito"
+    },
+    {
+      "id": "TUpWMic29U8LLw6aTcec",
+      "criadoEm": 1790626462059,
+      "contaId": "c2",
+      "descricao": "Recebimento Neuci Ap Lima Souza",
+      "valor": 1800,
+      "tipo": "credito",
+      "data": "2026-09-28",
+      "forma": "PIX"
+    },
+    {
+      "id": "TY03840PlQsJPZUqZexc",
+      "tipo": "debito",
+      "data": "2026-07-06",
+      "descricao": "Pagamento segunda parcela Cotillo",
+      "forma": "PIX",
+      "contaId": "c5",
+      "valor": 4244.1,
+      "criadoEm": 1785875943121
+    },
+    {
+      "id": "TZLM7vlm5YJiW4HyMsdf",
+      "descricao": "Pagamento boleto Allianz Seguros",
+      "valor": 895.37,
+      "criadoEm": 1788284516419,
+      "forma": "Boleto",
+      "contaId": "c4",
+      "data": "2026-08-17",
+      "tipo": "debito"
+    },
+    {
+      "id": "ThbdoHzJOpfVrEX6KS5t",
+      "tipo": "credito",
+      "criadoEm": 1784918398115,
+      "data": "2026-07-24",
+      "descricao": "Repasse PagBank",
+      "forma": "PIX",
+      "contaId": "c2",
+      "valor": 30000
+    },
+    {
+      "id": "TosMZ2UUfB9V0zMUUFZt",
+      "descricao": "Pagamento vinhos e bebidas curtas",
+      "data": "2026-09-28",
+      "tipo": "debito",
+      "valor": 1949.39,
+      "contaId": "c3",
+      "forma": "PIX",
+      "criadoEm": 1790626237117
+    },
+    {
+      "id": "TpoOqiBNG73h0VX62jpT",
+      "contaId": "c2",
+      "valor": 598,
+      "criadoEm": 1790279304870,
+      "forma": "PIX",
+      "data": "2026-09-11",
+      "descricao": "Recebimento Tecnoinjet",
+      "tipo": "credito"
+    },
+    {
+      "id": "Tx3EVWy1kLoowpixUanV",
+      "contaId": "c3",
+      "valor": 278.48,
+      "tipo": "debito",
+      "data": "2026-08-17",
+      "criadoEm": 1788275388570,
+      "descricao": "Pagamento guia ISS",
+      "forma": "Boleto"
+    },
+    {
+      "id": "TyW0ORCFFr2KHNsCr93Y",
+      "valor": 2000,
+      "forma": "PIX",
+      "data": "2026-09-22",
+      "tipo": "credito",
+      "descricao": "Pix entre contas Lions",
+      "contaId": "c3",
+      "criadoEm": 1790189889658
+    },
+    {
+      "id": "U4yoA7LFQJrSrzUj56p7",
+      "descricao": "Débito Energia",
+      "valor": 279.12,
+      "data": "2026-07-06",
+      "tipo": "debito",
+      "contaId": "c3",
+      "forma": "Débito automático",
+      "criadoEm": 1784302793813
+    },
+    {
+      "id": "UXO18aeTXFx6XjIgeEGp",
+      "descricao": "Recebimento Andre Luis Lopes",
+      "criadoEm": 1785868458930,
+      "contaId": "c2",
+      "valor": 100,
+      "data": "2026-07-27",
+      "tipo": "credito",
+      "forma": "PIX"
+    },
+    {
+      "id": "UiWFMeYTODcJqmpCZsvk",
+      "descricao": "Pagamento Ataide Siqueira",
+      "data": "2026-09-14",
+      "tipo": "debito",
+      "contaId": "c2",
+      "criadoEm": 1790279869095,
+      "forma": "PIX",
+      "valor": 140
+    },
+    {
+      "id": "UkZgGfV5yfDDdcqHgBjn",
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-07-15",
+      "criadoEm": 1784661084951,
+      "valor": 250,
+      "contaId": "c1",
+      "descricao": "Pagamento doação carne recanto menina"
+    },
+    {
+      "id": "UyitJyGF0FvW7CBKh9bZ",
+      "forma": "PIX",
+      "data": "2026-07-28",
+      "tipo": "credito",
+      "valor": 100,
+      "contaId": "c3",
+      "criadoEm": 1785867027974,
+      "descricao": "Recebimento Fabio Trevisoli"
+    },
+    {
+      "id": "UynJchdRPP4ILZLHBpU0",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-07-17",
+      "descricao": "Recebimento Eletrica Revoltis",
+      "criadoEm": 1784659329660,
+      "valor": 100,
+      "contaId": "c2"
+    },
+    {
+      "id": "V5MtJbAluw1lbHWJwizB",
+      "valor": 100,
+      "criadoEm": 1784148411560,
+      "descricao": "Recebimento Glaucia Maria Miki",
+      "contaId": "c2",
+      "forma": "PIX",
+      "data": "2026-07-02",
+      "tipo": "credito"
+    },
+    {
+      "id": "VJ75XU0H4YW1JEHbfxWz",
+      "data": "2026-09-22",
+      "tipo": "debito",
+      "descricao": "Pagamento placa árvore visita Governador",
+      "forma": "PIX",
+      "contaId": "c3",
+      "criadoEm": 1790189948293,
+      "valor": 90
+    },
+    {
+      "id": "VUjGmDx1UHnB82cLotAd",
+      "descricao": "Recebimento pix",
+      "criadoEm": 1788285763224,
+      "contaId": "c5",
+      "valor": 30,
+      "data": "2026-08-11",
+      "tipo": "credito",
+      "forma": "PIX"
+    },
+    {
+      "id": "VX6LubDWRRjHXsuBLUzT",
+      "tipo": "debito",
+      "data": "2026-09-01",
+      "valor": 930,
+      "contaId": "c1",
+      "forma": "PIX",
+      "criadoEm": 1790277929202,
+      "descricao": "Pagamento doação pão Vila Vicentina Agosto"
+    },
+    {
+      "id": "VZuf29WHMh1I9gzqkju3",
+      "criadoEm": 1785866642590,
+      "data": "2026-07-27",
+      "tipo": "credito",
+      "descricao": "Recebimento João Antonio Real",
+      "forma": "PIX",
+      "contaId": "c3",
+      "valor": 100
+    },
+    {
+      "id": "VdOs7VbiRqJu06zrLkaj",
+      "descricao": "Recebimento de boleto",
+      "criadoEm": 1790189253752,
+      "contaId": "c3",
+      "valor": 465,
+      "data": "2026-09-10",
+      "tipo": "credito",
+      "forma": "Boleto"
+    },
+    {
+      "id": "VoS2kY7IwYjiDhmXe6FO",
+      "criadoEm": 1785867910557,
+      "descricao": "Recebimento Lions",
+      "valor": 5958.49,
+      "contaId": "c1",
+      "data": "2026-07-31",
+      "tipo": "credito",
+      "forma": "PIX"
+    },
+    {
+      "id": "Vp3Gt7uOtVrhsaoxiNhW",
+      "descricao": "Recebimento Rosangela Manelichi",
+      "criadoEm": 1790188733441,
+      "tipo": "credito",
+      "data": "2026-09-02",
+      "forma": "PIX",
+      "valor": 70,
+      "contaId": "c3"
+    },
+    {
+      "id": "VvDJfv052c9hQUbkrQJN",
+      "descricao": "Pagamento serviço churrasqueiro",
+      "contaId": "c2",
+      "forma": "PIX",
+      "data": "2026-07-20",
+      "tipo": "debito",
+      "valor": 600,
+      "criadoEm": 1784659408154
+    },
+    {
+      "id": "W8aAw4O092GyT2HVar10",
+      "contaId": "c3",
+      "criadoEm": 1790626281844,
+      "descricao": "Pix entre contas Lions",
+      "valor": 1500,
+      "tipo": "debito",
+      "data": "2026-09-28",
+      "forma": "PIX"
+    },
+    {
+      "id": "WHFGWPkyCxSdqqXYIE5Z",
+      "criadoEm": 1790605701577,
+      "valor": 800,
+      "contaId": "c5",
+      "forma": "PIX",
+      "descricao": "Pagamento Elaine Cristina Felipe",
+      "tipo": "debito",
+      "data": "2026-09-04"
+    },
+    {
+      "id": "WI7bKRtfW0NDQ4yaXTfv",
+      "criadoEm": 1784659826111,
+      "descricao": "Pagamento transporte Lions Quitute",
+      "valor": 1700,
+      "data": "2026-07-21",
+      "tipo": "debito",
+      "forma": "PIX",
+      "contaId": "c2"
+    },
+    {
+      "id": "WIRk71o0HuYQAHDtVJda",
+      "contaId": "c2",
+      "forma": "PIX",
+      "descricao": "Recebimento Lucas Padula",
+      "data": "2026-07-06",
+      "tipo": "credito",
+      "valor": 100,
+      "criadoEm": 1784148915262
+    },
+    {
+      "id": "WJhjWOl7hYEVbT98g6AG",
+      "valor": 29,
+      "forma": "Outro",
+      "contaId": "c3",
+      "criadoEm": 1790189274043,
+      "data": "2026-09-10",
+      "tipo": "debito",
+      "descricao": "Tarifa Cesta"
+    },
+    {
+      "id": "WQRdRBmtFdbAFxpSvWdx",
+      "valor": 1227.91,
+      "forma": "Boleto",
+      "descricao": "Pagamento aluguel Olga",
+      "tipo": "debito",
+      "data": "2026-09-01",
+      "criadoEm": 1790188638839,
+      "contaId": "c3"
+    },
+    {
+      "id": "WTmPkrHhZgqlbEvftfoU",
+      "valor": 835,
+      "forma": "PIX",
+      "contaId": "c2",
+      "data": "2026-07-22",
+      "tipo": "debito",
+      "criadoEm": 1784834864830,
+      "descricao": "Pagamento Marccas Comunicação"
+    },
+    {
+      "id": "WUqX3AOlc9N5YDrqpJ9p",
+      "data": "2026-09-11",
+      "tipo": "credito",
+      "descricao": "Recebimento Helija",
+      "contaId": "c2",
+      "criadoEm": 1790279176990,
+      "forma": "PIX",
+      "valor": 500
+    },
+    {
+      "id": "Wa3eeFQ5PExdQlRZFs9h",
+      "valor": 6351.3,
+      "contaId": "c2",
+      "forma": "PIX",
+      "descricao": "Pagamento Alternativa",
+      "data": "2026-09-15",
+      "tipo": "debito",
+      "criadoEm": 1790280054615
+    },
+    {
+      "id": "WcJ4w77l7D4uGkCnJ6dM",
+      "contaId": "c2",
+      "criadoEm": 1790278748664,
+      "descricao": "Recebimento Ricardo Cesar",
+      "valor": 1800,
+      "forma": "PIX",
+      "data": "2026-09-08",
+      "tipo": "credito"
+    },
+    {
+      "id": "Wf62fpGBcnttzCyhrmG1",
+      "descricao": "Repasse conta Lions caixinha Julho",
+      "contaId": "c3",
+      "criadoEm": 1788274669589,
+      "valor": 1560,
+      "forma": "Transferência",
+      "tipo": "debito",
+      "data": "2026-08-04"
+    },
+    {
+      "id": "WlFm5lKldlJjXzMlWnnH",
+      "valor": 159.9,
+      "forma": "Boleto",
+      "contaId": "c3",
+      "data": "2026-08-20",
+      "tipo": "debito",
+      "descricao": "Pagamento boleto internet",
+      "criadoEm": 1788275678447
+    },
+    {
+      "id": "WqHOPkEj1fByE1Iu6UgW",
+      "forma": "PIX",
+      "criadoEm": 1790605242342,
+      "valor": 4000,
+      "data": "2026-09-21",
+      "tipo": "debito",
+      "descricao": "Pix entre contas Lions",
+      "contaId": "c4"
+    },
+    {
+      "id": "WuDNplHtJAssotcvTiXW",
+      "forma": "Outro",
+      "data": "2026-09-10",
+      "tipo": "debito",
+      "criadoEm": 1790605105338,
+      "valor": 237,
+      "descricao": "Tarifa",
+      "contaId": "c4"
+    },
+    {
+      "id": "X2ZegqB7e8oGMYvwW1C9",
+      "valor": 9350,
+      "forma": "PIX",
+      "descricao": "Pagamento cadeira especial 01/02",
+      "contaId": "c1",
+      "criadoEm": 1790278239307,
+      "data": "2026-09-08",
+      "tipo": "debito"
+    },
+    {
+      "id": "X3m0GQqGh2PDba3RUwtE",
+      "contaId": "c2",
+      "valor": 465,
+      "forma": "PIX",
+      "descricao": "Restituição Daniel Tecnoinjet",
+      "criadoEm": 1784149248139,
+      "data": "2026-07-15",
+      "tipo": "debito"
+    },
+    {
+      "id": "X7qY0mdtHeNeG4pHepFy",
+      "valor": 350,
+      "criadoEm": 1788285877534,
+      "forma": "PIX",
+      "contaId": "c5",
+      "data": "2026-08-14",
+      "tipo": "debito",
+      "descricao": "Pix Poliana Padula"
+    },
+    {
+      "id": "X8soJkE2t2LsLV6OTqLC",
+      "descricao": "Pagamento doação cesta básica Saulo",
+      "contaId": "c1",
+      "valor": 185,
+      "data": "2026-08-17",
+      "tipo": "debito",
+      "criadoEm": 1788282649526,
+      "forma": "PIX"
+    },
+    {
+      "id": "XGiqWr8X7NPJP033Mhwe",
+      "data": "2026-08-24",
+      "tipo": "debito",
+      "contaId": "c3",
+      "criadoEm": 1788275858453,
+      "forma": "PIX",
+      "descricao": "Pagamento aluguel toalhas festival 21 de agosto",
+      "valor": 300
+    },
+    {
+      "id": "XMcJ911ZVfwpyw2BjMXa",
+      "data": "2026-09-10",
+      "tipo": "credito",
+      "contaId": "c2",
+      "criadoEm": 1790278969523,
+      "descricao": "Recebimento Refrigerar",
+      "forma": "PIX",
+      "valor": 1794
+    },
+    {
+      "id": "XUClawlzY1bjhVmvBPAT",
+      "forma": "PIX",
+      "data": "2026-07-27",
+      "tipo": "debito",
+      "valor": 10119,
+      "criadoEm": 1785868520013,
+      "contaId": "c2",
+      "descricao": "Pagamento entrada evento noite Italiana Lions"
+    },
+    {
+      "id": "XgaKMV81jSiJRIuKCOIe",
+      "contaId": "c2",
+      "descricao": "Pagamento bebidas barraca quitute",
+      "tipo": "debito",
+      "data": "2026-07-23",
+      "criadoEm": 1784835367821,
+      "forma": "PIX",
+      "valor": 1280.76
+    },
+    {
+      "id": "XkQkDkp4WUoKuJnEwgpO",
+      "criadoEm": 1784918558656,
+      "descricao": "Pagamento gastos quitute Petty",
+      "contaId": "c2",
+      "valor": 14457.29,
+      "data": "2026-07-24",
+      "tipo": "debito",
+      "forma": "PIX"
+    },
+    {
+      "id": "Xs2cn3lOuX1KKXaKd9kO",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-07-27",
+      "criadoEm": 1785866726090,
+      "valor": 100,
+      "contaId": "c3",
+      "descricao": "Recebimento Flavia Gagliardi Spechoto"
+    },
+    {
+      "id": "YDNcTp1rsLPUegsYV2EM",
+      "forma": "PIX",
+      "descricao": "Recebimento Lions",
+      "criadoEm": 1785870912836,
+      "tipo": "credito",
+      "data": "2026-07-24",
+      "valor": 615,
+      "contaId": "c6"
+    },
+    {
+      "id": "YGlLyd73qTADtO7gfsDk",
+      "forma": "PIX",
+      "data": "2026-07-24",
+      "tipo": "debito",
+      "descricao": "Pagamento temperos churrasco quitute",
+      "valor": 129,
+      "criadoEm": 1784918799410,
+      "contaId": "c2"
+    },
+    {
+      "id": "YJ8TxpHlpbvOKxacSgHb",
+      "descricao": "Recebimento Luciano Amorin Bianco",
+      "tipo": "credito",
+      "data": "2026-07-03",
+      "criadoEm": 1784148732231,
+      "forma": "PIX",
+      "contaId": "c2",
+      "valor": 100
+    },
+    {
+      "id": "YNnaq1E6313NzwsLDjKS",
+      "data": "2026-09-03",
+      "forma": "PIX",
+      "tipo": "credito",
+      "valor": 2400,
+      "criadoEm": 1790604984194,
+      "descricao": "Recebimento Oxiquimica",
+      "contaId": "c4"
+    },
+    {
+      "id": "YeVBDCaOVKPYS4VY6w0M",
+      "forma": "PIX",
+      "valor": 445,
+      "tipo": "credito",
+      "data": "2026-08-19",
+      "descricao": "Recebimento pix Tecnoinjet",
+      "contaId": "c3",
+      "criadoEm": 1788275489601
+    },
+    {
+      "id": "YmM7iIPqjczGtftMEeOr",
+      "contaId": "c4",
+      "criadoEm": 1785875117861,
+      "valor": 9.9,
+      "descricao": "Tarifa pix",
+      "tipo": "debito",
+      "data": "2026-08-03",
+      "forma": "Outro"
+    },
+    {
+      "id": "YsI40cUlVj1mcf5vXxTJ",
+      "criadoEm": 1790189757224,
+      "valor": 1794,
+      "forma": "Transferência",
+      "descricao": "Transferência entre contas Lions",
+      "contaId": "c3",
+      "tipo": "debito",
+      "data": "2026-09-21"
+    },
+    {
+      "id": "Z7PEiy25c4TxGBgZR7l2",
+      "valor": 60,
+      "forma": "PIX",
+      "contaId": "c5",
+      "criadoEm": 1788285777357,
+      "descricao": "Recebimento pix",
+      "tipo": "credito",
+      "data": "2026-08-11"
+    },
+    {
+      "id": "ZQYQ9kMJNlHAf2U1dzv1",
+      "contaId": "c3",
+      "descricao": "Pagamento festiva visita governador",
+      "valor": 9270,
+      "criadoEm": 1790626361345,
+      "forma": "PIX",
+      "data": "2026-09-28",
+      "tipo": "debito"
+    },
+    {
+      "id": "ZVgNKBgiU2fJLDC0Rhm3",
+      "data": "2026-07-22",
+      "tipo": "credito",
+      "forma": "PIX",
+      "descricao": "Repasse PagBank",
+      "contaId": "c2",
+      "criadoEm": 1784834951420,
+      "valor": 33355.23
+    },
+    {
+      "id": "ZYXdAcKyMe0n2aXMKmU4",
+      "valor": 9.9,
+      "contaId": "c5",
+      "criadoEm": 1790626698778,
+      "forma": "Outro",
+      "tipo": "debito",
+      "data": "2026-09-24",
+      "descricao": "Tarifa"
+    },
+    {
+      "id": "Zlaf2aVyFRRrvhG5nJi9",
+      "valor": 5382,
+      "descricao": "Recebimento Carlos Leonardo",
+      "forma": "PIX",
+      "contaId": "c2",
+      "criadoEm": 1790278856839,
+      "data": "2026-09-09",
+      "tipo": "credito"
+    },
+    {
+      "id": "a5BpwDLTCLirfDIt8P5K",
+      "valor": 1335,
+      "contaId": "c3",
+      "descricao": "Recebimento boleto",
+      "forma": "Boleto",
+      "criadoEm": 1788275288188,
+      "data": "2026-08-17",
+      "tipo": "credito"
+    },
+    {
+      "id": "a61oZkPTd9O24oBjTKap",
+      "contaId": "c2",
+      "data": "2026-07-21",
+      "tipo": "debito",
+      "criadoEm": 1784659574748,
+      "forma": "PIX",
+      "descricao": "Pagamento cebola quitute",
+      "valor": 460
+    },
+    {
+      "id": "aIVTKZ0PfNOm6nGcCZ7p",
+      "contaId": "c2",
+      "valor": 250,
+      "descricao": "Pagamento churrasco funcionários quitute em dinheiro",
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-07-22",
+      "criadoEm": 1784834993719
+    },
+    {
+      "id": "aKv6F6FjZMAtQZfFt1mw",
+      "contaId": "c2",
+      "descricao": "Pagamento Martin Francisco",
+      "valor": 1485,
+      "criadoEm": 1790279802522,
+      "data": "2026-09-14",
+      "tipo": "debito",
+      "forma": "PIX"
+    },
+    {
+      "id": "aZsfaChrHFaRNaELhTdc",
+      "criadoEm": 1784149269335,
+      "tipo": "debito",
+      "descricao": "Reembolso Jose Ferrari",
+      "data": "2026-07-15",
+      "forma": "PIX",
+      "valor": 1886.35,
+      "contaId": "c2"
+    },
+    {
+      "id": "alMCf1E0XuI3QmeESfdq",
+      "contaId": "c5",
+      "forma": "PIX",
+      "data": "2026-09-18",
+      "tipo": "credito",
+      "valor": 650,
+      "descricao": "Pix entre contas Lions",
+      "criadoEm": 1790605858983
+    },
+    {
+      "id": "aoMyNB7PmXRQ1o1AKbsE",
+      "data": "2026-07-15",
+      "tipo": "debito",
+      "contaId": "c3",
+      "descricao": "Pagamento floricultura",
+      "forma": "PIX",
+      "criadoEm": 1784307345451,
+      "valor": 400
+    },
+    {
+      "id": "aqEldunK2NIamC8pknNV",
+      "valor": 300,
+      "descricao": "Recebimento Neolaser Personal",
+      "forma": "PIX",
+      "contaId": "c2",
+      "criadoEm": 1790279395722,
+      "data": "2026-09-14",
+      "tipo": "credito"
+    },
+    {
+      "id": "au8inItsYJh9tAXO7VyB",
+      "data": "2026-09-18",
+      "tipo": "credito",
+      "valor": 465,
+      "contaId": "c3",
+      "forma": "Boleto",
+      "descricao": "Recebimento de boleto",
+      "criadoEm": 1790189591983
+    },
+    {
+      "id": "azs1dDVVop2UkoDiIJkj",
+      "data": "2026-07-27",
+      "contaId": "c2",
+      "forma": "PIX",
+      "descricao": "Recebimento Adriano de Carvalho",
+      "tipo": "credito",
+      "criadoEm": 1785868370901,
+      "valor": 237
+    },
+    {
+      "id": "bFq8U2L7ZhqbH6BzQ9dQ",
+      "valor": 1044,
+      "contaId": "c3",
+      "forma": "Boleto",
+      "criadoEm": 1784834615698,
+      "descricao": "Pagamento de boleto Mútua Julho 2027",
+      "data": "2026-07-23",
+      "tipo": "debito"
+    },
+    {
+      "id": "bYSPcnHoOaIhfm4je701",
+      "contaId": "c1",
+      "valor": 2000,
+      "criadoEm": 1788282467730,
+      "forma": "PIX",
+      "descricao": "Pagamento doação prótese (entrada)",
+      "tipo": "debito",
+      "data": "2026-08-12"
+    },
+    {
+      "id": "bc2gKwoefcBFLdmnrsx2",
+      "forma": "PIX",
+      "valor": 210,
+      "tipo": "debito",
+      "data": "2026-07-27",
+      "contaId": "c3",
+      "criadoEm": 1785866960747,
+      "descricao": "Pagamento rifa Melvin Jones Convenção Lions"
+    },
+    {
+      "id": "bum8VCHqKxek8VptAOgx",
+      "forma": "PIX",
+      "criadoEm": 1790280128306,
+      "descricao": "Recebimento Sandro Carvalho",
+      "tipo": "credito",
+      "data": "2026-09-21",
+      "contaId": "c2",
+      "valor": 2300
+    },
+    {
+      "id": "c9W4k0HQ015ZQb0N0PB3",
+      "valor": 312.43,
+      "forma": "PIX",
+      "criadoEm": 1790626529410,
+      "descricao": "Pagamento doação mussarela São Roque",
+      "contaId": "c1",
+      "data": "2026-09-24",
+      "tipo": "debito"
+    },
+    {
+      "id": "cJd95Mgw5qkfQgJKbIZH",
+      "contaId": "c5",
+      "forma": "PIX",
+      "criadoEm": 1785875892927,
+      "tipo": "debito",
+      "data": "2026-07-06",
+      "valor": 350,
+      "descricao": "Repasse presente DM"
+    },
+    {
+      "id": "cW13kmpjNC8vRF86tPmx",
+      "descricao": "Pagamento festival 21 de agosto",
+      "valor": 140,
+      "criadoEm": 1788275898538,
+      "data": "2026-08-24",
+      "tipo": "debito",
+      "contaId": "c3",
+      "forma": "PIX"
+    },
+    {
+      "id": "cozbbf3wj6afjTFZlrnV",
+      "criadoEm": 1790605161935,
+      "data": "2026-09-18",
+      "tipo": "debito",
+      "descricao": "Pagamento Valdelina Biazzotti",
+      "valor": 280,
+      "forma": "PIX",
+      "contaId": "c4"
+    },
+    {
+      "id": "cpl1uKP4pIoNM2iefBp8",
+      "forma": "PIX",
+      "criadoEm": 1790625927320,
+      "descricao": "Pagamento bolo visita governador",
+      "contaId": "c3",
+      "valor": 105,
+      "data": "2026-09-24",
+      "tipo": "debito"
+    },
+    {
+      "id": "cxNB5OmJudKbVFg6cPzN",
+      "contaId": "c2",
+      "forma": "PIX",
+      "descricao": "Recebimento Ciro Mendes Sitta",
+      "criadoEm": 1784148555456,
+      "tipo": "credito",
+      "data": "2026-07-03",
+      "valor": 100
+    },
+    {
+      "id": "d06YcwNm2FaiIYJ0BMcZ",
+      "valor": 30386.09,
+      "criadoEm": 1784918452524,
+      "descricao": "Pagamento carnes quitute",
+      "contaId": "c2",
+      "forma": "PIX",
+      "data": "2026-07-24",
+      "tipo": "debito"
+    },
+    {
+      "id": "d2LdYIHJ6pnnpsr1a5ZZ",
+      "criadoEm": 1790189572840,
+      "valor": 465,
+      "descricao": "Recebimento de boleto",
+      "forma": "Boleto",
+      "contaId": "c3",
+      "data": "2026-09-17",
+      "tipo": "credito"
+    },
+    {
+      "id": "dU0xNEQhNnfj2CpUanSM",
+      "criadoEm": 1790189303952,
+      "valor": 204.11,
+      "forma": "Débito automático",
+      "descricao": "Débito CPFL",
+      "data": "2026-09-11",
+      "contaId": "c3",
+      "tipo": "debito"
+    },
+    {
+      "id": "dZuRluV69235W2EBfCmf",
+      "forma": "PIX",
+      "descricao": "Recebimento Juliano B. Lazaretti",
+      "criadoEm": 1785866478135,
+      "valor": 100,
+      "contaId": "c3",
+      "data": "2026-07-27",
+      "tipo": "credito"
+    },
+    {
+      "id": "dfq1thPx1S7JNqCBXnJQ",
+      "valor": 788.12,
+      "tipo": "debito",
+      "data": "2026-09-24",
+      "descricao": "Pagamento material de limpeza Petty",
+      "forma": "PIX",
+      "contaId": "c3",
+      "criadoEm": 1790626034576
+    },
+    {
+      "id": "dmhSCp9IEqJ6GKJVWCxc",
+      "forma": "PIX",
+      "data": "2026-08-19",
+      "tipo": "credito",
+      "criadoEm": 1788275516373,
+      "descricao": "Recebimento pix Mateus Gonçalves",
+      "contaId": "c3",
+      "valor": 445
+    },
+    {
+      "id": "dqPHN53p9Q0dD5ZRy8vB",
+      "criadoEm": 1784147760037,
+      "contaId": "c2",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-07-01",
+      "descricao": "Recebimento Antonio Carlos Ijanc",
+      "valor": 100
+    },
+    {
+      "id": "dqxEix1x5IUKHdsunnxn",
+      "descricao": "Recebimento Wladmir Morgatto",
+      "valor": 100,
+      "forma": "PIX",
+      "criadoEm": 1784148692396,
+      "data": "2026-07-03",
+      "tipo": "credito",
+      "contaId": "c2"
+    },
+    {
+      "id": "dxiNI6Y2mshwH5TEakH6",
+      "descricao": "Pagamento Allians Seguros",
+      "valor": 895.37,
+      "contaId": "c4",
+      "forma": "Boleto",
+      "criadoEm": 1790604914361,
+      "data": "2026-09-01",
+      "tipo": "debito"
+    },
+    {
+      "id": "e6h6Ka5uA8yIxwa65eOm",
+      "contaId": "c2",
+      "forma": "PIX",
+      "valor": 300,
+      "criadoEm": 1790278795887,
+      "descricao": "Recebimento pix João Antonio Real",
+      "data": "2026-09-08",
+      "tipo": "credito"
+    },
+    {
+      "id": "eEBDffUpC3leAnT0rpK5",
+      "tipo": "debito",
+      "data": "2026-07-23",
+      "criadoEm": 1784835342879,
+      "valor": 500,
+      "contaId": "c2",
+      "descricao": "Pagamento mídia social fotógrafa",
+      "forma": "PIX"
+    },
+    {
+      "id": "eLhGSrMDc3mPtXJjc4ok",
+      "criadoEm": 1784835235831,
+      "forma": "Boleto",
+      "contaId": "c2",
+      "tipo": "debito",
+      "data": "2026-07-23",
+      "descricao": "Pagamento picanha quitute entrega 10/07",
+      "valor": 8726.31
+    },
+    {
+      "id": "eNZ1C9jfEZ3lKrDUTuOu",
+      "descricao": "Recebimento Jose Francisco",
+      "forma": "PIX",
+      "contaId": "c2",
+      "criadoEm": 1784148751986,
+      "tipo": "credito",
+      "data": "2026-07-06",
+      "valor": 100
+    },
+    {
+      "id": "eSLk9P6vpCUmUU5lwCwZ",
+      "data": "2026-09-21",
+      "tipo": "debito",
+      "descricao": "Doações linguiça para 2 instituições",
+      "valor": 1005.7,
+      "criadoEm": 1790278335926,
+      "contaId": "c1",
+      "forma": "PIX"
+    },
+    {
+      "id": "eb1AUfAPX2qZhNE7A3Tp",
+      "valor": 40441,
+      "contaId": "c2",
+      "descricao": "Depósito dinheiro Lions",
+      "criadoEm": 1784659546800,
+      "tipo": "credito",
+      "data": "2026-07-20",
+      "forma": "Dinheiro"
+    },
+    {
+      "id": "eiKLAkjp0xNgjM780MM9",
+      "valor": 154.23,
+      "criadoEm": 1788274777075,
+      "descricao": "Tarifa",
+      "forma": "Outro",
+      "contaId": "c3",
+      "tipo": "debito",
+      "data": "2026-08-06"
+    },
+    {
+      "id": "el7jBEflc4TMBiMXhOyi",
+      "data": "2026-09-22",
+      "tipo": "debito",
+      "contaId": "c3",
+      "valor": 5,
+      "criadoEm": 1790189858276,
+      "descricao": "Tarifa",
+      "forma": "Outro"
+    },
+    {
+      "id": "ewhhJTH8n0wstEdcW3ws",
+      "descricao": "Pagamento Ana Claudia Vitorino",
+      "forma": "PIX",
+      "data": "2026-09-14",
+      "criadoEm": 1790279897456,
+      "tipo": "debito",
+      "contaId": "c2",
+      "valor": 1663.13
+    },
+    {
+      "id": "fRzcQEFDBc0Tw1w3texn",
+      "forma": "PIX",
+      "criadoEm": 1784147838405,
+      "contaId": "c2",
+      "valor": 100,
+      "descricao": "Recebimento Nelson Aparecido",
+      "tipo": "credito",
+      "data": "2026-07-01"
+    },
+    {
+      "id": "fW2ZfHTimCMtbBsSu5JO",
+      "descricao": "Pagamento presente Governadora",
+      "data": "2026-09-18",
+      "tipo": "debito",
+      "valor": 174.95,
+      "criadoEm": 1790189616958,
+      "contaId": "c3",
+      "forma": "PIX"
+    },
+    {
+      "id": "fd2wfmSIXuq7Xy3SoH8n",
+      "forma": "PIX",
+      "contaId": "c2",
+      "data": "2026-07-02",
+      "tipo": "credito",
+      "descricao": "Recebimento Mateus Goncalves",
+      "valor": 100,
+      "criadoEm": 1784148332659
+    },
+    {
+      "id": "ff2PeiB8a6t1JB0jQt4r",
+      "forma": "PIX",
+      "descricao": "Recebimento Rafaela Priscila",
+      "contaId": "c2",
+      "criadoEm": 1784148872367,
+      "data": "2026-07-06",
+      "tipo": "credito",
+      "valor": 100
+    },
+    {
+      "id": "fni7TJc9mc1XItzM9Kpn",
+      "forma": "Débito automático",
+      "criadoEm": 1785874897404,
+      "contaId": "c4",
+      "valor": 73.76,
+      "data": "2026-07-20",
+      "tipo": "debito",
+      "descricao": "Débito SAAEJ"
+    },
+    {
+      "id": "g0wkouiVdQjERxf3RieZ",
+      "criadoEm": 1785867162305,
+      "tipo": "credito",
+      "data": "2026-07-31",
+      "descricao": "Recebimento Brendo Rafael da Silva",
+      "forma": "PIX",
+      "contaId": "c3",
+      "valor": 1
+    },
+    {
+      "id": "g9YO60ebhqpOUzpxCJLc",
+      "contaId": "c1",
+      "descricao": "Pix entre contas Lions",
+      "criadoEm": 1790278166359,
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-09-02",
+      "valor": 4738.38
+    },
+    {
+      "id": "gCiCsrtO7GBf6N4pBzX7",
+      "data": "2026-09-14",
+      "tipo": "credito",
+      "criadoEm": 1790279330671,
+      "contaId": "c2",
+      "valor": 1794,
+      "descricao": "Recebimento Carlos Alberto Alves",
+      "forma": "PIX"
+    },
+    {
+      "id": "gMLLTk7adULqsjcmxjV2",
+      "data": "2026-08-28",
+      "tipo": "credito",
+      "criadoEm": 1788283656362,
+      "descricao": "Recebimento pix Lions",
+      "contaId": "c2",
+      "valor": 500,
+      "forma": "PIX"
+    },
+    {
+      "id": "ggzFC8EQaAyTHI9tZKMG",
+      "valor": 385,
+      "data": "2026-08-14",
+      "contaId": "c3",
+      "tipo": "credito",
+      "descricao": "Recebimento boleto",
+      "criadoEm": 1788275271245,
+      "forma": "Boleto"
+    },
+    {
+      "id": "ghTVhMszkmNQC21OGQug",
+      "contaId": "c6",
+      "valor": 216,
+      "forma": "PIX",
+      "descricao": "Pagamento Miguel Francisco Oliveira",
+      "data": "2026-09-18",
+      "tipo": "debito",
+      "criadoEm": 1790604701463
+    },
+    {
+      "id": "gmoo6CJ3skPfTRKZvpaZ",
+      "forma": "PIX",
+      "contaId": "c5",
+      "valor": 30,
+      "descricao": "Recebimento pix",
+      "criadoEm": 1788285750161,
+      "data": "2026-08-11",
+      "tipo": "credito"
+    },
+    {
+      "id": "gqPYmBNzFDEvUIcYvrbC",
+      "forma": "PIX",
+      "criadoEm": 1788282507966,
+      "contaId": "c1",
+      "valor": 250,
+      "descricao": "Pagamento doação carne Caridade e Fé",
+      "data": "2026-08-14",
+      "tipo": "debito"
+    },
+    {
+      "id": "h5Qg6TRp9DphQ5UeNSH2",
+      "valor": 1794,
+      "descricao": "Recebimento Andre Luis Lopes",
+      "criadoEm": 1790280030093,
+      "data": "2026-09-15",
+      "tipo": "credito",
+      "forma": "PIX",
+      "contaId": "c2"
+    },
+    {
+      "id": "hLPZHjFPYYvroxCT9HwX",
+      "valor": 800,
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-09-04",
+      "contaId": "c4",
+      "descricao": "Pagamento Elaine Cristina Felipe",
+      "criadoEm": 1790605057366
+    },
+    {
+      "id": "hT07iSc9eegbOBBCQXhJ",
+      "valor": 4720,
+      "tipo": "debito",
+      "data": "2026-07-22",
+      "contaId": "c2",
+      "descricao": "Pagamento lanches quitute",
+      "criadoEm": 1784835033132,
+      "forma": "PIX"
+    },
+    {
+      "id": "hb5GZgPoMYZl69V3CI8O",
+      "forma": "PIX",
+      "criadoEm": 1790279926558,
+      "contaId": "c2",
+      "valor": 400,
+      "data": "2026-09-14",
+      "tipo": "debito",
+      "descricao": "Pagamento Livia Araujo"
+    },
+    {
+      "id": "hbYeX2pNCfy02dEKUVD9",
+      "valor": 16800,
+      "contaId": "c2",
+      "descricao": "Pagamento batatas quitute",
+      "criadoEm": 1784834809029,
+      "tipo": "debito",
+      "data": "2026-07-22",
+      "forma": "PIX"
+    },
+    {
+      "id": "hi0NlX1LFjOO4De7CPye",
+      "forma": "Transferência",
+      "contaId": "c2",
+      "tipo": "debito",
+      "data": "2026-08-04",
+      "descricao": "Transferência entre contas Lions",
+      "criadoEm": 1788283428167,
+      "valor": 1018.4
+    },
+    {
+      "id": "hmbGxc4d5Sg4TDiVSizp",
+      "tipo": "credito",
+      "data": "2026-09-01",
+      "forma": "Boleto",
+      "criadoEm": 1790188496388,
+      "descricao": "Recebimento de boleto",
+      "contaId": "c3",
+      "valor": 415
+    },
+    {
+      "id": "hsaSWIIXLBQLEc4tc0Hq",
+      "contaId": "c5",
+      "forma": "PIX",
+      "criadoEm": 1790605998619,
+      "data": "2026-09-23",
+      "tipo": "debito",
+      "valor": 36000,
+      "descricao": "Pix entre contas Lions"
+    },
+    {
+      "id": "hslybaepn6LvikYy5MRJ",
+      "forma": "PIX",
+      "criadoEm": 1790189057438,
+      "valor": 1290,
+      "descricao": "Pagamento jantar comitê consultivo",
+      "data": "2026-09-04",
+      "contaId": "c3",
+      "tipo": "debito"
+    },
+    {
+      "id": "huAMFXpD1HaMviwhIqRj",
+      "contaId": "c2",
+      "valor": 615,
+      "data": "2026-07-24",
+      "tipo": "debito",
+      "forma": "PIX",
+      "descricao": "Saldo vendas bolacha quitute",
+      "criadoEm": 1784918920562
+    },
+    {
+      "id": "hviusMs8FlivxQw22amg",
+      "criadoEm": 1790605131542,
+      "valor": 1794,
+      "contaId": "c4",
+      "data": "2026-09-11",
+      "tipo": "credito",
+      "forma": "PIX",
+      "descricao": "Recebimento pix"
+    },
+    {
+      "id": "i3Gs4NAqioyMqBd2f3VV",
+      "tipo": "debito",
+      "data": "2026-09-18",
+      "forma": "Boleto",
+      "contaId": "c5",
+      "descricao": "Pagamento Cavenaghi Industria",
+      "valor": 9350,
+      "criadoEm": 1790605836304
+    },
+    {
+      "id": "iR0baBsqIx8kZIkcC7DW",
+      "data": "2026-07-27",
+      "tipo": "credito",
+      "descricao": "Recebimento Tercilio Gabriel",
+      "criadoEm": 1785868419454,
+      "contaId": "c2",
+      "valor": 102,
+      "forma": "PIX"
+    },
+    {
+      "id": "iXPOQuLsDlNVewsgBv9y",
+      "criadoEm": 1785866704267,
+      "descricao": "Recebimento Jose Ferrari",
+      "forma": "PIX",
+      "data": "2026-07-27",
+      "tipo": "credito",
+      "valor": 100,
+      "contaId": "c3"
+    },
+    {
+      "id": "icZP2dWltYau2wDwNym1",
+      "valor": 984.4,
+      "forma": "PIX",
+      "descricao": "Doações Recanto, ABC Down e Car. Fé",
+      "criadoEm": 1790278091541,
+      "contaId": "c1",
+      "tipo": "debito",
+      "data": "2026-09-01"
+    },
+    {
+      "id": "ipKBD2D5voWRirBCXDWV",
+      "descricao": "Resgate Poupança",
+      "forma": "Outro",
+      "contaId": "c5",
+      "data": "2026-09-24",
+      "tipo": "credito",
+      "valor": 16872.01,
+      "criadoEm": 1790626886092
+    },
+    {
+      "id": "ixhjYRYSCw1ifqSoVJ1V",
+      "data": "2026-07-06",
+      "forma": "PIX",
+      "tipo": "credito",
+      "contaId": "c2",
+      "descricao": "Recebimento Ricardo Cesar",
+      "criadoEm": 1784148848387,
+      "valor": 500
+    },
+    {
+      "id": "j0MjmxhgFvOLwXcQhOKG",
+      "valor": 465,
+      "criadoEm": 1790189730933,
+      "descricao": "Recebimento de boleto",
+      "forma": "Boleto",
+      "data": "2026-09-21",
+      "contaId": "c3",
+      "tipo": "credito"
+    },
+    {
+      "id": "j2HPPM9XxmxFd3vmJUQu",
+      "data": "2026-08-25",
+      "tipo": "debito",
+      "valor": 7200,
+      "contaId": "c3",
+      "descricao": "Pagamento jantar festival 21 de agosto",
+      "criadoEm": 1788276089506,
+      "forma": "PIX"
+    },
+    {
+      "id": "jEakN6cldZ0nJBB9lYaH",
+      "forma": "Débito automático",
+      "valor": 152.27,
+      "contaId": "c4",
+      "criadoEm": 1790605220569,
+      "descricao": "Débito Saaej",
+      "data": "2026-09-21",
+      "tipo": "debito"
+    },
+    {
+      "id": "jRMfXrFzmQ0VMR3Bzhcs",
+      "criadoEm": 1788284034556,
+      "data": "2026-08-10",
+      "tipo": "debito",
+      "forma": "Outro",
+      "contaId": "c4",
+      "descricao": "Tarifa mensalidade Julho",
+      "valor": 237
+    },
+    {
+      "id": "jTbF79NZM5URi5XAIfpr",
+      "descricao": "Pix entre contas Lions",
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-09-24",
+      "contaId": "c5",
+      "valor": 58200,
+      "criadoEm": 1790626908666
+    },
+    {
+      "id": "jWJicya4MUnVgLBiJKCJ",
+      "criadoEm": 1784835158710,
+      "data": "2026-07-23",
+      "tipo": "debito",
+      "forma": "Boleto",
+      "contaId": "c2",
+      "valor": 8509.5,
+      "descricao": "Pagamento picanha quitute entrega 07/07"
+    },
+    {
+      "id": "jidqUhKWUW9BtrGqX6mG",
+      "contaId": "c3",
+      "data": "2026-07-27",
+      "tipo": "credito",
+      "forma": "PIX",
+      "descricao": "Recebimento Sandro Carvalho",
+      "valor": 200,
+      "criadoEm": 1785866686781
+    },
+    {
+      "id": "kFCAj7r6o8DbPyxr6wlT",
+      "contaId": "c6",
+      "data": "2026-07-28",
+      "tipo": "credito",
+      "valor": 4738.38,
+      "criadoEm": 1785870996137,
+      "descricao": "Recebimento Ong Fenix",
+      "forma": "Transferência"
+    },
+    {
+      "id": "kqJhVZQpqy1QZAFNPfZc",
+      "forma": "PIX",
+      "criadoEm": 1790626110152,
+      "descricao": "Pagamento locação festiva crianças",
+      "tipo": "debito",
+      "data": "2026-09-25",
+      "valor": 2425,
+      "contaId": "c3"
+    },
+    {
+      "id": "kuSkWnl1yB4L4E03UxLb",
+      "criadoEm": 1790279987110,
+      "valor": 120,
+      "forma": "PIX",
+      "data": "2026-09-14",
+      "tipo": "debito",
+      "contaId": "c2",
+      "descricao": "Pagamento Ataide Siqueira"
+    },
+    {
+      "id": "kvW6TTb1Q40RtrTM4q36",
+      "forma": "Boleto",
+      "criadoEm": 1785867305504,
+      "valor": 2275,
+      "contaId": "c3",
+      "descricao": "Recebimento de boleto",
+      "tipo": "credito",
+      "data": "2026-08-03"
+    },
+    {
+      "id": "kwDcwcaHaXxvhIvNuaTF",
+      "valor": 1800,
+      "criadoEm": 1790279017093,
+      "descricao": "Recebimento Sandra Helena",
+      "contaId": "c2",
+      "tipo": "credito",
+      "data": "2026-09-10",
+      "forma": "PIX"
+    },
+    {
+      "id": "l0BVxgF4Wbmzyk9GytgY",
+      "forma": "PIX",
+      "contaId": "c4",
+      "data": "2026-07-15",
+      "tipo": "debito",
+      "valor": 254.36,
+      "criadoEm": 1785874720333,
+      "descricao": "Pagamento gastos secretaria (envelopes posse e registro ata)"
+    },
+    {
+      "id": "lA4y6YHXOz74mh5Tm87U",
+      "valor": 300,
+      "criadoEm": 1784148219153,
+      "descricao": "Recebimento Jose M Dias Guimaraes",
+      "forma": "PIX",
+      "data": "2026-07-02",
+      "tipo": "credito",
+      "contaId": "c2"
+    },
+    {
+      "id": "lOiJoUSH9FtersEi0N3y",
+      "forma": "PIX",
+      "descricao": "Recebimento pix Loteamento Montebelo",
+      "contaId": "c2",
+      "valor": 500,
+      "tipo": "credito",
+      "criadoEm": 1788283616981,
+      "data": "2026-08-28"
+    },
+    {
+      "id": "lSUkupjfQqX8AA6HWHlX",
+      "descricao": "Pagamento Sistel",
+      "valor": 159.9,
+      "criadoEm": 1790189678552,
+      "forma": "Boleto",
+      "contaId": "c3",
+      "data": "2026-09-18",
+      "tipo": "debito"
+    },
+    {
+      "id": "les1quV8ek1ykwG6kyOj",
+      "criadoEm": 1785868441987,
+      "contaId": "c2",
+      "valor": 100,
+      "tipo": "credito",
+      "data": "2026-07-27",
+      "forma": "PIX",
+      "descricao": "Recebimento Marcelo Ottoni Amaral"
+    },
+    {
+      "id": "lhi5I4iWLVkxlqssi8H3",
+      "valor": 177.75,
+      "contaId": "c5",
+      "tipo": "debito",
+      "data": "2026-08-10",
+      "forma": "Outro",
+      "criadoEm": 1788285664691,
+      "descricao": "Tarifa Mensalidade Julho"
+    },
+    {
+      "id": "liOCOjtVkczpyoaJ52lQ",
+      "contaId": "c2",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-07-02",
+      "descricao": "Recebimento Andre Garcia Neto",
+      "criadoEm": 1784148358169,
+      "valor": 100
+    },
+    {
+      "id": "ljqLNAMs1SBwHRBeGHfD",
+      "valor": 3275,
+      "criadoEm": 1784307310026,
+      "data": "2026-07-15",
+      "tipo": "credito",
+      "forma": "Boleto",
+      "contaId": "c3",
+      "descricao": "Recebimento de boleto"
+    },
+    {
+      "id": "lqFLkFElI3ljBxTqpgDC",
+      "forma": "Outro",
+      "contaId": "c6",
+      "descricao": "Tarifa mensalidade",
+      "criadoEm": 1785870810990,
+      "valor": 237,
+      "tipo": "debito",
+      "data": "2026-07-10"
+    },
+    {
+      "id": "lr3EtYLgLRzrCggxZYng",
+      "contaId": "c3",
+      "forma": "Boleto",
+      "criadoEm": 1790189326377,
+      "valor": 930,
+      "data": "2026-09-11",
+      "tipo": "credito",
+      "descricao": "Recebimento de boleto"
+    },
+    {
+      "id": "m3SSUuSRuPgMaBbCiQ3m",
+      "forma": "Outro",
+      "tipo": "debito",
+      "data": "2026-09-10",
+      "contaId": "c1",
+      "criadoEm": 1790278258765,
+      "descricao": "Tarifa cesta",
+      "valor": 29
+    },
+    {
+      "id": "mDm3B8MNGV1PmtQWLdZP",
+      "descricao": "Transferência entre contas Lions",
+      "contaId": "c1",
+      "valor": 1018.4,
+      "forma": "Transferência",
+      "data": "2026-08-04",
+      "tipo": "credito",
+      "criadoEm": 1788282069080
+    },
+    {
+      "id": "mMWwgJjGcKVwMKrt4nCE",
+      "data": "2026-07-20",
+      "tipo": "debito",
+      "valor": 600,
+      "criadoEm": 1784659440079,
+      "descricao": "Pagamento serviço churrasqueiro",
+      "contaId": "c2",
+      "forma": "PIX"
+    },
+    {
+      "id": "mehu33JSAR527yqIReU5",
+      "valor": 500,
+      "criadoEm": 1785868031269,
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-07-31",
+      "descricao": "Recebimento conta Eventos para doação Guariba",
+      "contaId": "c1"
+    },
+    {
+      "id": "mrZyfWJMko9tYDcYICAN",
+      "descricao": "Transferência entre contas Lions",
+      "forma": "Transferência",
+      "tipo": "credito",
+      "data": "2026-09-02",
+      "criadoEm": 1790604567439,
+      "valor": 711,
+      "contaId": "c6"
+    },
+    {
+      "id": "mxtXE4m50pL27tuuvnnM",
+      "data": "2026-08-28",
+      "tipo": "debito",
+      "criadoEm": 1788281268085,
+      "descricao": "Pagamento convites Imero 85 a 90",
+      "contaId": "c3",
+      "forma": "PIX",
+      "valor": 1794
+    },
+    {
+      "id": "n0msgqqASzdweLZXCEVH",
+      "valor": 2700,
+      "descricao": "Recebimento pix",
+      "tipo": "credito",
+      "data": "2026-08-24",
+      "forma": "PIX",
+      "criadoEm": 1788284746012,
+      "contaId": "c4"
+    },
+    {
+      "id": "n2H11lEewmkjQ0S6db58",
+      "forma": "Outro",
+      "contaId": "c5",
+      "criadoEm": 1790626764135,
+      "descricao": "Resgate CDB",
+      "data": "2026-09-24",
+      "tipo": "credito",
+      "valor": 11246.6
+    },
+    {
+      "id": "n9QLmzQ0zyaoSmue2yFC",
+      "valor": 300,
+      "criadoEm": 1788284722286,
+      "forma": "PIX",
+      "contaId": "c4",
+      "data": "2026-08-21",
+      "tipo": "debito",
+      "descricao": "Pix entre contas Lions"
+    },
+    {
+      "id": "nDWW2L4KeOJQ8TIKpS5p",
+      "criadoEm": 1785868285274,
+      "forma": "Transferência",
+      "tipo": "debito",
+      "data": "2026-07-24",
+      "descricao": "Transferência entre contas Lions",
+      "contaId": "c2",
+      "valor": 3410.57
+    },
+    {
+      "id": "nFAqHFzmbQvrhvxazJUW",
+      "tipo": "debito",
+      "data": "2026-07-21",
+      "forma": "PIX",
+      "criadoEm": 1784659925385,
+      "descricao": "Pagamento marmitas barraqueiro",
+      "contaId": "c2",
+      "valor": 152.5
+    },
+    {
+      "id": "nQFvyBAIUpCP7dw47ybh",
+      "contaId": "c2",
+      "data": "2026-07-08",
+      "tipo": "credito",
+      "descricao": "Recebimento Antonia Regina",
+      "valor": 100,
+      "criadoEm": 1784149068157,
+      "forma": "PIX"
+    },
+    {
+      "id": "nbIH9bMgNKgJHd8DoARo",
+      "contaId": "c2",
+      "forma": "PIX",
+      "criadoEm": 1790279685161,
+      "valor": 877.5,
+      "tipo": "debito",
+      "data": "2026-09-14",
+      "descricao": "Pagamento Juliana Volpe"
+    },
+    {
+      "id": "nvceCra0K2e1T8VdmHJo",
+      "descricao": "Débito SAAEJ",
+      "forma": "Débito automático",
+      "contaId": "c4",
+      "valor": 82.52,
+      "tipo": "debito",
+      "data": "2026-08-20",
+      "criadoEm": 1788284623341
+    },
+    {
+      "id": "o0jWgyldvgLowKreJVf5",
+      "data": "2026-08-04",
+      "tipo": "debito",
+      "descricao": "Pagamento Elzio",
+      "valor": 1670.81,
+      "criadoEm": 1785876131261,
+      "contaId": "c5",
+      "forma": "PIX"
+    },
+    {
+      "id": "o871hR11nQ794pYNXFP3",
+      "criadoEm": 1785868345279,
+      "forma": "Transferência",
+      "descricao": "Transferência entre contas Lions",
+      "contaId": "c2",
+      "valor": 3410.57,
+      "tipo": "debito",
+      "data": "2026-07-24"
+    },
+    {
+      "id": "oEezuLKxS4cYtLRtM9vo",
+      "forma": "PIX",
+      "descricao": "Recebimento Rosangela Tomazina",
+      "valor": 600,
+      "criadoEm": 1790278702331,
+      "contaId": "c2",
+      "data": "2026-09-01",
+      "tipo": "credito"
+    },
+    {
+      "id": "oIaEgEthSa1gQgHH5zHY",
+      "valor": 31.59,
+      "contaId": "c4",
+      "forma": "Boleto",
+      "criadoEm": 1785874777082,
+      "descricao": "Pagamento guia Receita Federal",
+      "data": "2026-07-15",
+      "tipo": "debito"
+    },
+    {
+      "id": "oJg1DbO7XgBzwjJcUCr4",
+      "forma": "PIX",
+      "criadoEm": 1790278816819,
+      "descricao": "Recebimento Antonio Carlos Ijanc",
+      "contaId": "c2",
+      "valor": 1200,
+      "data": "2026-09-08",
+      "tipo": "credito"
+    },
+    {
+      "id": "oQDgqaBOnMxi8a5mssf4",
+      "descricao": "Pagamento festival 21 de agosto",
+      "forma": "PIX",
+      "contaId": "c3",
+      "valor": 1726.7,
+      "criadoEm": 1788275999672,
+      "data": "2026-08-24",
+      "tipo": "debito"
+    },
+    {
+      "id": "oQYPrr3Wv2ZZ1McGu7s3",
+      "criadoEm": 1788281639813,
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-08-28",
+      "contaId": "c3",
+      "valor": 500,
+      "descricao": "Repasse pix conta Lions"
+    },
+    {
+      "id": "oZOfRe0Hr6H6fMxYQWMl",
+      "data": "2026-09-02",
+      "tipo": "credito",
+      "valor": 140,
+      "criadoEm": 1790188756343,
+      "descricao": "Recebimento Claudio Antonio Mila",
+      "contaId": "c3",
+      "forma": "PIX"
+    },
+    {
+      "id": "oekW50iHx7w8TJhPxpKw",
+      "criadoEm": 1785867052696,
+      "valor": 100,
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-07-28",
+      "contaId": "c3",
+      "descricao": "Recebimento Paulo Cesar Polachin"
+    },
+    {
+      "id": "ois1qfVEAinUTghGUMrQ",
+      "forma": "PIX",
+      "contaId": "c3",
+      "valor": 630,
+      "descricao": "Pagamento salgados visita Governador",
+      "criadoEm": 1790189812904,
+      "data": "2026-09-21",
+      "tipo": "debito"
+    },
+    {
+      "id": "orQFjcKZLpy3kn4CHJBm",
+      "data": "2026-07-31",
+      "tipo": "debito",
+      "descricao": "Repasse Sicredi",
+      "valor": 5958.49,
+      "criadoEm": 1785875062767,
+      "contaId": "c4",
+      "forma": "PIX"
+    },
+    {
+      "id": "p0Zc7qqFMRGEhc1XYflp",
+      "descricao": "Pagamento bolo café Ong Fenix",
+      "valor": 60,
+      "contaId": "c3",
+      "data": "2026-09-28",
+      "forma": "PIX",
+      "tipo": "debito",
+      "criadoEm": 1790626305065
+    },
+    {
+      "id": "p3qPlNkoCzBdShpxrlC4",
+      "data": "2026-09-24",
+      "tipo": "credito",
+      "forma": "Outro",
+      "descricao": "Resgate CDB",
+      "criadoEm": 1790626856516,
+      "contaId": "c5",
+      "valor": 319.8
+    },
+    {
+      "id": "pPEbAJs0l1bbqhfKIZPe",
+      "data": "2026-09-14",
+      "tipo": "debito",
+      "contaId": "c2",
+      "forma": "PIX",
+      "descricao": "Pagamento Ana Beatriz Jacinto",
+      "criadoEm": 1790279764161,
+      "valor": 240
+    },
+    {
+      "id": "pTOxBHPPbYyJ6eqOhdpy",
+      "descricao": "Transferência Lions",
+      "contaId": "c3",
+      "valor": 300,
+      "tipo": "debito",
+      "data": "2026-08-21",
+      "forma": "Transferência",
+      "criadoEm": 1788275818178
+    },
+    {
+      "id": "pWFq7uOOE5WasOehm8Ez",
+      "tipo": "debito",
+      "data": "2026-08-20",
+      "criadoEm": 1788275649388,
+      "forma": "Boleto",
+      "contaId": "c3",
+      "descricao": "Pagamento boleto de Mútua",
+      "valor": 1071
+    },
+    {
+      "id": "q3njXci3o3gKTbFDlV02",
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-08-14",
+      "contaId": "c5",
+      "criadoEm": 1788285819601,
+      "descricao": "Pix Helenita Sonia Pinelli",
+      "valor": 65
+    },
+    {
+      "id": "q7pqU2nempMtE7AGNsOB",
+      "criadoEm": 1790605629041,
+      "valor": 1895.94,
+      "descricao": "Pagamento mercado Elzio",
+      "forma": "PIX",
+      "data": "2026-09-01",
+      "tipo": "debito",
+      "contaId": "c5"
+    },
+    {
+      "id": "qDbhVLndTytXsvEKKUzY",
+      "contaId": "c3",
+      "data": "2026-09-23",
+      "tipo": "credito",
+      "descricao": "Recebimento de boleto",
+      "forma": "Boleto",
+      "criadoEm": 1790189965633,
+      "valor": 930
+    },
+    {
+      "id": "qFnwNv6C1MNZps6SkTIV",
+      "valor": 20,
+      "data": "2026-08-10",
+      "tipo": "debito",
+      "criadoEm": 1788275069737,
+      "descricao": "Tarifa Cesta",
+      "contaId": "c3",
+      "forma": "Outro"
+    },
+    {
+      "id": "qLkBOgMBTbBNqkcSU9gM",
+      "forma": "Boleto",
+      "criadoEm": 1790189104317,
+      "valor": 1840,
+      "contaId": "c3",
+      "data": "2026-09-08",
+      "tipo": "credito",
+      "descricao": "Recebimento de boleto"
+    },
+    {
+      "id": "qpfbRrT8jMZ5POTAN87S",
+      "criadoEm": 1788276263888,
+      "valor": 500,
+      "tipo": "credito",
+      "data": "2026-08-28",
+      "forma": "PIX",
+      "descricao": "Recebimento doação Oxiquimica",
+      "contaId": "c3"
+    },
+    {
+      "id": "qq4WUs3ATKKz9dvR4NXg",
+      "contaId": "c2",
+      "tipo": "credito",
+      "data": "2026-07-06",
+      "forma": "PIX",
+      "descricao": "Recebimento Ichem Formulation",
+      "criadoEm": 1784148970684,
+      "valor": 100
+    },
+    {
+      "id": "qvYctXtcoZbEMDCm7Hgs",
+      "tipo": "debito",
+      "data": "2026-09-25",
+      "valor": 9.9,
+      "contaId": "c5",
+      "criadoEm": 1790626926596,
+      "descricao": "Tarifa",
+      "forma": "Outro"
+    },
+    {
+      "id": "rNFcEYFzBAtU8TB9TtXG",
+      "valor": 25315.77,
+      "criadoEm": 1790626723693,
+      "forma": "Outro",
+      "contaId": "c5",
+      "data": "2026-09-24",
+      "tipo": "credito",
+      "descricao": "Resgate CDB"
+    },
+    {
+      "id": "rPAybyYNVl2J4LuHw8Sl",
+      "forma": "PIX",
+      "criadoEm": 1785866882284,
+      "contaId": "c3",
+      "valor": 100,
+      "descricao": "Recebimento Andrigo Barboza",
+      "data": "2026-07-27",
+      "tipo": "credito"
+    },
+    {
+      "id": "rPtsvVvZFTqAknvvP8i0",
+      "criadoEm": 1784835269402,
+      "valor": 11874,
+      "data": "2026-07-23",
+      "tipo": "debito",
+      "contaId": "c2",
+      "forma": "Boleto",
+      "descricao": "Pagamento requeijão batata quitute"
+    },
+    {
+      "id": "rYsDphsV5urooBrL0dFL",
+      "contaId": "c3",
+      "valor": 119.7,
+      "descricao": "Pagamento vasos festival 21 de agosto",
+      "criadoEm": 1788276117091,
+      "data": "2026-08-25",
+      "tipo": "debito",
+      "forma": "PIX"
+    },
+    {
+      "id": "rgofGgqwQ0pdPT5qdAaJ",
+      "contaId": "c3",
+      "forma": "Boleto",
+      "descricao": "Pagamento Darf Cofins",
+      "data": "2026-08-25",
+      "tipo": "debito",
+      "criadoEm": 1788276048261,
+      "valor": 75.26
+    },
+    {
+      "id": "rkCDOGn0R91HpOzzvCdc",
+      "contaId": "c1",
+      "descricao": "Pagamento pão vila vicentina Frederico Ozanan",
+      "forma": "PIX",
+      "criadoEm": 1788282608063,
+      "valor": 930,
+      "data": "2026-08-17",
+      "tipo": "debito"
+    },
+    {
+      "id": "rrFFPDUAU4BZw9gsjITb",
+      "valor": 445,
+      "descricao": "Recebimento de boleto",
+      "contaId": "c3",
+      "forma": "Boleto",
+      "criadoEm": 1788274804718,
+      "tipo": "credito",
+      "data": "2026-08-07"
+    },
+    {
+      "id": "sFmOIayL8U227LJRfX4y",
+      "criadoEm": 1788283798348,
+      "forma": "PIX",
+      "descricao": "Recebimento pix Jose Avelino Moretto",
+      "valor": 600,
+      "contaId": "c2",
+      "data": "2026-08-31",
+      "tipo": "credito"
+    },
+    {
+      "id": "sa5n9YfC8h9vRP1myDIh",
+      "criadoEm": 1785874922944,
+      "data": "2026-07-20",
+      "tipo": "debito",
+      "forma": "Débito automático",
+      "contaId": "c4",
+      "valor": 115.96,
+      "descricao": "Débito SAAEJ"
+    },
+    {
+      "id": "sjJxuHFMc59N0sGniemL",
+      "criadoEm": 1784148388252,
+      "forma": "PIX",
+      "descricao": "Recebimento Pix Marcio Machado Cera",
+      "contaId": "c2",
+      "data": "2026-07-02",
+      "tipo": "credito",
+      "valor": 100
+    },
+    {
+      "id": "sji0jFavT0cEoxwEI170",
+      "criadoEm": 1784148644884,
+      "data": "2026-07-03",
+      "valor": 100,
+      "tipo": "credito",
+      "forma": "PIX",
+      "contaId": "c2",
+      "descricao": "Recebimento Danielle Bellodi"
+    },
+    {
+      "id": "tMZzhuHgtwggtZCjBUzf",
+      "criadoEm": 1785866798657,
+      "data": "2026-07-27",
+      "tipo": "credito",
+      "forma": "PIX",
+      "descricao": "Recebimento Rogerio Pinto Ferreira",
+      "contaId": "c3",
+      "valor": 100
+    },
+    {
+      "id": "tWN8kyKDsjEMr58ZPOyP",
+      "contaId": "c3",
+      "descricao": "Recebimento de boleto",
+      "valor": 5070,
+      "tipo": "credito",
+      "data": "2026-08-11",
+      "forma": "Boleto",
+      "criadoEm": 1788275149481
+    },
+    {
+      "id": "tnpnB6ZhZajtVpmk59Um",
+      "contaId": "c2",
+      "criadoEm": 1788283701770,
+      "forma": "PIX",
+      "data": "2026-08-31",
+      "tipo": "credito",
+      "valor": 600,
+      "descricao": "Recebimento pix Marisa Helena Enoki"
+    },
+    {
+      "id": "tqvgI76xjxnNUWzcaunb",
+      "valor": 450,
+      "tipo": "credito",
+      "data": "2026-08-10",
+      "criadoEm": 1788284072146,
+      "forma": "PIX",
+      "contaId": "c4",
+      "descricao": "Recebimento pix"
+    },
+    {
+      "id": "ttjAFTAE9bvXg204sJ6K",
+      "valor": 100,
+      "criadoEm": 1784148580131,
+      "forma": "PIX",
+      "contaId": "c2",
+      "descricao": "Recebimento Luis Gustavo Garcia",
+      "tipo": "credito",
+      "data": "2026-07-03"
+    },
+    {
+      "id": "tuYaWbKZx9xmZKebQX5h",
+      "contaId": "c2",
+      "tipo": "credito",
+      "data": "2026-07-29",
+      "descricao": "Recebimento Imero Padula",
+      "forma": "PIX",
+      "criadoEm": 1785868569917,
+      "valor": 442.4
+    },
+    {
+      "id": "txNr0xyDnTb4Hljsl5nU",
+      "tipo": "debito",
+      "data": "2026-08-14",
+      "forma": "PIX",
+      "contaId": "c5",
+      "criadoEm": 1788285850564,
+      "descricao": "Pix Marketplace",
+      "valor": 156.68
+    },
+    {
+      "id": "u1zo8B2J5USxLpgHw1PU",
+      "criadoEm": 1785866822982,
+      "data": "2026-07-27",
+      "tipo": "credito",
+      "valor": 100,
+      "contaId": "c3",
+      "forma": "PIX",
+      "descricao": "Recebimento Eldino Zeli"
+    },
+    {
+      "id": "uH1Zg2hOnh2FIl7lMcrg",
+      "descricao": "Resgate CDB",
+      "contaId": "c4",
+      "valor": 6717.23,
+      "data": "2026-09-24",
+      "tipo": "credito",
+      "forma": "Outro",
+      "criadoEm": 1790627027115
+    },
+    {
+      "id": "uJcpxxENVS2cwLnBjT9I",
+      "valor": 200,
+      "descricao": "Recebimento Tercilio Gabriel",
+      "criadoEm": 1785866559821,
+      "forma": "PIX",
+      "contaId": "c3",
+      "data": "2026-07-27",
+      "tipo": "credito"
+    },
+    {
+      "id": "uKIVzquJBLvsF8pNvokL",
+      "valor": 159.9,
+      "contaId": "c4",
+      "forma": "Boleto",
+      "criadoEm": 1785874799445,
+      "data": "2026-07-15",
+      "tipo": "debito",
+      "descricao": "Pagamento Internet"
+    },
+    {
+      "id": "uQ2PPhNP4jsZpTZXTeKs",
+      "tipo": "credito",
+      "data": "2026-08-26",
+      "forma": "Boleto",
+      "descricao": "Recebimento boleto",
+      "criadoEm": 1788276182766,
+      "contaId": "c3",
+      "valor": 445
+    },
+    {
+      "id": "uaf1B4viVQPsB8xVSA2S",
+      "data": "2026-09-28",
+      "tipo": "debito",
+      "criadoEm": 1790626381629,
+      "descricao": "Pagamento locação de mesas e toalhas",
+      "forma": "PIX",
+      "contaId": "c3",
+      "valor": 681.1
+    },
+    {
+      "id": "usGXJrukXrxQtYycIRH4",
+      "descricao": "Recebimento Andre Sader Garcia",
+      "contaId": "c2",
+      "tipo": "credito",
+      "data": "2026-07-03",
+      "valor": 100,
+      "criadoEm": 1784148474753,
+      "forma": "PIX"
+    },
+    {
+      "id": "v2Ub9mUxq5Cx93rXHyuo",
+      "valor": 1890,
+      "criadoEm": 1784835065423,
+      "tipo": "debito",
+      "data": "2026-07-23",
+      "contaId": "c2",
+      "forma": "PIX",
+      "descricao": "Pagamento bolachas Leo quitute"
+    },
+    {
+      "id": "v6olWCDly0yQs2syvZ7M",
+      "tipo": "debito",
+      "data": "2026-07-03",
+      "descricao": "Pagamento Elétrica 2R",
+      "forma": "PIX",
+      "contaId": "c4",
+      "criadoEm": 1785874335649,
+      "valor": 528.2
+    },
+    {
+      "id": "vDc2fz5TL3X1wF24LsWl",
+      "criadoEm": 1784659479568,
+      "valor": 1020,
+      "descricao": "Pagamento serviço churrasqueiro",
+      "contaId": "c2",
+      "tipo": "debito",
+      "data": "2026-07-20",
+      "forma": "PIX"
+    },
+    {
+      "id": "vSeil0ZD8qvXZa1KWlJs",
+      "criadoEm": 1790189083312,
+      "data": "2026-09-04",
+      "tipo": "debito",
+      "forma": "PIX",
+      "contaId": "c3",
+      "valor": 199.23,
+      "descricao": "Pagamento primeiros socorros quitute"
+    },
+    {
+      "id": "vV5MLUzq8NX6PgkQ58m8",
+      "forma": "PIX",
+      "contaId": "c2",
+      "criadoEm": 1784659297830,
+      "valor": 47000,
+      "descricao": "Repasse PagBank",
+      "data": "2026-07-17",
+      "tipo": "credito"
+    },
+    {
+      "id": "vg00O5asb2g57x0Kdp3X",
+      "data": "2026-07-21",
+      "tipo": "debito",
+      "descricao": "Pagamento carvão quitute",
+      "valor": 900,
+      "contaId": "c2",
+      "criadoEm": 1784659653498,
+      "forma": "PIX"
+    },
+    {
+      "id": "vj3iJgnraG5fB1MKmi2V",
+      "data": "2026-08-31",
+      "tipo": "credito",
+      "descricao": "Recebimento pix Lucimar Aparecida",
+      "criadoEm": 1788283729146,
+      "valor": 600,
+      "contaId": "c2",
+      "forma": "PIX"
+    },
+    {
+      "id": "vludTur2pqCkHGmrW63O",
+      "forma": "Outro",
+      "descricao": "Tarifa",
+      "contaId": "c4",
+      "valor": 9.9,
+      "criadoEm": 1790627057325,
+      "tipo": "debito",
+      "data": "2026-09-28"
+    },
+    {
+      "id": "vp0JKqqd0dHLnbXTBTx9",
+      "criadoEm": 1784147653304,
+      "forma": "PIX",
+      "valor": 100,
+      "tipo": "credito",
+      "data": "2026-07-01",
+      "contaId": "c2",
+      "descricao": "Recebimento Thiago Silveira"
+    },
+    {
+      "id": "vtw67JUfY4j2desQswhv",
+      "data": "2026-07-06",
+      "tipo": "credito",
+      "descricao": "Recebimento Marcia Padula",
+      "valor": 100,
+      "criadoEm": 1784148946647,
+      "contaId": "c2",
+      "forma": "PIX"
+    },
+    {
+      "id": "vvOFkqoAeUHJzeXpZOOq",
+      "forma": "PIX",
+      "descricao": "Recebimento pix Mauro Henrique",
+      "contaId": "c2",
+      "valor": 1794,
+      "tipo": "credito",
+      "data": "2026-08-31",
+      "criadoEm": 1788283766327
+    },
+    {
+      "id": "wBkvjh6z4UftUnYh2938",
+      "criadoEm": 1788282723972,
+      "contaId": "c1",
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-08-18",
+      "descricao": "Pagamento doação Cever (parcial)",
+      "valor": 650
+    },
+    {
+      "id": "wFdXKayaCcgXLxgLPUzj",
+      "descricao": "Pix entre contas Lions",
+      "data": "2026-09-28",
+      "tipo": "credito",
+      "forma": "PIX",
+      "contaId": "c3",
+      "valor": 270,
+      "criadoEm": 1790626210784
+    },
+    {
+      "id": "wKKIxSyQLNRYRTx620QF",
+      "criadoEm": 1788283590419,
+      "forma": "PIX",
+      "descricao": "Recebimento pix Organização",
+      "data": "2026-08-26",
+      "tipo": "credito",
+      "contaId": "c2",
+      "valor": 500
+    },
+    {
+      "id": "wW5JUiP2K7j7vvVmER11",
+      "descricao": "Pagamento bebidas festiva visita governador",
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-09-28",
+      "criadoEm": 1790626332805,
+      "valor": 1795.1,
+      "contaId": "c3"
+    },
+    {
+      "id": "wXmRYY4fRLQDDF0MWoqN",
+      "descricao": "Pagamento Stefani",
+      "valor": 345,
+      "data": "2026-09-22",
+      "tipo": "debito",
+      "contaId": "c3",
+      "criadoEm": 1790189913046,
+      "forma": "PIX"
+    },
+    {
+      "id": "wZmv4D4XUZFW2TvHR4uo",
+      "descricao": "Resgate CDB",
+      "data": "2026-09-24",
+      "tipo": "credito",
+      "forma": "Outro",
+      "contaId": "c5",
+      "criadoEm": 1790626839325,
+      "valor": 1506.44
+    },
+    {
+      "id": "weBrYXM5psFD6yjhKvKl",
+      "criadoEm": 1790278304461,
+      "contaId": "c1",
+      "forma": "PIX",
+      "descricao": "Pix entre contas Lions",
+      "data": "2026-09-18",
+      "tipo": "debito",
+      "valor": 650
+    },
+    {
+      "id": "whyWQek3ol0FPNTcDK3i",
+      "descricao": "Recebimento pix Florivaldo Benedito",
+      "tipo": "credito",
+      "data": "2026-08-25",
+      "forma": "PIX",
+      "contaId": "c2",
+      "criadoEm": 1788283555359,
+      "valor": 1800
+    },
+    {
+      "id": "wv0pZBbo6BWHi88EGgdA",
+      "descricao": "Recebimento Helenita Sonia",
+      "valor": 598,
+      "criadoEm": 1790278929948,
+      "forma": "PIX",
+      "contaId": "c2",
+      "tipo": "credito",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "x59ZiGsj2i4xExnvB6MX",
+      "data": "2026-08-14",
+      "tipo": "debito",
+      "criadoEm": 1788284464832,
+      "forma": "Transferência",
+      "contaId": "c4",
+      "valor": 2000,
+      "descricao": "Transferência Emilia Apparecida Donadon"
+    },
+    {
+      "id": "xY7uyiF8FyJF7mwLc27J",
+      "valor": 560,
+      "criadoEm": 1790188950392,
+      "descricao": "Transferência entre contas Lions",
+      "contaId": "c3",
+      "forma": "Transferência",
+      "data": "2026-09-03",
+      "tipo": "credito"
+    },
+    {
+      "id": "xeOZlhHEN2cs7QbPEE4Q",
+      "criadoEm": 1784919336535,
+      "forma": "PIX",
+      "tipo": "debito",
+      "data": "2026-07-24",
+      "valor": 4101.36,
+      "descricao": "Pagamento doação carnes diversas instituições",
+      "contaId": "c1"
+    },
+    {
+      "id": "xm23H1uJDhd9vZuHhzwH",
+      "descricao": "Recebimento de boleto",
+      "contaId": "c3",
+      "data": "2026-09-22",
+      "tipo": "credito",
+      "forma": "Boleto",
+      "valor": 465,
+      "criadoEm": 1790189832588
+    },
+    {
+      "id": "y2atI0rIjwUutSbKwIV5",
+      "valor": 1794,
+      "contaId": "c2",
+      "descricao": "Recebimento Adriano de Carvalho",
+      "criadoEm": 1790279133619,
+      "tipo": "credito",
+      "forma": "PIX",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "yQbe6OomG4MLFwtP8mOT",
+      "valor": 930,
+      "contaId": "c1",
+      "descricao": "Recebimento Alfredo Jachetto",
+      "criadoEm": 1790278142883,
+      "forma": "PIX",
+      "data": "2026-09-01",
+      "tipo": "credito"
+    },
+    {
+      "id": "yY4yRGnZpIhpfG6j8p7x",
+      "contaId": "c4",
+      "forma": "Débito automático",
+      "data": "2026-09-21",
+      "tipo": "debito",
+      "descricao": "Débito Saaej",
+      "valor": 36.88,
+      "criadoEm": 1790605195031
+    },
+    {
+      "id": "yg4kiBRIoU4YLWcmflS8",
+      "contaId": "c6",
+      "tipo": "debito",
+      "data": "2026-09-10",
+      "valor": 237,
+      "criadoEm": 1790604635560,
+      "descricao": "Tarifa",
+      "forma": "Outro"
+    },
+    {
+      "id": "yiWl1Plsp55HqkDwuwt0",
+      "contaId": "c1",
+      "valor": 5985.49,
+      "descricao": "Devolução cheque",
+      "criadoEm": 1784147417241,
+      "data": "2026-07-07",
+      "tipo": "debito",
+      "forma": "Cheque"
+    },
+    {
+      "id": "ym9jvyTy1t5mVCUKdRxC",
+      "valor": 300,
+      "criadoEm": 1785866904542,
+      "contaId": "c3",
+      "forma": "PIX",
+      "tipo": "credito",
+      "data": "2026-07-27",
+      "descricao": "Recebimento Florivaldo Benedito"
+    },
+    {
+      "id": "yo6JY7MAIW03lFWGrTI3",
+      "criadoEm": 1788285698323,
+      "valor": 30,
+      "data": "2026-08-10",
+      "tipo": "credito",
+      "forma": "PIX",
+      "descricao": "Recebimento pix",
+      "contaId": "c5"
+    },
+    {
+      "id": "ysrPuz0GHe4IVAsthY0B",
+      "forma": "Boleto",
+      "descricao": "Recebimento de boleto",
+      "contaId": "c3",
+      "valor": 3245,
+      "tipo": "credito",
+      "data": "2026-07-13",
+      "criadoEm": 1784303017940
+    },
+    {
+      "id": "z38sF6tjrAWD7QO52gpW",
+      "contaId": "c3",
+      "data": "2026-09-21",
+      "tipo": "debito",
+      "valor": 2000,
+      "criadoEm": 1790189786701,
+      "forma": "Transferência",
+      "descricao": "Transferência entre contas Lions"
+    },
+    {
+      "id": "zATb5elNlFnWbDhR4OD1",
+      "valor": 100,
+      "criadoEm": 1784148819414,
+      "descricao": "Recebimento Adilson Jose Rossi",
+      "forma": "PIX",
+      "data": "2026-07-06",
+      "tipo": "credito",
+      "contaId": "c2"
+    },
+    {
+      "id": "zCcnWB8kwb47tIAniVUR",
+      "descricao": "Recebimento Pix Associação",
+      "valor": 5000,
+      "contaId": "c3",
+      "tipo": "credito",
+      "data": "2026-07-14",
+      "criadoEm": 1784303113104,
+      "forma": "PIX"
+    },
+    {
+      "id": "zHJUD6Nt2HZ6YbjxEdRt",
+      "forma": "PIX",
+      "contaId": "c2",
+      "descricao": "Pagamento despesas gerais quitute supermercado nova",
+      "data": "2026-07-24",
+      "tipo": "debito",
+      "valor": 370.06,
+      "criadoEm": 1784918496019
+    },
+    {
+      "id": "zQCrbM9xcasQSTUZGibb",
+      "criadoEm": 1788282857610,
+      "forma": "Transferência",
+      "tipo": "credito",
+      "data": "2026-08-31",
+      "contaId": "c1",
+      "valor": 32382.2,
+      "descricao": "Transferência entre contas Lions"
+    },
+    {
+      "id": "zehNocZQXQCm4GU4y9dT",
+      "criadoEm": 1790189709024,
+      "forma": "PIX",
+      "valor": 325,
+      "contaId": "c3",
+      "data": "2026-09-18",
+      "tipo": "credito",
+      "descricao": "Recebimento Arthur Eduardo"
+    },
+    {
+      "id": "zvo9sLH6pQOjqbFqt2OO",
+      "data": "2026-08-28",
+      "tipo": "debito",
+      "valor": 180,
+      "criadoEm": 1788281368524,
+      "contaId": "c3",
+      "descricao": "Pagamento serviço alarme e cameras Lions",
+      "forma": "PIX"
+    }
+  ],
+  "compromissos": [
+    {
+      "id": "pEtGl3yHmKie8NnY8pM1",
+      "criadoEm": 1783611927556,
+      "forma": "Boleto",
+      "status": "pago",
+      "valor": 100,
+      "lancamentoId": "61bVNfUa8ZxSNdzTg1La",
+      "descricao": "Energia",
+      "vencimento": "2026-07-15",
+      "contaId": "c1",
+      "tipo": "pagar",
+      "pagoEm": "2026-07-09"
+    }
+  ],
+  "mensalidades": []
+}
